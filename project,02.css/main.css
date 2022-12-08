@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+*{ margin:0; padding:0; text-decoration: none; box-sizing: border-box; font-family:inter; color: white;}
+ul,li,ol{ list-style: none;}
+
+#wrap{width: 100%; height: auto;}
+header{ width: 100%; height: 133px; background-color: goldenrod; display: flex; justify-content: space-between; align-items: center;}
+#header_manu{ width: 7%; display: flex; background-color: blue; justify-content: space-between;}
+#hamberger_toggle{width: 70px;height: 56px; background-color: gold;}
+.country_toggle{ width: 45px; height: 30px; background-color: red;}
+#logo{ width:230px; height: 50px; background-color: aqua; justify-self:  center;}
+#CS_num{ display: flex; width: 13%; justify-content: space-around;}
+#CS_num #CS_toggle{width: 180px; height: 42px; background-color: antiquewhite;}
+#book_tap{width:116.6px; height: 42px; background: red;}
+
+#slider{ width: 100%; height:937px; background-color: gold;}
+
+
+#about{ width: 100%; height: 1313px; background-color: beige;}
+
+
+#room_kind{ width: 100%; height: 1169.9px; background-color: blueviolet;}
+
+
+#hotel_img{ width: 100%; height: 810px; background-color: antiquewhite;}
+
+#a{width: 100%; height: 1213.09px;background-color: brown;}
+
+#b{width: 100%; height: 1182px; background-color: aqua;}
+
+#Events{ width: 100%; height: 1000.73px; background-color: aquamarine;}
+
+#newsletter{ width: 100%; height: 843.56px; background-color: azure;}
+.newsletter_text{ width: 810px; height: 395.56px; background-color: aqua; margin 0 auto;}
+#form{width: 100%; height: 298px; background-color: red; display: flex;justify-content: center;}
+.newsletter_{ width: 810px; height: 298px;background-color: blue;}
+form{width: 810px; height: 298px; background-color: gold;}
