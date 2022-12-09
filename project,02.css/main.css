@@ -4,14 +4,64 @@
 ul,li,ol{ list-style: none;}
 
 #wrap{width: 100%; height: auto;}
-header{ width: 100%; height: 133px; background-color: goldenrod; display: flex; justify-content: space-between; align-items: center;}
-#header_manu{ width: 7%; display: flex; background-color: blue; justify-content: space-between;}
-#hamberger_toggle{width: 70px;height: 56px; background-color: gold;}
-.country_toggle{ width: 45px; height: 30px; background-color: red;}
-#logo{ width:230px; height: 50px; background-color: aqua; justify-self:  center;}
-#CS_num{ display: flex; width: 13%; justify-content: space-around;}
-#CS_num #CS_toggle{width: 180px; height: 42px; background-color: antiquewhite;}
-#book_tap{width:116.6px; height: 42px; background: red;}
+header{ width: 100%; height: 93px; background-color: goldenrod; display: flex; justify-content: space-between; align-items: center;}
+#header_manu{ width: 12%; display: flex; background-color: blue; justify-content: space-between;
+        position: relative;}
+.container{
+    position:absolute;
+    top: 55%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+   
+}
+.menu{
+    width: 50px;
+    height: 44px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 12px;
+}
+
+.menu div{
+    position: absolute;
+    height: 1px;
+    transition: width 0.5s ease;
+   background-color: white;
+}
+.one{
+    width: 30px;
+    top: 10px;
+    left: 25px;
+    
+}
+.two{
+    width: 15px;
+    top: 18px;
+    left: 25px;
+ 
+}
+.three{
+    width: 30px;
+    top: 27px;
+    left: 25px;
+  
+}
+.menu:hover div{
+    width:30px;
+    transition: width 0.5s ease;
+}
+#hamberger_toggle{width: 70px;height: 56px;}
+.country_toggle{ width: 21%; height: 30px; line-height: 30px; font-size: 15px;
+                position: absolute; top: -16px; right:23%;}
+#logo{ width:240px; height: 44px; display: flex; justify-content: center; line-height: 26px; text-align: center;}
+#logo a p{font-size: 2vw; font-family: "Prata";}
+#logo a p:nth-child(2){ font-size: 1vw;}
+#CS_num{ display: flex; width: 16%; justify-content: space-around; align-items: center; font-size: 0.7vw;text-align: center;
+    letter-spacing: 1px;}
+#CS_num #CS_toggle{width: 30%x; height: 42px; display: flex;padding: 13px;}
+                    
+#book_tap{width:116.6px; height: 42px; padding:13px 10px; border: 1px solid whitesmoke;
+        margin: 0 10% 0 0;}
 
 #slider{ width: 100%; height:937px; background-color: gold;}
 
