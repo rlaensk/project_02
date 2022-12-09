@@ -14,32 +14,35 @@ header{ width: 100%; height: 100px;display: flex;
 }
 .menu{width: 50px;height: 44px;cursor: pointer; position: relative;border-radius: 12px;}
 .menu div{ position: absolute;height: 1px;transition: width 0.5s ease;background-color: white;}
-.one{ width: 25px; top: 24px; left: 14px;}
-.two{width: 15px;top: 31px; left: 14px;}
-.three{width: 25px;top:38px;left: 14px;}
+.one{ width: 28px; top: 17px; left: 14px;}
+.two{width: 15px;top: 26px; left: 14px;}
+.three{width: 28px;top:34px;left: 14px;}
 .menu:hover div{width:30px;transition: width 0.5s ease;}
 
 /* 언어선택 */
-.country_toggle{ width: 21%; height: 30px; line-height: 30px; font-size: 13px;
-                position: absolute; top: -5px; right:4%;}
+.country_toggle{ width: 26%; height: 30px; line-height: 30px; font-size: 13px;
+                position: absolute; top: -10px; right:4%; background-color: red;}
 /* 언어화살표 */
-                .arrow { position: relative; }
-.arrow::after { position: absolute; left: 17px;  top: 7px; content: ''; width: 4px;  height: 4px;  border-top: 2px solid whitesmoke; border-right: 2px solid whitesmoke;   transform: rotate(135deg); }
+.arrow { position: relative; }
+.arrow::after { position: absolute; left: 17px;  top: 4px; content: ''; width: 4px;  height: 4px;  border-top: 1px solid whitesmoke; border-right: 1px solid whitesmoke;   transform: rotate(135deg); }
+#CS_toggle .arrow::after {top:2px; }
 /* 언어 toggle */
 #header_manu .dropdown_menu{ width: 22%; height: auto; position: absolute; top:26px; right: 11px; text-align: center; line-height: 30px;
                 font-size: 10px; background-color: white; }
 #header_manu .dropdown_menu li a{ color:rgb(207, 205, 205);}
 
 /* logo */
-#logo{ width:240px; height: 33px; display: flex; justify-content: center; line-height: 26px; text-align: center;}
-#logo a p{font-size: 2vw; font-family: "Prata";}
+#logo{ width:240px; height: 13px; display: flex; justify-content: center; line-height: 20px; text-align: center; 
+        margin: 0 0 0 11%;}
+
+#logo a p{font-size: 1.2vw; font-family: "Prata";}
 #logo a p:nth-child(2){ font-size: 1vw;}
-#CS_num{ display: flex; width: 16%; justify-content: space-around; align-items: center; font-size: 0.7vw;text-align: center;
-    letter-spacing: 1px;}
-#CS_num #CS_toggle{width: 30%x; height: 42px; display: flex;padding: 13px;}
+#CS_num{ display: flex; width: 25%; justify-content: space-around; align-items: center; font-size: 0.8vw;text-align: center;
+    letter-spacing: 1px; margin-top:10px;}
+#CS_num #CS_toggle{height: 42px; display: flex;padding: 15px;}
                     
 #book_tap{width:116.6px; height: 42px; padding:13px 10px; border: 1px solid whitesmoke;
-        margin: 0 10% 0 0;}
+        margin: 1% 0 0 0;}
 
 #slider{ width: 100%; height:937px;}
 #slider video{ position: absolute; top:0; right: 0;}
