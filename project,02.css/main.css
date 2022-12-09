@@ -21,7 +21,7 @@ header{ width: 100%; height: 100px;display: flex;
 
 /* 언어선택 */
 .country_toggle{ width: 26%; height: 30px; line-height: 30px; font-size: 13px;
-                position: absolute; top: -10px; right:4%; background-color: red;}
+                position: absolute; top: -10px; right:4%;}
 /* 언어화살표 */
 .arrow { position: relative; }
 .arrow::after { position: absolute; left: 17px;  top: 4px; content: ''; width: 4px;  height: 4px;  border-top: 1px solid whitesmoke; border-right: 1px solid whitesmoke;   transform: rotate(135deg); }
@@ -40,7 +40,9 @@ header{ width: 100%; height: 100px;display: flex;
 #CS_num{ display: flex; width: 25%; justify-content: space-around; align-items: center; font-size: 0.8vw;text-align: center;
     letter-spacing: 1px; margin-top:10px;}
 #CS_num #CS_toggle{height: 42px; display: flex;padding: 15px;}
-                    
+#CS_toggle{ display: flex; flex-wrap: wrap; flex-direction: column;}                  
+
+
 #book_tap{width:116.6px; height: 42px; padding:13px 10px; border: 1px solid whitesmoke;
         margin: 1% 0 0 0;}
 
@@ -62,7 +64,7 @@ header{ width: 100%; height: 100px;display: flex;
 #Events{ width: 100%; height: 1000.73px; background-color: aquamarine;}
 
 #newsletter{ width: 100%; height: 843.56px; background-color: azure;}
-.newsletter_text{ width: 810px; height: 395.56px; background-color: aqua; margin 0 auto;}
+.newsletter_text{ width: 810px; height: 395.56px; background-color: aqua; margin: 0 auto;}
 #form{width: 100%; height: 298px; background-color: red; display: flex;justify-content: center;}
 .newsletter_{ width: 810px; height: 298px;background-color: blue;}
 form{width: 810px; height: 298px; background-color: gold;}
