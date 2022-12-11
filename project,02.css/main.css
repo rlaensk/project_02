@@ -37,17 +37,28 @@ header{ width: 100%; height: 100px;display: flex;
 
 #logo a p{font-size: 1.2vw; font-family: "Prata";}
 #logo a p:nth-child(2){ font-size: 1vw;}
-#CS_num{ display: flex; width: 25%; justify-content: space-around; align-items: center; font-size: 0.8vw;text-align: center;
-    letter-spacing: 1px; margin-top:10px;}
-#CS_num #CS_toggle{height: 42px; display: flex;padding: 15px;}
-#CS_toggle{ display: flex; flex-wrap: wrap; flex-direction: column;}                  
+
+/* HOT CALL */
+#CS_num{width: 24%; height: auto;display: flex; justify-content: space-around; flex-wrap: wrap;}
+#CS_toggle{width:24%; height: auto;font-size: 0.8vw;
+        display: flex; justify-content: center; align-items: center;}
+.cstoggle{position: relative; display: flex;}
+.cstoggle+ul{width: 14%; height: 190px; top: 87px; position: absolute;
+                top:74px; right: 96px; background-color: whitesmoke;
+                line-height: 29px; padding: 20px 44px; letter-spacing: 2px;}
+.cstoggle+ul .cs_text{ color: #555;}
+.cs_img{display: flex;justify-content: flex-start;}
+.cs_img img{width: 23%; }
 
 
-#book_tap{width:116.6px; height: 42px; padding:13px 10px; border: 1px solid whitesmoke;
-        margin: 1% 0 0 0;}
+#book_tap{width:116.6px; height: 42px; padding:13px 23px; border: 1px solid whitesmoke;
+        font-size: 0.8vw; }
 
 #slider{ width: 100%; height:937px;}
-#slider video{ position: absolute; top:0; right: 0;}
+#slider video{ width:100%; height: auto;
+        position: absolute; top:0; right: 0;}
+#slider_text{ width: 30%; height: 300px; border: 1px solid black; position: relative; z-index: 150; }
+
 
 #about{ width: 100%; height: 1313px; background-color: beige;}
 
