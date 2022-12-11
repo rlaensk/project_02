@@ -1,7 +1,9 @@
-$('.country_toggle').click(function(){
-    $(this).next($('.dropdown_menu')).slideToggle('fast');
-  })
-  $('.country_toggle').click(function(e){
-    e.stopPropagation();
-    $(this).next($('dropdown_menu')).slideToggle('fast');
-  })
+function setup(){
+  createCanvas(400,400);
+  background('white');
+}
+
+function draw(){
+  triangle(50, 350, 350, 350, 200, 50)
+  fill('red');  
+}

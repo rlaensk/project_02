@@ -71,8 +71,16 @@ header{ width: 100%; height: 100px;display: flex;
 .slider_text2{ width:27%; font-size: 1vw; line-height: 20px; position: absolute; bottom: 37%; right: 2%;
                 font-weight: lighter;}
 .btn1{ width: 24%; line-height: 30px; position: absolute; bottom: 19%;
-        right: 1%; letter-spacing: 4px; font-size: 0.8vw;} 
-.btn1 a img{ width: 10%; vertical-align: middle;}
+        right: 1%; letter-spacing: 4px; font-size: 0.8vw;
+        display: flex;} 
+.btn1 .triangle{ width: 0; height: 0;
+                border-top: 17px solid transparent;
+
+                border-left: 22px solid whitesmoke;
+                border-right: 10px solid transparent;
+                border-bottom: 17px solid transparent}
+
+
 
 #about{ width: 100%; height: 829px; background-color: beige;}
 

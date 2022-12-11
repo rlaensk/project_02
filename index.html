@@ -18,7 +18,7 @@
 
     <link rel="stylesheet" href="js/main.js">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js" integrity="sha512-WJXVjqeINVpi5XXJ2jn0BSCfp0y80IKrYh731gLRnkAS9TKc5KNt/OfLtu+fCueqdWniouJ1ubM+VI/hbo7POQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
@@ -82,7 +82,7 @@
 
 
         <div id="slider">
-            <video src="img/엘라포니시_수정.mp4" autoplay muted></video>
+            <video src="img/엘라포니시_수정.mp4" autoplay muted loop></video>
 
             <div id="slider_text">
                 <div class="slider_text1">
@@ -93,9 +93,11 @@
                     measures <a href="#">here.</a>
                 </div>
 
-                <span class="btn1"><a href="img/video.mp4"> <img src="img/play.png" alt="">
-                    WATCH THE FILM</a></span>
-            
+                <div class="btn1">
+                    <script src="js/triangle.js"></script>
+                    <a href="img/video.mp4">
+                <span>WATCH THE FILM</span></a>
+            </div>
             </div>
 
         </div>
