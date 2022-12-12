@@ -56,18 +56,19 @@ header{ width: 100%; height: 100px;display: flex;
 .cs_img a:nth-child(2){margin-left: 31px;}
 #CS_toggle ul li{ font-weight: bold;}
 
-#book_tap{width:116.6px; height: 42px; padding:13px 23px; border: 1px solid whitesmoke;
+#book_tap{width:86.6px; height: 42px; padding:13px 23px; border: 1px solid whitesmoke;
         font-size: 0.8vw; }
 
 
 /* 슬라이더 */
-#slider{ width: 100%; height:719px; }
+#slider{ width: 100%; height:646px; }
 #slider video{ width:100%; height: auto;
         position: absolute; top:0; right: 0;}
+.mini_slider{display: none;}
 
 #slider_text{ width:70%; height: 530px; position: relative; z-index: 150; 
         display: flex; flex-direction: column; flex-wrap: wrap;
-        position: absolute;top:2%;  left:21%;}
+       ;top:2%;  left:21%;}
 .slider_text1{ font-size: 5vw; width: 55%; position: absolute; top: 6%; right: 8%; text-align: center;  }
 .slider_text1 span{font-family:"Prata";}
 .slider_text2{ width:27%; font-size: 1vw; line-height: 20px; position: absolute; bottom: 37%; right: 2%;

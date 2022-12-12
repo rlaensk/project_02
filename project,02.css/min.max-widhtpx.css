@@ -7,5 +7,18 @@
 header{height: 53px;}
 
 .country_toggle{display: none;}
+#CS_num{ justify-content: flex-end; margin-right: 13px;}
 #CS_toggle{display: none;}
+.container .menu .one{ left:20px;}
+.container .menu .two{ left:20px;}
+.container .menu .three{ left:20px;}
+#logo{ height: 18px; line-height: 15px;}
+#book_tap{ width: 81.6px;height: 27px; padding: 8px 8px 8px 12px;}
+video{ display: none;}
+.slider_video{ position: relative; height: 719px;}
+.mini_slider{display: block; position: absolute;top: 0; left: 0; height: 719px;
+        }
+#slider_text{ left:23%; align-items: flex-start; width: 66%;}
+.slider_text1{ font-size: 7vw; width: 116%; text-align: none;}
+.slider_text2{width: 87%;}
 }
