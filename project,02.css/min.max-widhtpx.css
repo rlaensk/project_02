@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+@media (max-width:599px){
+
+
+#wrap{ width: 100%;}
+header{height: 53px;}
+
+.country_toggle{display: none;}
+#CS_toggle{display: none;}
+}

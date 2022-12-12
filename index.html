@@ -15,10 +15,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Prata&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <!-- -->
 
-
+<link rel="stylesheet" href="project,02.css/min.max-widhtpx.css">
     <link rel="stylesheet" href="js/main.js">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js" integrity="sha512-WJXVjqeINVpi5XXJ2jn0BSCfp0y80IKrYh731gLRnkAS9TKc5KNt/OfLtu+fCueqdWniouJ1ubM+VI/hbo7POQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js"
+        integrity="sha512-WJXVjqeINVpi5XXJ2jn0BSCfp0y80IKrYh731gLRnkAS9TKc5KNt/OfLtu+fCueqdWniouJ1ubM+VI/hbo7POQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
@@ -35,15 +38,16 @@
                         <div class="three"></div>
                     </div>
                 </div>
-                <div onclick="onclick()" class="country_toggle dropdow_one" id="country_toggle_">
-                    <span class="dropdown_label">EN</span>
-                    <span class="arrow"></span>
-                </div>
-                <ul class="dropdown_menu">
-                    <li><a href="#">EN</a></li>
-                    <li><a href="#">UA</a></li>
-                </ul>
-
+              
+                    <button onclick="myfunction()" class="country_toggle dropdow_one">
+                        <span class="dropdown_label">EN</span>
+                        <span class="arrow"></span>
+                    </button>
+                    <ul class="dropdown_menu" id="a">
+                        <li><a href="#">EN</a></li>
+                        <li><a href="#">UA</a></li>
+                    </ul>
+                
             </div>
 
 
@@ -52,7 +56,8 @@
             <div id="logo"><a href="#">
                     <p>ELAFONISI</p>
                     <p>Cyeong Ju Hotel</p>
-                </a></div>
+                </a>
+            </div>
 
 
 
@@ -90,26 +95,27 @@
                 </div>
                 <div class="slider_text2">
                     Your safety and comfort are our priorities. You can familiarize yourself with the implemented
-                    measures <a href="#">here.</a>
+                    measures <a style="text-decoration: underline;" href="#">here.</a>
                 </div>
 
                 <div class="btn1">
                     <script src="js/triangle.js"></script>
                     <a href="img/video.mp4">
-                <span>WATCH THE FILM</span></a>
-            </div>
+                        <span>WATCH THE FILM</span></a>
+                </div>
             </div>
 
         </div>
 
         <section id="about">
-
-            <div id="about_text">
-                <p></p>
-                <span class="but"></span>
-            </div>
-            <div id="about_img">
-                <img src="" alt="">
+            <div id="about_line">
+                <div id="about_text">
+                    <p></p>
+                    <span class="but"></span>
+                </div>
+                <div id="about_img">
+                    <img src="" alt="">
+                </div>
             </div>
         </section>
 
@@ -165,8 +171,8 @@
         </div>
 
         <footer>
-     </footer>
-     </div>
+        </footer>
+    </div>
 
 
 
