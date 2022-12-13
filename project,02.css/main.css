@@ -56,7 +56,7 @@ header{ width: 100%; height: 100px;display: flex;
 .cs_img a:nth-child(2){margin-left: 31px;}
 #CS_toggle ul li{ font-weight: bold;}
 
-#book_tap{width:86.6px; height: 42px; padding:13px 23px; border: 1px solid whitesmoke;
+#book_tap{width:33% height: 38px; padding:13px 23px; border: 1px solid whitesmoke;
         font-size: 0.8vw; }
 
 
@@ -66,16 +66,17 @@ header{ width: 100%; height: 100px;display: flex;
         position: absolute; top:0; right: 0;}
 .mini_slider{display: none;}
 
-#slider_text{ width:70%; height: 530px; position: relative; z-index: 150; 
+#slider_text{ width:100%; height: 530px; position: relative; z-index: 150; 
         display: flex; flex-direction: column; flex-wrap: wrap;
-       ;top:2%;  left:21%;}
-.slider_text1{ font-size: 5vw; width: 55%; position: absolute; top: 6%; right: 8%; text-align: center;  }
+       ; left:-4%;}
+.slider_text1{ font-size: 5vw; width: 55%; position: absolute; top: 13%; right: 8%; text-align: center;  }
 .slider_text1 span{font-family:"Prata";}
-.slider_text2{ width:27%; font-size: 1vw; line-height: 20px; position: absolute; bottom: 37%; right: 2%;
+.slider_text2{ width:19%; font-size: 1vw; line-height: 20px; position: absolute; bottom: 41%; right: 2%;
                 font-weight: lighter;}
 .btn1{ width: 24%; line-height: 30px; position: absolute; bottom: 19%;
         right: 1%; letter-spacing: 4px; font-size: 0.8vw;
         display: flex;} 
+.btn-border{width:163px;height:132px;right:82%;top:-126%; position:absolute;}
 .btn1 .triangle{ width: 0; height: 0;
                 border-top: 17px solid transparent;
 
@@ -83,15 +84,61 @@ header{ width: 100%; height: 100px;display: flex;
                 border-right: 10px solid transparent;
                 border-bottom: 17px solid transparent}
 
+/* pool villa */
+
+#about{ width: 100%; height: 900px;}
+#about_line{display: flex; flex-wrap: wrap; position: relative;}
+#about_text{ width: 50%; height:605px;position: relative;}
+#about_text>p{font-size: 5vw; font-family: 'PRATA'; letter-spacing: 4px;
+                position: absolute; top:32%; right: 0; z-index: 100; 
+                color:rgb(50, 50, 50); line-height: 84px;text-align: right;}
+#about_text .but{width: 38%; position: absolute; bottom: 21%; left: 13%;
+                line-height: 22px; font-size: 1vw; color: rgb(138, 138, 138);}
+
+#about_img{width: 50%; height: 605px; position: relative;}
+.about_box{width: 817.2px; height: 600px;background-color: #f9efe9; position: absolute;
+        top:200px; left:-12.1%;}
+
+#about_img img{width: 497.2px; height: 395px; position:absolute;
+                bottom:-16%; left:12%;}
+
+.btn2{ width: 86%; line-height: 30px; position: absolute; bottom: 3%;
+        right: 1%; letter-spacing: 4px; font-size: 0.8vw;
+        display: flex;} 
+.btn-border1{width:163px;height:132px;right:82%;top:-162%; opacity: 0.8; position:absolute;}
+.line[data-v-5d883f52]{ left: 0; right: 0; bottom: 0; overflow: hidden;
+        pointer-events: none; z-index: -2; max-width: 100%;}
+.line[data-v-5d883f52], .line__border[data-v-5d883f52]{
+        position: absolute;
+        top:18px
+}
+.line__border[data-v-5d883f52]{ width: 1px; border-left: 1px solid rgba(58, 58, 57, 0.2);
+         transform-origin: 0 0;}
 
 
-#about{ width: 100%; height: 829px; background-color: beige;}
+/* hotel-room */
+#room_kind{ width: 100%; height: 810px;
+                display: flex; flex-wrap: wrap;}
+#room_box{ width: 50%; height: 706px; position: relative;}
+.room_img{width: 93%; height: 643px; position: absolute; top: 27px;}
+.room-text{ width:69%; height: 393px;background-color: #f9efe9;
+        position: absolute;bottom: -10px;right: -241px;}
+.room-text>h1{font-size: 3vw;  font-family: 'PRATA'; color:rgb(50, 50, 50); margin: 60px;}
+.room-text>p{width: 47%; line-height: 24px; margin: -6% 0 0 24%; font-size: 14px; color: #999;}
+.btn3{ width: 86%; line-height: 30px; position: absolute; bottom: 20%;
+        right: -13%; letter-spacing: 4px; font-size: 0.8vw;
+        display: flex;} 
+.btn-border2{width:163px;height:132px;right:82%;top:-162%; opacity: 0.8; position:absolute;}
+
+.room-text2>h1{font-size: 5vw; font-family: 'Prata'; color:rgb(50, 50, 50);
+                letter-spacing: 4px;}
+.room-text2>p{width: 57%;margin: 0 23%; color:rgb(50, 50, 50);}
 
 
-#room_kind{ width: 100%; height: 1169.9px; background-color: blueviolet;}
+#hotel_img{ width: 100%; height: 530px;
+        display: flex; justify-content: flex-end; padding: 40px 0;}
+#hotel_img img{width:1384px; height: 450px;}
 
-
-#hotel_img{ width: 100%; height: 810px; background-color: antiquewhite;}
 
 #a{width: 100%; height: 1213.09px;background-color: brown;}
 
