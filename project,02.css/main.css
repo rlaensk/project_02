@@ -98,7 +98,7 @@ header{ width: 100%; height: 100px;display: flex;
                 line-height: 22px; font-size: 1vw; color: rgb(138, 138, 138);}
 
 #about_img{width: 50%; height: 605px; position: relative;}
-.about_box{width: 817.2px; height: 600px;background-color: #f9efe9; position: absolute;
+.about_box{width: 809.2px; height: 600px;background-color: #f9efe9; position: absolute;
         top:200px; left:-12.1%;}
 
 #about_img img{width: 497.2px; height: 395px; position:absolute;
@@ -183,14 +183,14 @@ font-size: 13px;
 #hotel_img img{width:1384px; height: 450px;}
 
 
-#ACCOMMODATION{width: 100%; height: 1213.09px; display: flex; flex-wrap: wrap;
-                padding: 10% 0; position: relative;}
+#ACCOMMODATION{width: 100%; height: 1136.09px; display: flex; flex-wrap: wrap;
+                padding: 8% 0; position: relative;}
 .tion_box{ width: 43%;height: 1000px; position: relative;}
-.tion_box1{width: 57%; height: 864px; background-color: #f9efe9;}
+.tion_box1{width: 57%; height: 909px; background-color: #f9efe9;}
 #ACCOMMODATION h1{font-size: 7vw; font-family:'Jeju Myeongjo', serif;
                 font-weight: bold; position: absolute; right: -19%;
                 color:rgb(50, 50, 50); top:-42px}
-#ACCOMMODATION p{width: 38%; font-size: 13px; position: absolute; top:18%; left: 23%; line-height: 23px;color:rgb(139, 139, 139);}
+#ACCOMMODATION p{width: 39%; font-size: 13px; position: absolute; top:18%; left: 23%; line-height: 23px;color:rgb(139, 139, 139);}
 #ACCOMMODATION .img-box{display: flex; position: absolute; width: 82%; top:44%; right: 125px;justify-content: space-around;}
 #ACCOMMODATION img{ width: 100%; height: 230px;}
 #inpnity{position: relative;display: flex; flex-direction: column; flex-wrap: wrap;}
@@ -206,7 +206,12 @@ font-size: 13px;
  letter-spacing: 2px; color: rgb(50, 50, 50); font-weight: bold;}
 .read2{position: absolute; bottom: -59%; color: #7f7872; letter-spacing: 4px; font-size: 13px;}
 
-#Events{ width: 100%; height: 1000.73px; background-color: aquamarine;}
+#Events{ width: 100%; height: 1000.73px; position: relative; background-color: aquamarine;}
+#Events>h1{position: absolute; font-size: 7vw; font-family:'Jeju Myeongjo', serif;
+        font-weight: bold; width: 26%; left:31%; color: rgb(50, 50, 50);}
+#offer_box{width: 100%; display: flex; justify-content: space-around;}
+.offer_img1 a img{ width: 90%; height: 216.48px; transform: translate(0, 200%);}
+
 
 #newsletter{ width: 100%; height: 843.56px; background-color: azure;}
 .newsletter_text{ width: 810px; height: 395.56px; background-color: aqua; margin: 0 auto;}
