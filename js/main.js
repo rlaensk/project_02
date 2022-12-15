@@ -1,6 +1,5 @@
 $(function(){
-  $('.arrow').click(function(){
-    $('.arrow::after').css('transform','315deg');
+  $('.country_toggle').click(function(){
+    $('.dropdown_menu').css('display','block');
   });
-
 });
