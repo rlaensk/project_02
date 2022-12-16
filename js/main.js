@@ -23,6 +23,8 @@ slider.addEventListener("mouseup", () => {
   slider.style.cursor = "grab"
 })
 
+
+
 window.addEventListener("mouseup", () => {
   pressed = false
 })

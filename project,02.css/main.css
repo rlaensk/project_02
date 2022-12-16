@@ -207,8 +207,16 @@ font-size: 13px;
 .read2{position: absolute; bottom: -59%; color: #7f7872; letter-spacing: 4px; font-size: 13px;}
 
 
-#rivew
+#review{width: 100%; height: 700px;position: relative;}
+#review h1{font-size: 6vw;font-family:'Jeju Myeongjo', serif;letter-spacing: -8px;
+        position: absolute; top: -7%; right:34%; letter-spacing: -8px;
+        color: rgb(50, 50, 50);}
+#review .review_img{max-width: 100%; height: auto;}
+.review_img img{width:250px; height: 300px; margin:25px; }
+.review_{width: 100%; margin: 0 auto; background-color: red; }
 
+.review_1 {display: flex; width: 80%; height: 500px; overflow: hidden; 
+                margin:0 auto; align-items: center;}
 
 #Events{ width: 100%; height:1000.73px; position: relative; padding: 73px 0;}
 #Event_s{width: 860px;height: 732px; background-color: #f9efe9;}
@@ -223,13 +231,15 @@ font-size: 13px;
                }
 .offer_img1{height: 100%; margin:3px; position: relative;}
 .o_text_box{position: absolute; width: 406px; top:68%; left:0; }
-.o_text_box>p{font-size: 2vw; color: rgb(50, 50, 50);} 
+.o_text_box>p{font-size: 2vw; color: rgb(50, 50, 50); font-family:'Jeju Myeongjo', serif;} 
 .o_text_box>span{color: rgb(138, 138, 138);}
  .offer_img1 a img{ width: 406px; height: 197.48px; transform: translate(0, 24%); }
+.o_text_box .read3{ display: block; margin: 32px 0 0 5px;
+                font-size: 13px;}
 
 #Events .line[data-v-5d883f52], .line__border[data-v-5d883f52]{
         position: absolute;
-        top:18px;
+        top:37px;
 }
 
 
