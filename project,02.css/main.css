@@ -112,7 +112,7 @@ header{ width: 100%; height: 100px;display: flex;
         pointer-events: none; z-index: -2; max-width: 100%;}
 .line[data-v-5d883f52], .line__border[data-v-5d883f52]{
         position: absolute;
-        top:18px
+        top:18px;
 }
 .line__border[data-v-5d883f52]{ width: 1px; border-left: 1px solid rgba(58, 58, 57, 0.2);
          transform-origin: 0 0;}
@@ -206,15 +206,33 @@ font-size: 13px;
  letter-spacing: 2px; color: rgb(50, 50, 50); font-weight: bold;}
 .read2{position: absolute; bottom: -59%; color: #7f7872; letter-spacing: 4px; font-size: 13px;}
 
-#Events{ width: 100%; height: 1000.73px; position: relative; background-color: aquamarine;}
-#Events>h1{position: absolute; font-size: 7vw; font-family:'Jeju Myeongjo', serif;
-        font-weight: bold; width: 26%; left:31%; color: rgb(50, 50, 50);}
-#offer_box{width: 100%; display: flex; justify-content: space-around;}
-.offer_img1 a img{ width: 90%; height: 216.48px; transform: translate(0, 200%);}
+
+#rivew
 
 
+#Events{ width: 100%; height:1000.73px; position: relative; padding: 73px 0;}
+#Event_s{width: 860px;height: 732px; background-color: #f9efe9;}
+#Events h1{position: absolute; font-size: 6vw; font-family:'Jeju Myeongjo', serif;
+       font-weight: bold; width: 26%; left:53%; top: 9px; letter-spacing: -4px; color: rgb(50, 50, 50);}
+
+#slider_box{position: absolute;top:20%; height: 477px; width: 100%;
+        overflow: hidden; z-index: 100;}
+#offer_box{width: 181%; height: 378px;position:absolute; top:14%;  display: flex;
+                justify-content: space-around;
+                pointer-events: none; transition: all 0.3s;
+               }
+.offer_img1{height: 100%; margin:3px; position: relative;}
+.o_text_box{position: absolute; width: 406px; top:68%; left:0; }
+.o_text_box>p{font-size: 2vw; color: rgb(50, 50, 50);} 
+.o_text_box>span{color: rgb(138, 138, 138);}
+ .offer_img1 a img{ width: 406px; height: 197.48px; transform: translate(0, 24%); }
+
+
+
+
+ 
 #newsletter{ width: 100%; height: 843.56px; background-color: azure;}
-.newsletter_text{ width: 810px; height: 395.56px; background-color: aqua; margin: 0 auto;}
+.newsletter_text{ width:100%; height: 395.56px; background-color: aqua; margin: 0 auto;}
 #form{width: 100%; height: 298px; background-color: red; display: flex;justify-content: center;}
 .newsletter_{ width: 810px; height: 298px;background-color: blue;}
 form{width: 810px; height: 298px; background-color: gold;}
