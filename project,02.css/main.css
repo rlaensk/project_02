@@ -227,7 +227,10 @@ font-size: 13px;
 .o_text_box>span{color: rgb(138, 138, 138);}
  .offer_img1 a img{ width: 406px; height: 197.48px; transform: translate(0, 24%); }
 
-
+#Events .line[data-v-5d883f52], .line__border[data-v-5d883f52]{
+        position: absolute;
+        top:18px;
+}
 
 
  
