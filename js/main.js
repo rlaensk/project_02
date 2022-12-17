@@ -48,3 +48,22 @@ function checkboundary() {
     innerSlider.style.left = `-${inner.width - outer.width}px`
   }
 }
+
+
+// review
+
+// $(document).ready(function(){
+
+//   $('.next_4').click(function(){
+//     $('img').last().prependTo('span')
+//   });
+
+//   $('.next_3').click(function(){
+//     $('img').last().prependTo('span')
+//   });
+
+//   setInterval(function(){
+//     $('.next_4').trigger('click')
+//   }, 1000);
+
+// });
