@@ -12,7 +12,7 @@ header{ width: 100%; height: 100px;display: flex;
 #header_manu{ width: 12%; display: flex; background-color: blue; justify-content: space-between;
         position: relative;}
 /* 햄버거메뉴 */
-        .container{ position:absolute;top: 55%;left: 27%;  transform: translate(-50%, -50%);
+.container{ position:absolute;top: 55%;left: 27%;  transform: translate(-50%, -50%);
 }
 .menu{width: 50px;height: 44px;cursor: pointer; position: relative;border-radius: 12px;}
 .menu div{ position: absolute;height: 1px;transition: width 0.5s ease;background-color: white;}
@@ -30,16 +30,17 @@ header{ width: 100%; height: 100px;display: flex;
 #CS_toggle .arrow::after {top:2px; }
 
 /* 언어 toggle */
+.dropdown_label{color: whitesmoke;}
 #header_manu .dropdown_menu{ width: 22%; height: auto; position: absolute; top:26px; right: 11px; text-align: center; line-height: 30px;
-                font-size: 10px; background-color: white; z-index:105;}
-#header_manu .dropdown_menu li a{ color:rgb(207, 205, 205);}
+                font-size: 10px; background-color: whitesmoke; z-index:105;}
+#header_manu .dropdown_menu li a{ color:whitesmoke;}
 #header_manu .dropdown_menu {display: none;}
 
 /* logo */
 #logo{ width:240px; height: 13px; display: flex; justify-content: center; line-height: 20px; text-align: center; 
         margin: 0 0 0 11%;}
 
-#logo a p{font-size: 1.2vw; font-family: "Prata";}
+#logo a p{font-size: 1.2vw; font-family: "Prata"; color: whitesmoke;}
 #logo a p:nth-child(2){ font-size: 1vw;}
 
 /* HOT CALL */
@@ -59,7 +60,8 @@ header{ width: 100%; height: 100px;display: flex;
 #CS_toggle ul li{ font-weight: bold;}
 
 #book_tap{width:33%; height: 38px; padding:13px 23px; border: 1px solid whitesmoke;
-        font-size: 0.8vw; }
+        font-size: 0.8vw;  }
+#book_tap a{color: whitesmoke;}
 
 
 /* 슬라이더 */
@@ -71,13 +73,14 @@ header{ width: 100%; height: 100px;display: flex;
 #slider_text{ width:100%; height: 530px; position: relative; z-index: 150; 
         display: flex; flex-direction: column; flex-wrap: wrap;
        ; left:-4%;}
-.slider_text1{ font-size: 5vw; width: 55%; position: absolute; top: 13%; right: 8%; text-align: center;  }
-.slider_text1 span{font-family:"Prata";}
-.slider_text2{ width:19%; font-size: 1vw; line-height: 20px; position: absolute; bottom: 41%; right: 2%;
-                font-weight: lighter;}
+.slider_text1{ font-size: 5vw; width: 55%; position: absolute; top: 14%; right: 10%; text-align: center;  }
+.slider_text1 span{font-family:"Prata";color: white; }
+.slider_text2{ width:19%; font-size: 1vw; line-height: 20px; position: absolute; bottom: 36%; right: 10%;
+                font-weight: lighter; color: whitesmoke; opacity: 0.9; }
 .btn1{ width: 24%; line-height: 30px; position: absolute; bottom: 19%;
         right: 1%; letter-spacing: 4px; font-size: 0.8vw;
         display: flex;} 
+.btn1 a span{color: whitesmoke;}
 .btn-border{width:163px;height:132px;right:82%;top:-126%; position:absolute;}
 .btn1 .triangle{ width: 0; height: 0;
                 border-top: 17px solid transparent;
@@ -90,24 +93,24 @@ header{ width: 100%; height: 100px;display: flex;
 
 #about{ width: 100%; height: 900px;}
 #about_line{display: flex; flex-wrap: wrap; position: relative;}
-#about_text{ width: 50%; height:605px; position: relative;}
-#about_text>p{font-size: 6vw; font-family:'Jeju Myeongjo', serif;; letter-spacing: 2px;
-                font-weight: bold; position: absolute; top:32%; right: 0; z-index: 100; 
+#about_text{ width: 47%; height:605px; position: relative;}
+#about_line>p{font-size: 6vw; font-family:'Jeju Myeongjo', serif;; letter-spacing: 2px;
+                font-weight: bold; position: absolute; top:32%; right: -89px; z-index: 100; 
                 color:rgb(50, 50, 50); line-height: 84px;text-align: right;}
-#about_text .but{width: 38%; position: absolute; bottom: 21%; left: 13%;
+#about_text .but{width: 38%; position: absolute; bottom: 10%; left: 13%;
                 line-height: 22px; font-size: 1vw; color: rgb(138, 138, 138);}
 
 #about_img{width: 50%; height: 605px; position: relative;}
-.about_box{width: 809.2px; height: 600px;background-color: #f9efe9; position: absolute;
-        top:200px; left:-12.1%;}
+.about_box{width: 107%; height: 600px;background-color: #f9efe9; position: absolute;
+        top:200px; left:10px;}
 
-#about_img img{width: 497.2px; height: 395px; position:absolute;
-                bottom:-16%; left:12%;}
+#about_img img{width:67%; height: 395px; position:absolute;
+                bottom:-16%; left:25%;}
 
 .btn2{ width: 86%; line-height: 30px; position: absolute; bottom: 3%;
         right: 1%; letter-spacing: 4px; font-size: 0.8vw;
         display: flex;} 
-.btn-border1{width:163px;height:132px;right:82%;top:-162%; opacity: 0.8; position:absolute;}
+.btn-border1{width:30%;height:132px;right:82%;top:-19px; opacity: 0.5; position:absolute;}
 .line[data-v-5d883f52]{ left: 0; right: 0; bottom: 0; overflow: hidden;
         pointer-events: none; z-index: -2; max-width: 100%;}
 .line[data-v-5d883f52], .line__border[data-v-5d883f52]{
@@ -130,7 +133,7 @@ header{ width: 100%; height: 100px;display: flex;
 .btn3{ width: 86%; line-height: 30px; position: absolute; bottom: 20%;
         right: -13%; letter-spacing: 4px; font-size: 0.8vw;
         display: flex;} 
-.btn-border2{width:163px;height:132px;right:82%;top:-162%; opacity: 0.8; position:absolute;}
+.btn-border2{width:30%;height:132px;right:82%;top:-162%; opacity: 0.5; position:absolute;}
 
 .room-text2>h1{font-size: 6vw; font-family:'Jeju Myeongjo', serif;; color:rgb(50, 50, 50);
                 letter-spacing: 2px; line-height: 68px; font-weight: bold;}
@@ -271,9 +274,9 @@ font-size: 13px;
         font-size: 13px;
         top: 24%;}       
         .see_ a{  color: #7f7872;}
-#slider_box{position: absolute;top:20%; height: 477px; width: 100%;
+#slider_box{position: absolute;top:29%; height: 439px; width: 100%;
         overflow: hidden; z-index: 100;}
-#offer_box{width: 181%; height: 378px;position:absolute; top:14%;  display: flex;
+#offer_box{width: 181%; height: 368px;position:absolute; display: flex;
                 justify-content: space-around;
                 pointer-events: none; transition: all 0.3s;
                }
@@ -363,7 +366,7 @@ form{width: 82%; height: 207px; position: absolute; font-size: 13px;
           box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
         }
 .radio label a{color:rgb(138, 138, 138);}
-form .form_a{border: none; color: rgb(50,50,50); position: absolute;
+form .form_a{border: none; color: rgb(139,139,139); position: absolute;
                 right: 23%; letter-spacing: 5px; background-color: none;
         }
 
@@ -372,9 +375,10 @@ form .form_a{border: none; color: rgb(50,50,50); position: absolute;
 #neighbourhood img{width: 92%; height: 450px;}
 #neighbourhood p{font-size: 5.5em; font-family: 'prata'; position: absolute;
                 left: 19%; bottom: 38%; color: rgb(50,50,50);}
-#neighbourhood a{ width: 21%; position: absolute; bottom: 21%; right: 18%;
-                font-size: 14px; color: rgb(50,50,50);}
-#neighbourhood span{width: 20%; position: absolute; bottom: 27%; right: 19%;}
+#neighbourhood a{ width: 21%; position: absolute; bottom: 20%; right: 20%;
+                font-size: 13px; color: rgb(139,139,139); letter-spacing: 4px; }
+#neighbourhood span{width: 17%; position: absolute; bottom: 27%; right: 25%;
+                color: rgb(138, 138, 138); font-size: 14px; line-height: 28px;}
 
 #map{width: 100%; height: 352px; position: relative;}
 #video{width: 94%; height: 352px; overflow: hidden; position: absolute; right: 0;}
@@ -391,5 +395,18 @@ video{width: 100%; height: auto;}
         z-index: 5;
 }
 #map>p{font-size: 3em; position: absolute; z-index: 10; width: 40%;
-        text-align: right; font-family: 'prata'; left: 0%;top:16%; line-height: 54px;}
-.map_a{display: flex;flex-wrap: wrap; width: 30%;background-color: gold;}
+        text-align: right; font-family: 'prata'; left: 7.3px;top:16%; line-height: 54px;}
+.map_a{display: flex;flex-wrap: wrap; width: 32%; z-index: 100; color:rgb(50, 50, 50);
+        position: absolute; bottom: 18%; left:13%; font-size:13px; letter-spacing: 5px;}
+.map_a>a:hover{opacity: 0.8; cursor: pointer;}
+.map_a>a{color: rgb(50,50,50);}
+.map_a a:nth-child(2){ position: absolute; left: 33%; }         
+.map_a a:nth-child(2)::after{
+        content: "";
+        display: block;
+        border-bottom: 1px solid rgb(139, 139, 139);
+        height: 8px;
+}
+
+#about_hotel{width: 100%; height: 191px; }
+#about_hotel a{font-size: 6em; font-family: 'prata'; position: absolute; left: 28%; padding: 35px 0; color: rgb(50, 50, 50);}
