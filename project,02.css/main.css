@@ -38,7 +38,7 @@ header{ width: 100%; height: 100px;display: flex;
 
 /* logo */
 #logo{ width:240px; height: 13px; display: flex; justify-content: center; line-height: 20px; text-align: center; 
-        margin: 0 0 0 11%;}
+        margin: 0 0 0 7%;}
 
 #logo a p{font-size: 1.2vw; font-family: "Prata"; color: whitesmoke;}
 #logo a p:nth-child(2){ font-size: 1vw;}
@@ -49,7 +49,7 @@ header{ width: 100%; height: 100px;display: flex;
         display: flex; justify-content: center; align-items: center;}
 .cstoggle{position: relative; display: flex;}
 .cstoggle+ul{width: 14%; height: 190px; top: 87px; position: absolute;
-                top:74px; right: 96px; background-color: whitesmoke;
+                top:74px; right: 123px; background-color: whitesmoke;
                 line-height: 29px; padding: 35px 0 0 35px; letter-spacing: 4px;}
 .cstoggle+ul .cs_text{ color: rgb(207, 205, 205);}
 
@@ -59,13 +59,13 @@ header{ width: 100%; height: 100px;display: flex;
 .cs_img a:nth-child(2){margin-left: 31px;}
 #CS_toggle ul li{ font-weight: bold;}
 
-#book_tap{width:33%; height: 38px; padding:13px 23px; border: 1px solid whitesmoke;
+#book_tap{width:33%; height: 38px; padding:8px 31px; border: 1px solid whitesmoke;
         font-size: 0.8vw;  }
 #book_tap a{color: whitesmoke;}
 
 
 /* 슬라이더 */
-#slider{ width: 100%; height:646px; }
+#slider{ width: 100%; height:969px; }
 #slider video{ width:100%; height: auto;
         position: absolute; top:0; right: 0;}
 .mini_slider{display: none;}
@@ -73,15 +73,16 @@ header{ width: 100%; height: 100px;display: flex;
 #slider_text{ width:100%; height: 530px; position: relative; z-index: 150; 
         display: flex; flex-direction: column; flex-wrap: wrap;
        ; left:-4%;}
-.slider_text1{ font-size: 5vw; width: 55%; position: absolute; top: 14%; right: 10%; text-align: center;  }
+.slider_text1{ font-size: 5vw; width: 55%; position: absolute; top: 22%; right: 13%; text-align: center;  }
 .slider_text1 span{font-family:"Prata";color: white; }
-.slider_text2{ width:19%; font-size: 1vw; line-height: 20px; position: absolute; bottom: 36%; right: 10%;
+.slider_text2{ width:19%; font-size: 1em; line-height: 20px; position: absolute; bottom: 16%; right: 10%;
                 font-weight: lighter; color: whitesmoke; opacity: 0.9; }
-.btn1{ width: 24%; line-height: 30px; position: absolute; bottom: 19%;
+.btn1{ width: 24%; line-height: 30px; position: absolute; bottom: 13%;
         right: 1%; letter-spacing: 4px; font-size: 0.8vw;
         display: flex;} 
+.btn1 a{position: absolute; top: 101px;}
 .btn1 a span{color: whitesmoke;}
-.btn-border{width:163px;height:132px;right:82%;top:-126%; position:absolute;}
+.btn-border{width:60%;height:236px;right:82%;top:328%; position:absolute;}
 .btn1 .triangle{ width: 0; height: 0;
                 border-top: 17px solid transparent;
 
@@ -91,66 +92,69 @@ header{ width: 100%; height: 100px;display: flex;
 
 /* pool villa */
 
-#about{ width: 100%; height: 900px;}
+#about{ width: 100%; height: 1254px;}
 #about_line{display: flex; flex-wrap: wrap; position: relative;}
 #about_text{ width: 47%; height:605px; position: relative;}
 #about_line>p{font-size: 6vw; font-family:'Jeju Myeongjo', serif;; letter-spacing: 2px;
-                font-weight: bold; position: absolute; top:32%; right: -89px; z-index: 100; 
+                font-weight: bold; position: absolute; top:8%; right: 47%; z-index: 100; 
                 color:rgb(50, 50, 50); line-height: 84px;text-align: right;}
-#about_text .but{width: 38%; position: absolute; bottom: 10%; left: 13%;
-                line-height: 22px; font-size: 1vw; color: rgb(138, 138, 138);}
+#about_text .but{width: 45%; position: absolute; bottom: 31%; left: 13%;
+                line-height: 22px; font-size: 1em; color: rgb(138, 138, 138);}
 
-#about_img{width: 50%; height: 605px; position: relative;}
-.about_box{width: 107%; height: 600px;background-color: #f9efe9; position: absolute;
-        top:200px; left:10px;}
+#about_img{width: 50%; height:1000px; position: relative;}
+.about_box{width: 107%; height: 1000px;background-color: #f9efe9; position: absolute;
+        top:96px; left:-9px;}
 
-#about_img img{width:67%; height: 395px; position:absolute;
-                bottom:-16%; left:25%;}
+#about_img img{width:71%; height: 466px; position:absolute;
+                bottom:17%; left:25%;}
 
 .btn2{ width: 86%; line-height: 30px; position: absolute; bottom: 3%;
         right: 1%; letter-spacing: 4px; font-size: 0.8vw;
         display: flex;} 
-.btn-border1{width:30%;height:132px;right:82%;top:-19px; opacity: 0.5; position:absolute;}
+.btn-border1{width:30%;height:108px;right:82%;top:-19px; opacity: 0.5; position:absolute;}
 .line[data-v-5d883f52]{ left: 0; right: 0; bottom: 0; overflow: hidden;
         pointer-events: none; z-index: -2; max-width: 100%;}
 .line[data-v-5d883f52], .line__border[data-v-5d883f52]{
         position: absolute;
-        top:18px;
+        top:-68px;
 }
 .line__border[data-v-5d883f52]{ width: 1px; border-left: 1px solid rgba(58, 58, 57, 0.2);
          transform-origin: 0 0;}
 
 
 /* hotel-room */
-#room_kind{ width: 100%; height: 810px;
+#room_kind{ width: 100%; height: 1100px;
                 display: flex; flex-wrap: wrap; position: relative;}
 #room_box{ width: 50%; height: 706px; position: relative;}
-.room_img{width: 93%; height: 643px; position: absolute; top: 27px;}
-.room-text{ width:69%; height: 393px;background-color: #f9efe9;
-        position: absolute;bottom: 19px;right: -241px;}
-.room-text>h1{font-size: 3vw;  font-family: 'PRATA'; color:rgb(50, 50, 50); margin: 60px;}
-.room-text>p{width: 47%; line-height: 24px; margin: -6% 0 0 24%; font-size: 14px; color: #999;}
+.room_img{width: 93%; height: 801px; position: absolute; top: 27px;}
+.room-text{ width:89%; height: 611px;background-color: #f9efe9;
+        position: absolute;bottom:-224px;right: -380px;padding: 26px;}
+.room-text>h1{font-size: 5em;  font-family: 'PRATA'; color:rgb(50, 50, 50); margin: 60px;
+                text-align: center;}
+.room-text>p{width: 47%; line-height: 24px; margin: 0 0 0 45%; font-size: 14px; color: #999;}
 .btn3{ width: 86%; line-height: 30px; position: absolute; bottom: 20%;
         right: -13%; letter-spacing: 4px; font-size: 0.8vw;
         display: flex;} 
 .btn-border2{width:30%;height:132px;right:82%;top:-162%; opacity: 0.5; position:absolute;}
 
-.room-text2>h1{font-size: 6vw; font-family:'Jeju Myeongjo', serif;; color:rgb(50, 50, 50);
-                letter-spacing: 2px; line-height: 68px; font-weight: bold;}
-.room-text2>p{width: 57%;margin: 47px 35%; color:rgb(139, 139, 139); font-size:14px;}
+.room-text2{position: relative; width: 33%;}
+.room-text2>h1{font-size: 6vw; font-family:'Jeju Myeongjo', serif;; color:rgb(65, 64, 64);
+                letter-spacing: 2px; line-height: 68px; font-weight: bold;
+                position: absolute; left: 8%;}
+.room-text2>p{width: 54%;position: absolute; top: 20%; left: 46%; color:rgb(139, 139, 139); font-size:14px;}
 #room_box>.line__border{ top:18px;}
 .next{position: relative;}
 .next_1::after{
         content: "";
-        width: 8px;
-        height: 8px;
+        width: 10px;
+        height: 10px;
         border-top:1px solid #323232;
         border-right: 1px solid #323232;
         display: inline-block;
         transform: rotate(45deg);
         position: absolute;
-        top:263px;
-        left: 280px;
+        top:343px;
+        left: 145px;
         cursor: pointer;
 }
 .next_2::after{
@@ -162,8 +166,8 @@ header{ width: 100%; height: 100px;display: flex;
         display: inline-block;
         transform: rotate(225deg);
         position: absolute;
-        top:346px;
-        left: 280px;
+        top:456px;
+        left: 145px;
         cursor: pointer;
 }
 
@@ -171,7 +175,7 @@ header{ width: 100%; height: 100px;display: flex;
         width: 185px;
         height: 30px;
         right: 30px;
-        bottom: 115px;
+        bottom: 177px;
         text-align: center;
         color:#7f7872;
         letter-spacing: 3px;
@@ -183,31 +187,31 @@ font-size: 13px;
 
 #hotel_img{ width: 100%; height: 530px;
         display: flex; justify-content: flex-end; padding: 40px 0;}
-#hotel_img img{width:1384px; height: 450px;}
+#hotel_img img{width:90%; height: auto;}
 
 
-#ACCOMMODATION{width: 100%; height: 1136.09px; display: flex; flex-wrap: wrap;
+#ACCOMMODATION{width: 100%; height: 1164.09px; display: flex; flex-wrap: wrap;
                 padding: 8% 0; position: relative;}
 .tion_box{ width: 43%;height: 1000px; position: relative;}
 .tion_box1{width: 57%; height: 909px; background-color: #f9efe9;}
 #ACCOMMODATION h1{font-size: 7vw; font-family:'Jeju Myeongjo', serif;
                 font-weight: bold; position: absolute; right: -19%;
                 color:rgb(50, 50, 50); top:-42px}
-#ACCOMMODATION p{width: 39%; font-size: 13px; position: absolute; top:18%; left: 23%; line-height: 23px;color:rgb(139, 139, 139);}
-#ACCOMMODATION .img-box{display: flex; position: absolute; width: 82%; top:44%; right: 125px;justify-content: space-around;}
-#ACCOMMODATION img{ width: 100%; height: 230px;}
+#ACCOMMODATION p{width: 51%; font-size: 17px; position: absolute; top:14%; left: 23%; line-height: 32px;color:rgb(139, 139, 139);}
+#ACCOMMODATION .img-box{display: flex; position: absolute; width: 88%; top:44%; right: 88px;justify-content: space-around;}
+#ACCOMMODATION img{ width: 100%; height: 339px;}
 #inpnity{position: relative;display: flex; flex-direction: column; flex-wrap: wrap;}
-#inpnity p{ position: absolute;top:99%; left: 0; width: 100%;font-size: 3vw;
+#inpnity p{ position: absolute;top:110%; left: 0; width: 100%;font-size: 5em;
         font-family: 'Jeju Myeongjo', serif;
-        letter-spacing: 2px; color: rgb(50, 50, 50);
-                line-height: 53px; font-weight: bold;}
-.read1{ position: absolute; bottom: -59%; color: #7f7872; letter-spacing: 4px; font-size: 13px;}
+         color: rgb(50, 50, 50);
+                line-height: 68px; font-weight: bold;}
+.read1{ position: absolute; bottom: -75%; color: #7f7872; letter-spacing: 4px; font-size: 13px;}
 #BBQ{position:relative; display: flex; flex-direction: column; flex-wrap: wrap;}
-#BBQ p{position: absolute; top:99%; left: 0;
-        width: 101%;font-size: 3vw;
-        font-family: 'Jeju Myeongjo', serif; line-height: 53px;
- letter-spacing: 2px; color: rgb(50, 50, 50); font-weight: bold;}
-.read2{position: absolute; bottom: -59%; color: #7f7872; letter-spacing: 4px; font-size: 13px;}
+#BBQ p{position: absolute; top:110%; left: 0;
+        width: 101%;font-size: 5em;
+        font-family: 'Jeju Myeongjo', serif; line-height: 68px;
+         color: rgb(50, 50, 50); font-weight: bold;}
+.read2{position: absolute; bottom: -75%; color: #7f7872; letter-spacing: 4px; font-size: 13px;}
 
 
 #review{width: 100%; height: 700px;position: relative;}
