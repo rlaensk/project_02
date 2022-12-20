@@ -60,16 +60,16 @@ $(function(){
       page=0;
       return;
     }
-    $('.review_1').stop().animate({marginLeft:-366*page},800);
+    $('.review_1').stop().animate({marginLeft:-300*page},800);
   });
 
   $('.next_4').click(function(){
     page++;
-    if(page>$('.review_img').length-3){
-      page=$('.review_img').length-3;
+    if(page>$('.review_img').length-4){
+      page=$('.review_img').length-4;
       return;
     }
-    $('.review_1').stop().animate({marginLeft: -366*page},800);
+    $('.review_1').stop().animate({marginLeft: -300*page},800);
 
   });
 
