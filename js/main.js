@@ -60,7 +60,7 @@ $(function(){
       page=0;
       return;
     }
-    $('.review_1').stop().animate({marginLeft:-300*page},800);
+    $('.review_1').stop().animate({marginLeft:-400*page},800);
   });
 
   $('.next_4').click(function(){
@@ -69,8 +69,22 @@ $(function(){
       page=$('.review_img').length-4;
       return;
     }
-    $('.review_1').stop().animate({marginLeft: -300*page},800);
+    $('.review_1').stop().animate({marginLeft: -400*page},800);
 
   });
 
+});
+
+// review 무한반복
+$('.next_3').click(function(){
+  $('.review_1 .review_img:last').prependTo('.review_1');
+  $('.review_1').css('margin-left','-400');
+  $('.review_1').stop().anmate({marginLeft:0},800);
+});
+
+$('.next_4').click(function(){
+  $('.review_1').stop().animate({marginLeft:-400},800, function(){
+    $('.review_1 .review_img:first').appendTo('.review_1');
+    $('.review_1').css({marginLeft:0});
+  })
 });
