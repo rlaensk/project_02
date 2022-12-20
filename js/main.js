@@ -1,4 +1,10 @@
 
+// hotel room
+
+$('.next_1').click(){
+  $('.room_box').prpependTo('.room_box');
+  $('.room_box').css('margin-left','-1000')
+}
 
 
 //index.js

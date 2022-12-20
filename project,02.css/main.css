@@ -125,7 +125,10 @@ header{ width: 100%; height: 100px;display: flex;
 /* hotel-room */
 #room_kind{ width: 100%; height: 1100px;
                 display: flex; flex-wrap: wrap; position: relative;}
-#room_box{ width: 50%; height: 706px; position: relative; top:6%}
+#room_box{ width: 50%; height: 706px; position: relative; top:6%;}
+#room_box2{ width: 50%; height: 706px; position: absolute; top:6%;}
+#room_box3{ width: 50%; height: 706px; position: absolute; top:6%; left:0;}
+
 .room_img{width: 93%; height: 801px; position: absolute; top: 27px;}
 .room-text{ width:77%; height: 611px;background-color: #f9efe9;
         position: absolute;top:53%; left:43%;padding: 26px;}
