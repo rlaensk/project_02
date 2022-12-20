@@ -52,18 +52,25 @@ function checkboundary() {
 
 // review
 
-// $(document).ready(function(){
+$(function(){
+  let page=0;
+  $('.next_3').click(function(){
+    page--;
+    if(page<0){
+      page=0;
+      return;
+    }
+    $('.review_1').stop().animate({marginLeft:-366*page},800);
+  });
 
-//   $('.next_4').click(function(){
-//     $('img').last().prependTo('span')
-//   });
+  $('.next_4').click(function(){
+    page++;
+    if(page>$('.review_img').length-3){
+      page=$('.review_img').length-3;
+      return;
+    }
+    $('.review_1').stop().animate({marginLeft: -366*page},800);
 
-//   $('.next_3').click(function(){
-//     $('img').last().prependTo('span')
-//   });
+  });
 
-//   setInterval(function(){
-//     $('.next_4').trigger('click')
-//   }, 1000);
-
-// });
+});
