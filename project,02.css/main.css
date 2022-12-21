@@ -126,10 +126,9 @@ header{ width: 100%; height: 100px;display: flex;
 #room_kind{ width: 100%; height: 1100px;
                 display: flex; flex-wrap: wrap; position: relative;}
 #room_box{ width: 50%; height: 706px; position: relative; top:6%;}
-#room_box2{ width: 50%; height: 706px; position: absolute; top:6%;}
-#room_box3{ width: 50%; height: 706px; position: absolute; top:6%; left:0;}
+.room_img_box{width: 100%%; display:flex; overflow:hidden;}
 
-.room_img{width: 93%; height: 801px; position: absolute; top: 27px;}
+.room_img{width: 100%; height: 801px;}
 .room-text{ width:77%; height: 611px;background-color: #f9efe9;
         position: absolute;top:53%; left:43%;padding: 26px;}
 .room-text>h1{font-size: 5em;  font-family: 'PRATA'; color:rgb(50, 50, 50); margin: 60px;
@@ -147,10 +146,12 @@ header{ width: 100%; height: 100px;display: flex;
 .room-text2>p{width: 54%;position: absolute; top: 32%; left: 46%; color:rgb(139, 139, 139); font-size:14px;}
 #room_box>.line__border{ top:18px;}
 .next{position: relative;}
+
+
 .next_1::after{
         content: "";
-        width: 10px;
-        height: 10px;
+        width: 15px;
+        height: 15px;
         border-top:1px solid #323232;
         border-right: 1px solid #323232;
         display: inline-block;
@@ -162,8 +163,8 @@ header{ width: 100%; height: 100px;display: flex;
 }
 .next_2::after{
         content: "";
-        width: 8px;
-        height: 8px;
+        width: 15px;
+        height:15px;
         border-top:1px solid #323232;
         border-right: 1px solid #323232;
         display: inline-block;
@@ -239,7 +240,7 @@ font-size: 13px;
 .review .line{top:-133px}
 
 .review_1 {display: flex; width: 80%; height: 815px; 
-                margin:0 auto; align-items: center;}
+                align-items: center;}
 
                 .next_4::after{
                         content: "";

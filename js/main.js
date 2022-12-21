@@ -1,10 +1,67 @@
 
 // hotel room
 
-$('.next_1').click(){
-  $('.room_box').prpependTo('.room_box');
-  $('.room_box').css('margin-left','-1000')
-}
+$('.next_1').click(function(){
+  $('.room_img_box .room_img:first').prependTo('.room_img_box');
+  $('.room_img_box').css('margin-left',-951.5);
+  $('.room_img_box').stop().animate({marginLeft:0},2000);
+});
+
+$('.next_2').click(function(){
+  $('.room_img_box').stop().animate({marginLeft:-951.5},2000, function(){
+    $('.room_img_box .room_img:last').appendTo('.room_img_box');
+    $('.room_img_box').css({marginLeft:0});
+  })
+});
+
+
+$(function(){
+  $('.next_1').click(function(){
+    $('.room_').fadein();
+    $('.room1').hide();
+    $('.room2').hide();
+    $('.room3').hide();
+    $('.room4').hide();
+  });
+});
+
+$(function(){
+  $('.next_1').click(function(){
+    $('.room_text').hide();
+    $('.room1').fadein();
+    $('.room2').hide();
+    $('.room3').hide();
+    $('.room4').hide();
+  });
+});
+$(function(){
+  $('.next_1').click(function(){
+    $('.room_text').hide();
+    $('.room1').hide();
+    $('.room2').fadein();
+    $('.room3').hide();
+    $('.room4').hide();
+  });
+});
+$(function(){
+  $('.next_1').click(function(){
+    $('.room_text').hide();
+    $('.room1').hide();
+    $('.room2').hide();
+    $('.room3').fadein();
+    $('.room4').hide();
+  });
+});
+$(function(){
+  $('.next_1').click(function(){
+    $('.room_text').hide();
+    $('.room1').hide();
+    $('.room2').hide();
+    $('.room3').hide();
+    $('.room4').fadein();
+  });
+});
+
 
 
 //index.js
@@ -56,36 +113,12 @@ function checkboundary() {
 }
 
 
-// review
-
-$(function(){
-  let page=0;
-  $('.next_3').click(function(){
-    page--;
-    if(page<0){
-      page=0;
-      return;
-    }
-    $('.review_1').stop().animate({marginLeft:-400*page},800);
-  });
-
-  $('.next_4').click(function(){
-    page++;
-    if(page>$('.review_img').length-4){
-      page=$('.review_img').length-4;
-      return;
-    }
-    $('.review_1').stop().animate({marginLeft: -400*page},800);
-
-  });
-
-});
 
 // review 무한반복
 $('.next_3').click(function(){
   $('.review_1 .review_img:last').prependTo('.review_1');
-  $('.review_1').css('margin-left','-400');
-  $('.review_1').stop().anmate({marginLeft:0},800);
+  $('.review_1').css('margin-left',-400);
+  $('.review_1').stop().animate({marginLeft:0},800);
 });
 
 $('.next_4').click(function(){
