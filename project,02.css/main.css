@@ -240,7 +240,11 @@ font-size: 13px;
 .review .line{top:-133px}
 
 .review_1 {display: flex; width: 80%; height: 815px; 
+<<<<<<< Updated upstream
                 align-items: center;}
+=======
+                margin:0 auto; align-items: center; justify-content: center;}
+>>>>>>> Stashed changes
 
                 .next_4::after{
                         content: "";
@@ -251,8 +255,13 @@ font-size: 13px;
                         display: inline-block;
                         transform: rotate(45deg);
                         position: absolute;
+<<<<<<< Updated upstream
                         top:470px;
                        right: 65px;
+=======
+                        top:450px;
+                       right: 250px;
+>>>>>>> Stashed changes
                         cursor: pointer;
                 }
                 .next_3::after{
@@ -264,8 +273,13 @@ font-size: 13px;
                         display: inline-block;
                         transform: rotate(225deg);
                         position: absolute;
+<<<<<<< Updated upstream
                         left:77px;
                         bottom: 47%;
+=======
+                        top: 460px;
+                        left:13%;
+>>>>>>> Stashed changes
                         cursor: pointer;
                 }
 
