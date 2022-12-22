@@ -38,45 +38,34 @@ $('.next_2').click(function(){
 
 $(function(){
   $('.next_1').click(function(){
-    $('.room').show();
-    $('.room1').hide();
+    $('.room1').show();
     $('.room2').hide();
     $('.room3').hide();
     $('.room4').hide();
-    
+        
   });
   $('.next_1').click(function(){
-    $('.room').hide();
-    $('.room1').fadeIn();
-    $('.room2').hide();
-    $('.room3').hide();
-    $('.room4').hide();
-    
-  }); 
-  $('.next_1').click(function(){
-    $('.room').hide();
     $('.room1').hide();
     $('.room2').fadeIn();
     $('.room3').hide();
     $('.room4').hide();
-    
-  });
-   $('.next_1').click(function(){
-    $('.room').hide();
+       
+  }); 
+  $('.next_1').click(function(){
     $('.room1').hide();
     $('.room2').hide();
     $('.room3').fadeIn();
     $('.room4').hide();
-    
+        
   });
    $('.next_1').click(function(){
-    $('.room').hide();
     $('.room1').hide();
     $('.room2').hide();
     $('.room3').hide();
     $('.room4').fadeIn();
-    
+       
   });
+
 });
 
 
