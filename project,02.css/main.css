@@ -25,16 +25,21 @@ header{ width: 100%; height: 100px;display: flex;
 .country_toggle{ width: 26%; height: 30px; line-height: 30px; font-size: 13px;
                 position: absolute; top: -10px; right:4%; border:0; background-color: transparent;}
 /* 언어화살표 */
-.arrow { position: relative; }
+.arrow { position: relative;transition: ; }
 .arrow::after { position: absolute; left: 17px;  top: 4px; content: ''; width: 4px;  height: 4px;  border-top: 1px solid whitesmoke; border-right: 1px solid whitesmoke;   transform: rotate(135deg); }
-#CS_toggle .arrow::after {top:2px; }
+#CS_toggle .arrow::after {top:5px; }
 
 /* 언어 toggle */
 .dropdown_label{color: whitesmoke;}
 #header_manu .dropdown_menu{ width: 22%; height: auto; position: absolute; top:26px; right: 11px; text-align: center; line-height: 30px;
                 font-size: 10px; background-color: whitesmoke; z-index:105;}
-#header_manu .dropdown_menu li a{ color:whitesmoke;}
-#header_manu .dropdown_menu {display: none;}
+#header_manu .dropdown_menu li a{ color:#888;}
+.dropdown_menu{display: none;}
+.show{display:block;}
+.hide{display: none;}
+
+
+
 
 /* logo */
 #logo{ width:240px; height: 13px; display: flex; justify-content: center; line-height: 20px; text-align: center; 
@@ -48,16 +53,16 @@ header{ width: 100%; height: 100px;display: flex;
 #CS_toggle{width:24%; height: auto;font-size: 0.8vw;
         display: flex; justify-content: center; align-items: center;}
 .cstoggle{position: relative; display: flex;}
-.cstoggle+ul{width: 14%; height: 190px; top: 87px; position: absolute;
-                top:74px; right: 123px; background-color: whitesmoke;
-                line-height: 29px; padding: 35px 0 0 35px; letter-spacing: 4px;}
-.cstoggle+ul .cs_text{ color: rgb(207, 205, 205);}
+.cstoggle+ul{width: 12%; height: 190px; top: 87px; position: absolute;
+                top:74px; right: 163px; background-color: whitesmoke; display: none;
+                line-height: 29px; padding: 32px 0 0 33px; letter-spacing: 4px;}
+.cstoggle+ul .cs_text{ color: rgb(85, 85, 85);}
 
 .cs_img{padding: 5px 0 0 0;}
 .cs_img img{width: 16%; margin-left: -4%;}
 .cs_img a:nth-child(2) img{width: 15%;}
 .cs_img a:nth-child(2){margin-left: 31px;}
-#CS_toggle ul li{ font-weight: bold;}
+#CS_toggle ul li{ font-weight: bold; font-size:12px; letter-spacing: 2px; line-height: 30px;}
 
 #book_tap{width:33%; height: 38px; padding:8px 31px; border: 1px solid whitesmoke;
         font-size: 0.8vw;  }
@@ -131,9 +136,9 @@ header{ width: 100%; height: 100px;display: flex;
 .room_img{width: 100%; height: 801px;}
 .room-text{ width:77%; height: 611px;background-color: #f9efe9;
         position: absolute;top:53%; left:43%;padding: 26px;}
-.room-text>h1{font-size: 5em;  font-family: 'PRATA'; color:rgb(50, 50, 50); margin: 60px;
+.room_>h1{font-size: 5em;  font-family: 'PRATA'; color:rgb(50, 50, 50); margin: 60px;
                 text-align: center;}
-.room-text>p{width: 47%; line-height: 24px; margin: 0 0 0 45%; font-size: 14px; color: #999;}
+.room_>p{width: 47%; line-height: 24px; margin: 0 0 0 45%; font-size: 14px; color: #999;}
 .btn3{ width: 86%; line-height: 30px; position: absolute; bottom: 20%;
         right: -13%; letter-spacing: 4px; font-size: 0.8vw;
         display: flex;} 
@@ -209,16 +214,16 @@ font-size: 13px;
         font-family: 'Jeju Myeongjo', serif;
          color: rgb(50, 50, 50);
                 line-height: 76px; font-weight: bold;}
-.read1{ position: absolute; bottom: -75%; color: #7f7872; letter-spacing: 4px; font-size: 13px;}
+.read1 a{ position: absolute; bottom: -75%; color: #7f7872; letter-spacing: 4px; font-size: 13px;}
 #BBQ{position:relative; display: flex; flex-direction: column; flex-wrap: wrap;z-index: 100;}
 #BBQ p{position: absolute; top:110%; left: 0;
         width: 100%;font-size: 6em;
         font-family: 'Jeju Myeongjo', serif; line-height: 76px;
          color: rgb(50, 50, 50); font-weight: bold;}
-.read2{position: absolute; bottom: -75%; color: #7f7872; letter-spacing: 4px; font-size: 13px;}
+.read2 a{position: absolute; bottom: -75%; color: #7f7872; letter-spacing: 4px; font-size: 13px;}
 
 
-#review{width: 100%; height:888px; position: relative;}
+#review{width: 100%; height:1009px; position: relative;}
 .overflow_hidden{ width: 84%; height: 888px; margin:0 auto; overflow:hidden;}
 #review h1{font-size: 8em;font-family:'Jeju Myeongjo', serif;letter-spacing: -8px;
         position: absolute; top: -7%; right:34%; letter-spacing: -8px;
@@ -234,7 +239,7 @@ font-size: 13px;
         text-align: center;
         letter-spacing: 3px;
         font-size: 13px;
-        bottom: -66px;
+        bottom: 42px;
         left: 24%;}
  .see_2 a{  color: #7f7872;}
 .review .line{top:-133px}
@@ -282,7 +287,7 @@ font-size: 13px;
       
         letter-spacing: 3px;
         font-size: 13px;
-        top: 41%;}       
+        top: 35%;}       
         .see_ a{  color: #7f7872;}
 #slider_box{position: absolute;top:39%; height: 530px; width: 100%;
         overflow: hidden; z-index: 100;}
@@ -295,8 +300,8 @@ font-size: 13px;
 .o_text_box>p{font-size: 2vw; color: rgb(50, 50, 50); font-family:'Jeju Myeongjo', serif;} 
 .o_text_box>span{color: rgb(138, 138, 138);}
  .offer_img1 img{ width: 98%; height: 303.48px; transform: translate(0, 24%); }
-.o_text_box .read3 a{ display: block; margin: 32px 0 0 5px;
-                font-size: 13px;color: rgb(138, 138, 138);}
+/* .o_text_box .read3 a{ display: block; margin: 32px 0 0 5px;
+                font-size: 13px;color: rgb(138, 138, 138);} */
 
 #Events .line[data-v-5d883f52], .line__border[data-v-5d883f52]{
         position: absolute;

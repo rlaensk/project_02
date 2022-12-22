@@ -4,52 +4,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+.menu-trigger span : nth-of-type (1) {
+	-webkit-animation : menu-bar01 .75s forwards;
+	animation : menu-bar01 .75s forwards;
+}
+@-webkit-keyframes menu-bar01 {
+	0 % {
+		-webkit-transform : translateY (20px) rotate (45deg);
+	}
+	50 % {
+		-webkit-transform : translateY (20px) rotate (0);
+	}
+	100 % {
+		-webkit-transform : translateY (0) rotate (0);
+	}
+}
+@keyframes menu-bar01 {
+	0 % {
+		transform : translateY (20px) rotate (45deg);
+	}
+	50 % {
+		transform : translateY (20px) rotate (0);
+	}
+	100 % {
+		transform : translateY (0) rotate (0);
+	}
+}
+.menu-trigger span : nth-of-type (2) {
+	transition : all .25s .25s;
+	opacity : 1;
+}
+.menu-trigger span : nth-of-type (3) {
+	-webkit-animation : menu-bar02 .75s forwards;
+	animation : menu-bar02 .75s forwards;
+}
+@-webkit-keyframes menu-bar02 {
+	0 % {
+		-webkit-transform : translateY (-20px) rotate (-45deg);
+	}
+	50 % {
+		-webkit-transform : translateY (-20px) rotate (0);
+	}
+	100 % {
+		-webkit-transform : translateY (0) rotate (0);
+	}
+}
+@keyframes menu-bar02 {
+	0 % {
+		transform : translateY (-20px) rotate (-45deg);
+	}
+	50 % {
+		transform : translateY (-20px) rotate (0);
+	}
+	100 % {
+		transform : translateY (0) rotate (0);
+	}
+}
+.menu-trigger.active span : nth-of-type (1) {
+	-webkit-animation : active-menu-bar01 .75s forwards;
+	animation : active-menu-bar01 .75s forwards;
+}
+@-webkit-keyframes active-menu-bar01 {
+	0 % {
+		-webkit-transform : translateY (0) rotate (0);
+	}
+	50 % {
+		-webkit-transform : translateY (20px) rotate (0);
+	}
+	100 % {
+		-webkit-transform : translateY (20px) rotate (45deg);
+	}
+}
+@keyframes active-menu-bar01 {
+	0 % {
+		transform : translateY (0) rotate (0);
+	}
+	50 % {
+		transform : translateY (20px) rotate (0);
+	}
+	100 % {
+		transform : translateY (20px) rotate (45deg);
+	}
+}
+.menu-trigger.active span : nth-of-type (2) {
+	opacity : 0;
+}
+.menu-trigger.active span : nth-of-type (3) {
+	-webkit-animation : active-menu-bar03 .75s forwards;
+	animation : active-menu-bar03 .75s forwards;
+}
+@-webkit-keyframes active-menu-bar03 {
+	0 % {
+		-webkit-transform : translateY (0) rotate (0);
+	}
+	50 % {
+		-webkit-transform : translateY (-20px) rotate (0);
+	}
+	100 % {
+		-webkit-transform : translateY (-20px) rotate (-45deg);
+	}
+}
+@keyframes active-menu-bar03 {
+	0 % {
+		transform : translateY (0) rotate (0);
+	}
+	50 % {
+		transform : translateY (-20px) rotate (0);
+	}
+	100 % {
+		transform : translateY (-20px) rotate (-45deg);
+	}
+}
+    </style>
+
     <title>Document</title>
 </head>
 <body>
-    <canvas id="canvas" style="background:yellow"></canvas>
-    <button onclick="left()">left</button>
-    <button onclick="right()">right</button>
-    <button onclick="up()">up</button>
-    <button onclick="down()">down</button>
+    <a class="menu-trigger" href="#">
+        <span> </ span>
+        <span> </ span>
+        <span> </ span>
+    </a>
     
-    
-    <script>
-        const canvas = document.getElementById('canvas');
-        const ctx = canvas.getContext('2d');
-
-        var x = 0;
-        var y = 0;
-
-        function left() {
-            console.log(canvas.width)
-            x = x < canvas.width - 10 ? x += 1 : canvas.width - 10;
-        }
-        function right() {
-            x = x > 0 ? x -= 1 : 0
-        }
-        function down() {
-            y = y < canvas.height - 10 ? y += 1 : canvas.height - 10;
-            y += 1
-        }
-        function up() {
-            y = y > 0 ? y -= 1 : 0
-        }
-
-        function nemo() {
-            ctx.fillStyle = 'black';
-            ctx.fillRect(x, y, 10, 10)
-        }
-        
-
-        function draw() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            nemo();
-        }
-
-        setInterval(draw, 10);
-    
-    
-    </script>
+  
 </body>
 </html>

@@ -1,67 +1,83 @@
+// EU
+
+$(function(){
+let btn=$(".country_toggle");
+let layer=$('.dropdown_menu');
+
+btn.click(function(){
+  layer.slideToggle();
+});
+
+});
+
+// cs
+$(function(){
+  let btn1=$('.cstoggle');
+  let layer1=$('.cstoggle+ul')
+  
+  btn1.click(function(){
+    layer1.slideToggle();
+  });
+});
+
 
 // hotel room
 
 $('.next_1').click(function(){
-  $('.room_img_box .room_img:first').prependTo('.room_img_box');
-  $('.room_img_box').css('margin-left',-951.5);
-  $('.room_img_box').stop().animate({marginLeft:0},2000);
+  $('.room_img_box .room_img:last').prependTo('.room_img_box');
+  $('.room_img_box').css('margin-left',-100.5);
+  $('.room_img_box').stop().animate({marginLeft:0},1000);
 });
 
 $('.next_2').click(function(){
-  $('.room_img_box').stop().animate({marginLeft:-951.5},2000, function(){
-    $('.room_img_box .room_img:last').appendTo('.room_img_box');
+  $('.room_img_box').stop().animate({marginLeft:-600.5},1000, function(){
+    $('.room_img_box .room_img:first').appendTo('.room_img_box');
     $('.room_img_box').css({marginLeft:0});
   })
 });
 
-
 $(function(){
   $('.next_1').click(function(){
-    $('.room_').fadein();
+    $('.room').show();
     $('.room1').hide();
     $('.room2').hide();
     $('.room3').hide();
     $('.room4').hide();
+    
   });
-});
-
-$(function(){
   $('.next_1').click(function(){
-    $('.room_text').hide();
-    $('.room1').fadein();
+    $('.room').hide();
+    $('.room1').fadeIn();
     $('.room2').hide();
     $('.room3').hide();
     $('.room4').hide();
-  });
-});
-$(function(){
+    
+  }); 
   $('.next_1').click(function(){
-    $('.room_text').hide();
+    $('.room').hide();
     $('.room1').hide();
-    $('.room2').fadein();
+    $('.room2').fadeIn();
     $('.room3').hide();
     $('.room4').hide();
+    
   });
-});
-$(function(){
-  $('.next_1').click(function(){
-    $('.room_text').hide();
+   $('.next_1').click(function(){
+    $('.room').hide();
     $('.room1').hide();
     $('.room2').hide();
-    $('.room3').fadein();
+    $('.room3').fadeIn();
     $('.room4').hide();
+    
   });
-});
-$(function(){
-  $('.next_1').click(function(){
-    $('.room_text').hide();
+   $('.next_1').click(function(){
+    $('.room').hide();
     $('.room1').hide();
     $('.room2').hide();
     $('.room3').hide();
-    $('.room4').fadein();
+    $('.room4').fadeIn();
+    
   });
 });
-
 
 
 //index.js
