@@ -1,3 +1,20 @@
+// 햄버거메뉴 누르면 X
+const menuTrigger = document.querySelector('.menu-trigger');
+
+menuTrigger.addEventListener('click', (event) => {
+  event.currentTarget.classList.toggle('active');
+});
+$(function(){
+  $('.menu-trigger').click(function(){
+      $('.slider_vieeo').animate({left:'100%'},1000);
+  });
+  $('.menu-trigger').click(function(){
+      $('.slider_vieeo').animate({left:0},1000);
+  });
+
+});
+
+
 // EU
 
 $(function(){

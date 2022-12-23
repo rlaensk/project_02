@@ -8,22 +8,67 @@ ul,li,ol{ list-style: none;}
 #wrap{width: 100%; height: auto; position: relative;}
 header{ width: 100%; height: 100px;display: flex; 
     justify-content: space-between; align-items: center; position:relative;
-    z-index: 100;}
-#header_manu{ width: 12%; display: flex; background-color: blue; justify-content: space-between;
+    z-index: 150;}
+#header_manu{ width: 12%; display: flex;justify-content: space-between;
         position: relative;}
 /* 햄버거메뉴 */
-.container{ position:absolute;top: 55%;left: 27%;  transform: translate(-50%, -50%);
+
+.menu-trigger,
+.menu-trigger span {
+  display: inline-block;
+  transition: all 0.4s;
+  box-sizing: border-box;
 }
-.menu{width: 50px;height: 44px;cursor: pointer; position: relative;border-radius: 12px;}
-.menu div{ position: absolute;height: 1px;transition: width 0.5s ease;background-color: white;}
-.one{ width: 28px; top: 17px; left: 14px;}
-.two{width: 15px;top: 26px; left: 14px;}
-.three{width: 28px;top:34px;left: 14px;}
-.menu:hover div{width:30px;transition: width 0.5s ease;}
+
+.menu-trigger {
+  position: relative;
+  width: 33px;
+  height: 24px;
+
+  left: 31px;
+}
+.menu-trigger span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.menu-trigger span:nth-of-type(1) {
+  top: 0;
+}
+
+.menu-trigger span:nth-of-type(2) {
+  top: 10px;
+}
+
+.menu-trigger span:nth-of-type(3) {
+  bottom: 0;
+}
+
+.menu-trigger.active span:nth-of-type(1) {
+  transform: translateY(10px) rotate(-45deg);
+}
+.menu-trigger.active span:nth-of-type(2) {
+  left: 50%;
+  opacity: 0;
+  animation: active-menu-bar05 0.8s forwards;
+}
+@keyframes active-menu-bar05 {
+  100% {
+    height: 0;
+  }
+}
+.menu-trigger.active span:nth-of-type(3) {
+  transform: translateY(-10px) rotate(45deg);
+}
+
 
 /* 언어선택 */
 .country_toggle{ width: 26%; height: 30px; line-height: 30px; font-size: 13px; cursor: pointer;
-                position: absolute; top: -10px; right:4%; border:0; background-color: transparent;}
+                position: absolute; top: -2px; right:4%; border:0; background-color: transparent;}
 /* 언어화살표 */
 .arrow { position: relative; }
 .arrow::after { position: absolute; left: 17px;  top: 4px; content: ''; width: 4px;  height: 4px;  border-top: 1px solid whitesmoke; border-right: 1px solid whitesmoke;   transform: rotate(135deg); }
@@ -68,8 +113,34 @@ header{ width: 100%; height: 100px;display: flex;
 #book_tap a{color: whitesmoke;}
 
 
+
+/* 햄버거메뉴 클릭하면 나오는 메뉴 */
+
+#menu_toggle_box{background-color: rgb(255, 255, 255);
+                width: 100%;height:969px; position:absolute; z-index: 80; top: 0;}
+.menu_s{ display: flex; flex-wrap: wrap; width: 100%; height: 380px; 
+    justify-content: space-around; position:absolute;  top:25%;}  
+.menu_s span{ font-size: 2em;} 
+
+.menu_s ul li{margin: 4% 0;}
+
+.side_footer{ width: 100%; height: 100px;  display: flex;
+            justify-content: space-between; position:absolute; bottom: 10%;}
+.call_{display: flex; width: 20%; justify-content: space-around; align-items: center;}
+.call_ ul{display: flex;}
+.follow_us{display: flex; width: 20%; justify-content: space-around;
+        align-items: center; margin-right: 9%;}
+.follow_us ul li a img{width: 30px;}
+.follow_us ul{display: flex; width: 60%; justify-content: space-around;}
+
+.cradit{width: 8%; margin-right: 2%;}
+.cradit ul{width: 100%; height: 98px; display: flex; justify-content: space-around; align-items: center; }
+
+
+
+
 /* 슬라이더 */
-#slider{ width: 100%; height:969px; }
+#slider{ width: 100%; height:949px; position: relative; z-index: 100; top:-107px; }
 #slider video{ width:100%; height: auto;
         position: absolute; top:0; right: 0;}
 .mini_slider{display: none;}
@@ -77,11 +148,11 @@ header{ width: 100%; height: 100px;display: flex;
 #slider_text{ width:100%; height: 530px; position: relative; z-index: 150; 
         display: flex; flex-direction: column; flex-wrap: wrap;
        ; left:-4%;}
-.slider_text1{ font-size: 5vw; width: 55%; position: absolute; top: 22%; right: 13%; text-align: center;  }
+.slider_text1{ font-size: 5vw; width: 55%; position: absolute; top: 42%; right: 13%; text-align: center;  }
 .slider_text1 span{font-family:"Prata";color: white; }
-.slider_text2{ width:19%; font-size: 1em; line-height: 20px; position: absolute; bottom: 16%; right: 10%;
+.slider_text2{ width:19%; font-size: 1em; line-height: 20px; position: absolute; bottom: -6%; right: 10%;
                 font-weight: lighter; color: whitesmoke; opacity: 0.9; }
-.btn1{ width: 24%; line-height: 30px; position: absolute; bottom: 13%;
+.btn1{ width: 24%; line-height: 30px; position: absolute; bottom: -12%;
         right: 1%; letter-spacing: 4px; font-size: 0.8vw;
         display: flex;} 
 .btn1 a{position: absolute; top: 101px;}
