@@ -8,7 +8,7 @@ ul,li,ol{ list-style: none;}
 #wrap{width: 100%; height: auto; position: relative;}
 header{ width: 100%; height: 100px;display: flex; 
     justify-content: space-between; align-items: center; position:relative;
-    z-index: 150;}
+    z-index: 250;}
 #header_manu{ width: 12%; display: flex;justify-content: space-between;
         position: relative;}
 /* 햄버거메뉴 */
@@ -24,7 +24,7 @@ header{ width: 100%; height: 100px;display: flex;
   position: relative;
   width: 33px;
   height: 24px;
-
+  z-index: 260;;
   left: 31px;
 }
 .menu-trigger span {
@@ -116,15 +116,24 @@ header{ width: 100%; height: 100px;display: flex;
 
 /* 햄버거메뉴 클릭하면 나오는 메뉴 */
 
-#menu_toggle_box{background-color: rgb(255, 255, 255);
-                width: 100%;height:969px; position:absolute; z-index: 80; top: 0;}
+
+
+#menu_trigger{background-color: rgb(255, 255, 255);
+                width: 100%;height:969px; position:absolute; z-index: 00; top: 0; left:0;}80
+
+#menu_trigger a{ color: rgb(50,50,50);}
 .menu_s{ display: flex; flex-wrap: wrap; width: 100%; height: 380px; 
     justify-content: space-around; position:absolute;  top:25%;}  
-.menu_s span{ font-size: 2em;} 
 
-.menu_s ul li{margin: 4% 0;}
+.menu_s span a{ font-size: 2em; font-family:"PRAta"; display: block; margin: 20% 0;} 
+.menu_s p a{margin: 5% 0 ;}
 
-.side_footer{ width: 100%; height: 100px;  display: flex;
+.menu_s ul li{margin: 6% 0; }
+.menu_s ul li a{color:rgb(50,50,50)}
+.menu_s ul li a:hover{color: #7f7872;}
+#special ul li{margin: 12% 0;}
+
+.side_footer{ width: 100%; height: 100px;  display: flex; flex-wrap: wrap;
             justify-content: space-between; position:absolute; bottom: 10%;}
 .call_{display: flex; width: 20%; justify-content: space-around; align-items: center;}
 .call_ ul{display: flex;}
@@ -137,12 +146,45 @@ header{ width: 100%; height: 100px;display: flex;
 .cradit ul{width: 100%; height: 98px; display: flex; justify-content: space-around; align-items: center; }
 
 
+.puls, .puls>span{ display: inline-block; transition: all 0.4s; box-sizing: border-box;}
+.puls{ position: relative; width: 33px; height: 24px; z-index:260; right: 0;}
+.puls span {
+        position: absolute;
+       right: 0;
+        width: 100%;
+        height: 10px;
+        background-color: rgb(50, 50, 50);
+        border-radius: 4px;
+      }
+.puls span:nth-of-type(1){
+        top: 0;
+}
+.puls span:nth-of-type(2){
+        top: 10px;
+}
+
+.plus.active span:nth-of-type(1) {
+        transform: translateY(10px) rotate(-45deg);
+      }
+    
+      
+      @keyframes active-menu-bar051 {
+        100% {
+          height: 0;
+        }
+      }
+      .plus.active span:nth-of-type(2) {
+        transform: translateY(-10px) rotate(45deg);
+      }
+
+
+
 
 
 /* 슬라이더 */
-#slider{ width: 100%; height:949px; position: relative; z-index: 100; top:-107px; }
+#slider{ width: 100%; height:949px; position: relative; z-index: 100; top:-107px; left:0; }
 #slider video{ width:100%; height: auto;
-        position: absolute; top:0; right: 0;}
+        position: absolute; top:0; left: 0;}
 .mini_slider{display: none;}
 
 #slider_text{ width:100%; height: 530px; position: relative; z-index: 150; 
@@ -264,20 +306,20 @@ font-size: 13px;
 
 
 
-#hotel_img{ width: 100%; height: 720px;
-        display: flex; justify-content: flex-end; padding: 60px 0;}
-#hotel_img img{width:90%; height: auto; margin: 2% 0;}
+#hotel_img{ width: 100%; height: 720px; position: relative;
+        padding: 60px 0;}
+#hotel_img img{width:90%; height: 690px; margin: 2% 0; position:absolute; right: 0; top:0 }
 
 
 #ACCOMMODATION{width: 100%; height: 1397.09px; display: flex; flex-wrap: wrap;
-                padding: 8% 0; position: relative;}
+                padding: 8% 0; position: relative; flex-wrap: wrap;}
 .tion_box{ width: 43%;height: 1000px; position: relative;}
 .tion_box1{width: 57%; height: 1101px; background-color: #f9efe9; position: absolute;right: 0; top:13%}
 #ACCOMMODATION h1{font-size: 8em; font-family:'Jeju Myeongjo', serif;
                 font-weight: bold; position: absolute; right: 18%;
                 color:rgb(50, 50, 50); top:-42px}
 #ACCOMMODATION p{width: 44%; font-size: 15px; position: absolute; top:17%; left: 23%; line-height: 28px;color:rgb(139, 139, 139);}
-#ACCOMMODATION .img-box{display: flex; position: absolute; width: 88%; top:42%; right: 88px;justify-content: space-around;}
+#ACCOMMODATION .img-box{display: flex; position: absolute; width: 88%; top:42%; right: 88px;justify-content: space-around; flex-wrap: wrap;}
 #ACCOMMODATION img{ width: 100%; height: 357px;}
 #inpnity{position: relative;display: flex; flex-direction: column; flex-wrap: wrap;}
 #inpnity p{ position: absolute;top:110%; left: 0; width: 100%;font-size: 6em;
@@ -344,6 +386,7 @@ font-size: 13px;
                         cursor: pointer;
                 }
 
+                #review .btn-border{width: 20%; height: 180px; left:19%; top:84%; opacity:0.5;}
 #Events{ width: 100%; height:1346.73px; position: relative; padding: 73px 0;}
 #Event_s{width: 860px;height: 962px; background-color: #f9efe9;margin-top: 8%;}
 #Events h1{position: absolute; font-size: 8em; font-family:'Jeju Myeongjo', serif;

@@ -15,9 +15,9 @@ header{height: 53px;}
 #logo{ height: 18px; line-height: 15px;}
 #book_tap{ width: 81.6px;height: 27px; padding: 8px 8px 8px 12px;}
 video{ display: none;}
-#slider{height: 847px;}
+#slider{height: 824px;}
 .slider_video{ position: relative; height: 100%;}
-.mini_slider{display: block; position: absolute;top: 0; left: 0; width: 100%; height: 921px;
+.mini_slider{display: block; position: absolute;top: 0; left: 0; width: 100%; height: 1023px;
         }
 #slider_text{ left:0; align-items: flex-start; width:100%;top:133px;}
 .slider_text1{ font-size: 7vw; width: 130%;text-align: justify; top:126px; left: 16px;}
@@ -30,44 +30,68 @@ video{ display: none;}
 .btn1>a{position: absolute; top:184px; left: 35px; font-size: 3vw; }
 
 
+
+/*사이드메뉴 */
+.menu_s{top:15%; left: 5%; height: auto; justify-content:flex-start }
+.menu_s div{width: 97%; height: 70px;}
+.menu_s span a{margin:0;font-size: 1.5em;} 
+.menu_s ul{display: none; }
+#about_us ul{ height: 150px; background-color: red;}
+#accom span a{margin:0 !important;}
+#community span a{margin:0 !important;}
+#reservation span a{margin:0 !important;}
+
+.side_footer{bottom:32%;}
+.call_{width: 100%; justify-content: space-between; font-size: 13px; margin: 0 5%; }
+.follow_us{width: 100%; flex-wrap: wrap; margin-right: 0;}
+.follow_us p{width: 100%;font-size: 13px; margin:5%;}
+.follow_us ul{width: 100%; justify-content: space-between; margin: 5%;}
+.cradit{width: 90%;}
+.cradit ul{height: auto; justify-content: space-between; margin-left: 7%;}
+
 /* Pool villa Room */
-#about_line>p{font-size: 45px; line-height: 40px;
-font-weight: bold; letter-spacing: 1px; top:16%; width: 100%; right: 12px;}
+#about{height: 980px;}
+#about_line>p{font-size:50px; line-height: 40px;
+font-weight: bold; letter-spacing: 1px; top:23%; width: 93%; right: 9px;}
 
 #about_line{flex-direction: column;}
 #about_text{width: 100%;}
-#about_text .but{width: 92%; bottom: -10%; left: 5%;
+#about_text .but{width: 92%; bottom: -13%; left: 3%;
                 line-height: 27px; font-size: 3vw; padding: 4px; text-align: justify;}
 #about_img{width: 100%;position: absolute; top: -2%;}
-.about_box{width: 98%; height: 354px; top:177px;}
-#about_img img{width: 62%;height: auto; bottom: 25%; left: 22%;}
+.about_box{width: 102%; height: 354px; top:20%;}
+#about_img img{width: 50%;height: auto; bottom: 55%; left: 27%;}
 .btn-border1{width: 49%; right: 61%; top:90px;}
-.btn2 a span{font-size: 13px; position: absolute; top:144px; left: -18px;}
+.btn2 svg{top:74px;}
+.btn2 a span{font-size: 13px; position: absolute; }
+.btn2 a{bottom:0 ; left: -10%;}
 .line[data-v-5d883f52], .line__border[data-v-5d883f52]{
-        top: 8px;
+        top: 28px;
 }
-
+#room_kind{height: 789px;}
 #room_box{width: 100%;}
-.room-text2{position: absolute; top:-3%; left:10%;}
-.room-text2>h1{font-size: 3em;line-height: 44px; }
-.room-text2>p{width: 100%; margin: 29px 0; font-size: 1em;}
+.room-text2{width: 100%; position: absolute; top:-3%; left:10%;}
+.room-text2>h1{font-size: 3em;line-height: 44px;  top:-94px; left: -23px;}
+.room-text2>p{width: 100%; margin: 29px 0; font-size: 1em; left:-23px;}
 .room_img{width: 100%; height: 419px; top:154px;}
-.room-text{width: 90%;height: 383px; bottom: -17px; right: 20px;}
-.room-text>h1{font-size: 2em; margin: 36px;}
-.room-text>p{width: 73%; margin: 46px;;}
+.room-text{width: 96%;height: 432px; top: 30%; left: 11px;}
+.room_>p{width: 95%; margin: 8%;}
+
+.room_>h1{font-size: 30px;}
 .btn-border2{width: 49%; right: 76%; top: -250%; }
 .btn3>a{position: relative; top: -33px; font-size: 1em;}
+.btn3 a span{font-size: 13px;}
 
 .next_1::after{
         top:96%;
-        left: -125px;
+        left: -73px;
 }
 .next_2::after{
         top:96%;
-        left:-441px;
+        left:-413px;
 }
 .see a{font-size: 15px;
-       right: 192px;
+       right: 141px;
         bottom: -48px;}
 
 #hotel_img{
@@ -78,13 +102,19 @@ font-weight: bold; letter-spacing: 1px; top:16%; width: 100%; right: 12px;}
         position:relative;
 }       
 
+#hotel_img{width: 100%; height:450px;}
+#hotel_img img{width: 100%; height: inherit;}
+
 
 .tion_box{width: 100%;}
+
 #ACCOMMODATION h1{
-        font-size: 9vw;
-        right: 10px;
+        font-size: 4em;
+        right: 55%;
         top: 184px;
+        z-index: 3;
 }
+
 #ACCOMMODATION p{
         width: 100%;
         top:26%;
@@ -92,5 +122,40 @@ font-weight: bold; letter-spacing: 1px; top:16%; width: 100%; right: 12px;}
         font-size: 1em;
         padding: 11px;
 }
+
+.tion_box1{height: 847px; top:33%}
+#ACCOMMODATION .img-box{width: 100%; height: 777px; top:37%; right: 0;}
+#ACCOMMODATION .img-box img{height: 200px;}
+#ACCOMMODATION #inpnity p{ top:53%; line-height: 35px; left: 0; font-size: 30px;} 
+#ACCOMMODATION .img-box .read1{ display: block; position: absolute;
+                bottom: 61px; width: 150px; left: 3%; }
+#ACCOMMODATION .img-box .read1 a{font-size: 17px;} 
+#ACCOMMODATION #BBQ p{ top:53%; line-height: 35px; left: 0; font-size: 30px;} 
+#ACCOMMODATION .img-box .read2{ display: block; position: absolute;
+        bottom: 61px; width: 150px; left: 3%; }
+#ACCOMMODATION .img-box .read2 a{font-size: 17px;} 
+
+.line[data-v-5d883f52]{top:10%;}
+
+
+
+.overflow_hidden{ width: 100%;}
+#review h1{font-size: 4em; top:-1%; right:58%;}
+
+.review_img{width: 100%; position: absolute; left: 1%;}
+.review_img img{text-align: center; width: 420px ; height: 450px;}
+
+.next_3::after{
+        bottom: 25%;
+        left:25%
+}
+.next_4::after{
+       top: 74%;
+       right: 30%;
+}
+
+.review_ p{ font-size: 1.5em; transform: translate(9%, -198%);}
+#review .btn-border{width: 38%; height: 200px; top:81%; left:3%;}
+.see_2{bottom: 72px; left: 5%;}
 
 }
