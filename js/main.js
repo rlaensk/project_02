@@ -15,14 +15,21 @@ $(function () {
     $('#logo p').css({color:'rgb(50,50,50)'});
     $('#book_tap').css({border:'1px solid rgb(50,50,50)'});
     $('#book_tap a').css({color:'rgb(50,50,50)'});
+    $('#slider').animate({ left: '0' }, 3000);
   });
 
-$('.menu-trigger').click(function(){
-  $('#slider').animate({ left: '0' }, 3000);
+
+});
+
+// 사이드메뉴 밑에서올라오게
+$(function(){
+  let ws=$('.menu-trigger').click();
+  if(ws>-700){
+    $('.about_us').css('transform','translateY(0px').css('opacity','1');
+  }
 });
 
 
-});
 
 
   

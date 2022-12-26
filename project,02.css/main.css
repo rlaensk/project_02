@@ -132,6 +132,12 @@ header{ width: 100%; height: 100px;display: flex;
 .menu_s ul li a{color:rgb(50,50,50)}
 .menu_s ul li a:hover{color: #7f7872;}
 #special ul li{margin: 12% 0;}
+.about_us{transform: translateY(-500px); transition: all 3s; opacity: 0;}
+#accom{transform: translateY(100px); transition: all 3s; opacity: 0;}
+#special{transform: translateY(100px); transition: all 3s; opacity: 0;}
+#offers{transform: translateY(100px); transition: all 3s; opacity: 0;}
+#community{transform: translateY(100px); transition: all 3s; opacity: 0;}
+#reservation{transform: translateY(100px); transition: all 3s; opacity: 0;}
 
 .side_footer{ width: 100%; height: 100px;  display: flex; flex-wrap: wrap;
             justify-content: space-between; position:absolute; bottom: 10%;}
