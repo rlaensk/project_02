@@ -143,7 +143,7 @@ font-weight: bold; letter-spacing: 1px; top:23%; width: 93%; right: 9px;}
 #review h1{font-size: 4em; top:-1%; right:58%;}
 
 .review_img{width: 100%; position: absolute; left: 1%;}
-.review_img img{text-align: center; width: 420px ; height: 450px;}
+.review_img img{text-align: center; width: 88% ; height: 450px;}
 
 .next_3::after{
         bottom: 25%;
@@ -158,4 +158,13 @@ font-weight: bold; letter-spacing: 1px; top:23%; width: 93%; right: 9px;}
 #review .btn-border{width: 38%; height: 200px; top:81%; left:3%;}
 .see_2{bottom: 72px; left: 5%;}
 
+
+#Events{height: 850px;}
+#Event_s{width: 100%; height: 559px;}
+#Event_s h1{ width: 75%; font-size:4em; left:3%;top:5%; letter-spacing: 5px; }
+#slider_box{top:15%;}
+#offer_box{width:460%; margin: 0 0 0 4%;}
+.offer_img1 img{width: 506.56px;}
+.see_{top:90%;}
+.o_text_box{font-size: 1.5em; top:109%}
 }

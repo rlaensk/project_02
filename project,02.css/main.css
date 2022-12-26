@@ -392,11 +392,12 @@ font-size: 13px;
                         cursor: pointer;
                 }
 
-                #review .btn-border{width: 20%; height: 180px; left:19%; top:84%; opacity:0.5;}
+ #review .btn-border{width: 20%; height: 180px; left:19%; top:84%; opacity:0.5;}
+ 
 #Events{ width: 100%; height:1346.73px; position: relative; padding: 73px 0;}
 #Event_s{width: 860px;height: 962px; background-color: #f9efe9;margin-top: 8%;}
 #Events h1{position: absolute; font-size: 8em; font-family:'Jeju Myeongjo', serif;
-       font-weight: bold; width: 26%; left:53%; top: 167px; letter-spacing: -4px; color: rgb(50, 50, 50);}
+       width: 26%; left:53%; top: 167px; letter-spacing: -4px; color: rgb(50, 50, 50);}
 
 .see_{position: absolute;
         width: 185px;
