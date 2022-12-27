@@ -5,30 +5,99 @@ menuTrigger.addEventListener('click', (event) => {
   event.currentTarget.classList.toggle('active');
 });
 
-
+// 사이드메뉴 나타나게
 $(function () {
   $('.menu-trigger').click(function () {
-    $('#slider').animate({ left: '100%' }, 3000);
-    $('.menu-trigger span').css({backgroundColor:'rgb(50,50,50)'});
-    $('.dropdown_label').css({color:'rgb(50,50,50)'});
-    $('.arrow::after').css({borderTop:'1px solid rgb(50,50,50)', borderRight:'1px solid rgb(50,50,50)'});
-    $('#logo p').css({color:'rgb(50,50,50)'});
-    $('#book_tap').css({border:'1px solid rgb(50,50,50)'});
-    $('#book_tap a').css({color:'rgb(50,50,50)'});
-    $('#slider').animate({ left: '0' }, 3000);
+    if ($('#menu_trigger').css('width') == '0px') {
+      $('#menu_trigger').css('width', '100%');
+
+      $('.menu-trigger span').css('background-color','rgb(128,128,128)');
+      $('.logo_text>p').css('color','rgb(128,128,128)');
+      $('.country_toggle span').css('color','rgb(128,128,128)')
+      $('.dropdown_label').css('color','rgb(128,128,128)')
+      $('#book_tap a').css({'color':'rgb(128,128,128)'});
+      $('#book_tap').css('border','1px solid rgb(128,128,128)');
+      $('.dropdown_menu').css('box-shadow','0 0 8px #99a1a7 ');
+      $('.cstoggle+ul').css('box-shadow','0 0 8px #99a1a7 ');
+
+       $('#about_us').css('transform', 'translateY(0px)').css('opacity', '1');
+      $('#accom').css('transform', 'translateY(0px)').css('opacity', '1');
+
+      $('#special').css('transform', 'translateY(0px)').css('opacity', '1');
+
+      $('#offers').css('transform', 'translateY(0px)').css('opacity', '1');
+
+      $('#community').css('transform', 'translateY(0px)').css('opacity', '1');
+
+      $('#reservation').css('transform', 'translateY(0px)').css('opacity', '1');
+      $('.side_footer').fadeIn();
+    } else {
+      $('.side_footer').fadeOut();
+      $('.logo_text>p').css('color','#fff');
+      $('.menu-trigger span').css('background-color','#fff');
+      $('.country_toggle span').css('color','#fff');
+      $('.dropdown_label').css('color','#fff');
+      $('#book_tap a').css('color','#fff');
+      $('#book_tap').css('border','1px sold #fff');
+      $('.dropdown_menu').css('box-shadow','none ');
+      $('.cstoggle+ul').css('box-shadow','none');
+      $('#about_us').css('transform', 'translateY(100px)').css('opacity', '0');
+      $('#accom').css('transform', 'translateY(100px)').css('opacity', '0');
+
+      $('#special').css('transform', 'translateY(100px)').css('opacity', '0');
+
+      $('#offers').css('transform', 'translateY(100px)').css('opacity', '0');
+
+      $('#community').css('transform', 'translateY(100px)').css('opacity', '0');
+
+      $('#reservation').css('transform', 'translateY(100px)').css('opacity', '0');
+
+      $('#menu_trigger').css({ 'width': '0px' });
+
+    }
   });
-
-
 });
 
-// 사이드메뉴 밑에서올라오게
-$(function(){
-  let ws=$('.menu-trigger').click();
-  if(ws>-700){
-    $('.about_us').css('transform','translateY(0px').css('opacity','1');
-  }
-});
 
+// // 사이드메뉴 밑에서올라오게
+// $(function(){
+  
+//   if($('#menu_trigger').css('width')=='0px'){
+//     $('.menu-trigger').click(function(){
+//     $('#about_us').css('transform','translateY(0px)').css('opacity','1');
+//     $('#accom').css('transform','translateY(0px)').css('opacity','1');
+ 
+//    $('#special').css('transform','translateY(0px)').css('opacity','1');
+
+//   $('#offers').css('transform','translateY(0px)').css('opacity','1');
+
+//   $('#community').css('transform','translateY(0px)').css('opacity','1');
+
+//   $('#reservation').css('transform','translateY(0px)').css('opacity','1');
+//     }); 
+// } 
+// });
+
+// // 사이드메뉴 열릴때 헤더css변경
+// $(function(){
+//   $('.menu-trigger').click(function(){
+//    if($('#menu_trigger').css('width')=='0px'){
+//      $('.menu-trigger span').css('background-color','rgb(128,128,128)');
+//      $('.logo_text>p').css('color','rgb(128,128,128)');
+//      $('.country_toggle span').css('color','rgb(128,128,128)')
+//      $('.dropdown_label').css('color','rgb(128,128,128)')
+//      $('#book_tap a').css({'color':'rgb(128,128,128)'});
+//      $('#book_tap').css('border','1px sold');
+     
+     
+// }else{
+//   $('.logo_text>p').css('color','#fff');
+//   $('.menu-trigger span').css('background-color','#fff');
+//   $('.country_toggle span').css('color','#fff');
+//   $('.dropdown_label').css('color','#fff');
+// }
+// });
+// });
 
 
 

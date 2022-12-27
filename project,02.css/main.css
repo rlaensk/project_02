@@ -6,9 +6,11 @@
 ul,li,ol{ list-style: none;}
 
 #wrap{width: 100%; height: auto; position: relative;}
+
+#top{width: 100%; height: 100vh;}
 header{ width: 100%; height: 100px;display: flex; 
     justify-content: space-between; align-items: center; position:relative;
-    z-index: 250;}
+    z-index: 2500;}
 #header_manu{ width: 12%; display: flex;justify-content: space-between;
         position: relative;}
 /* 햄버거메뉴 */
@@ -66,6 +68,7 @@ header{ width: 100%; height: 100px;display: flex;
 }
 
 
+
 /* 언어선택 */
 .country_toggle{ width: 26%; height: 30px; line-height: 30px; font-size: 13px; cursor: pointer;
                 position: absolute; top: -2px; right:4%; border:0; background-color: transparent;}
@@ -75,9 +78,9 @@ header{ width: 100%; height: 100px;display: flex;
 #CS_toggle .arrow::after {top:5px; }
 
 /* 언어 toggle */
-.dropdown_label{color: whitesmoke;}
+.dropdown_label{color: #fff;}
 #header_manu .dropdown_menu{ width: 22%; height: auto; position: absolute; top:26px; right: 11px; text-align: center; line-height: 30px;
-                font-size: 10px; background-color: whitesmoke; z-index:105;}
+                font-size: 10px; background-color: #fff; z-index:105;}
 #header_manu .dropdown_menu li a{ color:#888;}
 .dropdown_menu{display: none;}
 
@@ -98,7 +101,7 @@ header{ width: 100%; height: 100px;display: flex;
         display: flex; justify-content: center; align-items: center;}
 .cstoggle{position: relative; display: flex; cursor: pointer; width: 95%; }
 .cstoggle+ul{width: 12%; height: 190px; top: 87px; position: absolute;
-                top:74px; right: 176px; background-color: whitesmoke; display: none;
+                top:74px; right: 176px; background-color: #fff; display: none;
                 line-height: 29px; padding: 35px 0 0 55px; letter-spacing: 4px;}
 .cstoggle+ul .cs_text{ color: rgb(85, 85, 85);}
 
@@ -108,7 +111,7 @@ header{ width: 100%; height: 100px;display: flex;
 .cs_img a:nth-child(2){margin-left: 31px;}
 #CS_toggle ul li{ font-weight: bold; font-size:12px; letter-spacing: 2px; line-height: 30px;}
 
-#book_tap{width:33%; height: 38px; padding:8px 31px; border: 1px solid whitesmoke;
+#book_tap{width:33%; height: 38px; padding:8px 31px; border: 1px solid #fff;
         font-size: 0.8vw;  }
 #book_tap a{color: whitesmoke;}
 
@@ -118,8 +121,8 @@ header{ width: 100%; height: 100px;display: flex;
 
 
 
-#menu_trigger{background-color: rgb(255, 255, 255);
-                width: 100%;height:969px; position:absolute; z-index: 00; top: 0; left:0;}80
+#menu_trigger{background-color: rgb(255, 255, 255); transition: all 1.5s;
+                width: 0; height:969px; position:fixed; overflow: hidden; z-index: 899; top: 0; left:0;}
 
 #menu_trigger a{ color: rgb(50,50,50);}
 .menu_s{ display: flex; flex-wrap: wrap; width: 100%; height: 380px; 
@@ -132,11 +135,11 @@ header{ width: 100%; height: 100px;display: flex;
 .menu_s ul li a{color:rgb(50,50,50)}
 .menu_s ul li a:hover{color: #7f7872;}
 #special ul li{margin: 12% 0;}
-.about_us{transform: translateY(-500px); transition: all 3s; opacity: 0;}
-#accom{transform: translateY(100px); transition: all 3s; opacity: 0;}
-#special{transform: translateY(100px); transition: all 3s; opacity: 0;}
-#offers{transform: translateY(100px); transition: all 3s; opacity: 0;}
-#community{transform: translateY(100px); transition: all 3s; opacity: 0;}
+#about_us{transform: translateY(100px); transition: all 0.5s; opacity: 0;}
+#accom{transform: translateY(100px); transition: all 1s; opacity: 0;}
+#special{transform: translateY(100px); transition: all 1.5s; opacity: 0;}
+#offers{transform: translateY(100px); transition: all 2s; opacity: 0;}
+#community{transform: translateY(100px); transition: all 2.5s; opacity: 0;}
 #reservation{transform: translateY(100px); transition: all 3s; opacity: 0;}
 
 .side_footer{ width: 100%; height: 100px;  display: flex; flex-wrap: wrap;
@@ -188,7 +191,7 @@ header{ width: 100%; height: 100px;display: flex;
 
 
 /* 슬라이더 */
-#slider{ width: 100%; height:949px; position: relative; z-index: 100; top:-107px; left:0; }
+#slider{ width: 100%; height:949px; position: relative; z-index: 800; top:-107px; left:0; }
 #slider video{ width:100%; height: auto;
         position: absolute; top:0; left: 0;}
 .mini_slider{display: none;}
