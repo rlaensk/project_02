@@ -10,9 +10,22 @@ const span = document.querySelector('.plus1');
 span.addEventListener('click', (event) => {
   event.currentTarget.classList.toggle('active');
 });
+$(function(){
+  ('.plus1 span').click(function(){
+    $('#about_us ul').slideToggle();
+  });
+});
+
+
+
 const span1 = document.querySelector('.plus2');
 span1.addEventListener('click', (event) => {
   event.currentTarget.classList.toggle('active');
+});
+$(function(){
+  $('.plus2').click(function(){
+    $('#about_us ul').slideToggle();
+  });
 });
 const span2 = document.querySelector('.plus3');
 span2.addEventListener('click', (event) => {

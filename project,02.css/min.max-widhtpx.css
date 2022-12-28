@@ -38,6 +38,7 @@ header{height: 53px;}
 .about_us{width: 90%; height: 70px;}
 .menu_s span a{margin:0;font-size: 1.5em;} 
 .menu_s ul{display: none; }
+.menu_s ul li a{height: 30px;}
 #about_us ul{ height: 150px;}
 #accom span a{margin:0 !important;}
 #community span a{margin:0 !important;}
