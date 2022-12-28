@@ -5,6 +5,35 @@ menuTrigger.addEventListener('click', (event) => {
   event.currentTarget.classList.toggle('active');
 });
 
+// 사이드메뉴 메뉴 X
+const span = document.querySelector('.plus1');
+span.addEventListener('click', (event) => {
+  event.currentTarget.classList.toggle('active');
+});
+const span1 = document.querySelector('.plus2');
+span1.addEventListener('click', (event) => {
+  event.currentTarget.classList.toggle('active');
+});
+const span2 = document.querySelector('.plus3');
+span2.addEventListener('click', (event) => {
+  event.currentTarget.classList.toggle('active');
+});
+const span3= document.querySelector('.plus4');
+span3.addEventListener('click', (event) => {
+  event.currentTarget.classList.toggle('active');
+});
+const span4 = document.querySelector('.plus5');
+span4.addEventListener('click', (event) => {
+  event.currentTarget.classList.toggle('active');
+});
+const span5 = document.querySelector('.plus6');
+span5.addEventListener('click', (event) => {
+  event.currentTarget.classList.toggle('active');
+});
+
+
+
+
 // 사이드메뉴 나타나게
 $(function () {
   $('.menu-trigger').click(function () {
@@ -59,51 +88,6 @@ $(function () {
 });
 
 
-// // 사이드메뉴 밑에서올라오게
-// $(function(){
-  
-//   if($('#menu_trigger').css('width')=='0px'){
-//     $('.menu-trigger').click(function(){
-//     $('#about_us').css('transform','translateY(0px)').css('opacity','1');
-//     $('#accom').css('transform','translateY(0px)').css('opacity','1');
- 
-//    $('#special').css('transform','translateY(0px)').css('opacity','1');
-
-//   $('#offers').css('transform','translateY(0px)').css('opacity','1');
-
-//   $('#community').css('transform','translateY(0px)').css('opacity','1');
-
-//   $('#reservation').css('transform','translateY(0px)').css('opacity','1');
-//     }); 
-// } 
-// });
-
-// // 사이드메뉴 열릴때 헤더css변경
-// $(function(){
-//   $('.menu-trigger').click(function(){
-//    if($('#menu_trigger').css('width')=='0px'){
-//      $('.menu-trigger span').css('background-color','rgb(128,128,128)');
-//      $('.logo_text>p').css('color','rgb(128,128,128)');
-//      $('.country_toggle span').css('color','rgb(128,128,128)')
-//      $('.dropdown_label').css('color','rgb(128,128,128)')
-//      $('#book_tap a').css({'color':'rgb(128,128,128)'});
-//      $('#book_tap').css('border','1px sold');
-     
-     
-// }else{
-//   $('.logo_text>p').css('color','#fff');
-//   $('.menu-trigger span').css('background-color','#fff');
-//   $('.country_toggle span').css('color','#fff');
-//   $('.dropdown_label').css('color','#fff');
-// }
-// });
-// });
-
-
-
-  
-
-
 
 
   // EU
@@ -151,32 +135,32 @@ $(function () {
     let count=0
      $('.next_1').click(function () {
       count++;
-      if(count==1){
-        $('.room1').show();
+      if(count==0){
+        $('.room1').fadeIn();
         $('.room2').hide();
         $('.room3').hide();
         $('.room4').hide();
       }
       
-      if(count==2){
-        $('.room').hide();
-        $('.room2').show();
+      if(count==1){
+        $('.room1').hide();
+        $('.room2').fadeIn();
         $('.room3').hide();
         $('.room4').hide();
       }
 
-     if(count==3){
+     if(count==2){
       $('.room1').hide();
       $('.room2').hide();
-      $('.room3').show();
+      $('.room3').fadeIn();
       $('.room4').hide();
      }
       
-     if(count==4){
+     if(count==3){
       $('.room1').hide();
       $('.room2').hide();
       $('.room3').hide();
-      $('.room4').show();
+      $('.room4').fadeIn();
       count=0;
      }
     
@@ -185,28 +169,28 @@ $(function () {
   });
 
   $(function(){
-    let conut=0
+    let count=0
     $('.next_2').click(function(){
       count--;
-      if(count==1){
+      if(count==0){
         $('.room1').hide();
         $('.room2').hide();
         $('.room3').hide();
         $('.room4').show();
       }
-      if(count==2){
+      if(count==1){
         $('.room1').hide();
         $('.room2').hide();
         $('.room3').show();
         $('.room4').hide();
       }
-      if(count==3){
+      if(count==2){
         $('.room1').hide();
         $('.room2').show();
         $('.room3').hide();
         $('.room4').hide();
       }
-      if(count==4){
+      if(count==3){
         $('.room1').show();
         $('.room2').hide();
         $('.room3').hide();

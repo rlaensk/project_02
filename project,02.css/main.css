@@ -133,7 +133,7 @@ header{ width: 100%; height: 100px;display: flex;
 .menu_s p a{margin: 5% 0 ;}
 
 .menu_s ul li{margin: 6% 0; }
-.menu_s ul li a{color:rgb(50,50,50)}
+.menu_s ul li a{color:rgb(50,50,50); font-size:1em; font-family: 'inter';}
 .menu_s ul li a:hover{color: #7f7872;}
 #special ul li{margin: 12% 0;}
 #about_us{transform: translateY(100px); transition: all 0.5s; opacity: 0;}
@@ -262,6 +262,8 @@ header{ width: 100%; height: 100px;display: flex;
 .room-text{ width:67%; height: 611px; overflow: hidden; padding: 30px;
         background-color: #f9efe9; margin:2%; position: absolute;}
 .room_{position: absolute;}
+.room3 h1{margin: 93px 0 0 0;}
+.room3 p{margin: 75px 0 0 42%;}
 .room_>h1{font-size: 4em;  font-family: 'PRATA'; color:rgb(50, 50, 50); margin: 24px;
                 text-align: center;}
 .room_>p{width: 47%; line-height: 24px; margin: 0 0 0 45%; font-size: 14px; color: #999;}

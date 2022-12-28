@@ -32,22 +32,66 @@ header{height: 53px;}
 
 
 /*사이드메뉴 */
-.menu_s{top:15%; left: 5%; height: auto; justify-content:flex-start }
-.menu_s div{width: 97%; height: 70px;}
+.menu_s{top:15%; left: 5%; height: auto; justify-content:flex-start; }
+.menu_s_ a{display: block;}
+.menu_s_{width: 88%;height: 70px;  display: flex; justify-content: space-between; align-items: center;}
+.about_us{width: 90%; height: 70px;}
 .menu_s span a{margin:0;font-size: 1.5em;} 
 .menu_s ul{display: none; }
-#about_us ul{ height: 150px; background-color: red;}
+#about_us ul{ height: 150px;}
 #accom span a{margin:0 !important;}
 #community span a{margin:0 !important;}
 #reservation span a{margin:0 !important;}
 
-.side_footer{bottom:32%;}
+.side_footer{bottom:15%;}
 .call_{width: 100%; justify-content: space-between; font-size: 13px; margin: 0 5%; }
 .follow_us{width: 100%; flex-wrap: wrap; margin-right: 0;}
 .follow_us p{width: 100%;font-size: 13px; margin:5%;}
 .follow_us ul{width: 100%; justify-content: space-between; margin: 5%;}
 .cradit{width: 90%;}
 .cradit ul{height: auto; justify-content: space-between; margin-left: 7%;}
+
+.plus,
+.plus span {
+  display: inline-block;
+  transition: all 0.4s;
+  box-sizing: border-box;
+}
+
+.plus {
+  position: relative;
+  width: 33px;
+  height: 24px;
+  z-index: 260;;
+  left: 31px;
+}
+.plus span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(26, 26, 26);
+  border-radius: 4px;
+}
+
+.plus span:nth-of-type(1) {
+  top: 0;
+}
+
+.plus span:nth-of-type(2) {
+  bottom: 0;
+}
+
+
+.plus.active span:nth-of-type(1) {
+  transform: translateY(11px) rotate(-45deg);
+}
+
+.plus.active span:nth-of-type(2) {
+  transform: translateY(-11px) rotate(45deg);
+}
+
+
 
 /* Pool villa Room */
 #about{height: 980px;}
@@ -166,7 +210,7 @@ font-weight: bold; letter-spacing: 1px; top:23%; width: 93%; right: 9px;}
 #Event_s h1{ width: 75%; font-size:4em; left:3%;top:5%; letter-spacing: 5px; }
 #slider_box{top:15%;}
 #offer_box{width:460%; margin: 0 0 0 4%;}
-.offer_img1 img{width: 506.56px;}
+.offer_img1 img{width: 556.56px;}
 .see_{top:90%;}
 .o_text_box{font-size: 1.5em; top:109%}
 
@@ -178,6 +222,7 @@ font-weight: bold; letter-spacing: 1px; top:23%; width: 93%; right: 9px;}
 .newsletter_text span { bottom: 0; left: 4%; }
 
 #form{width: 100%; top:-5%}
+#form input{width: 96%;}
 form{width: 95%; top: 18%;left: 4%;}
 form svg{left: 60%!important;top: 98%!important;}
 
