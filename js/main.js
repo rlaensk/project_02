@@ -38,7 +38,7 @@ $(function () {
       $('.country_toggle span').css('color','#fff');
       $('.dropdown_label').css('color','#fff');
       $('#book_tap a').css('color','#fff');
-      $('#book_tap').css('border','1px sold #fff');
+      $('#book_tap').css('border','1px solid #fff');
       $('.dropdown_menu').css('box-shadow','none ');
       $('.cstoggle+ul').css('box-shadow','none');
       $('#about_us').css('transform', 'translateY(100px)').css('opacity', '0');
@@ -135,45 +135,85 @@ $(function () {
     $('.room_img_box .room_img:last').prependTo('.room_img_box');
     $('.room_img_box').css('margin-left', -100.5);
     $('.room_img_box').stop().animate({ marginLeft: 0 }, 1000);
+
+  
   });
 
   $('.next_2').click(function () {
     $('.room_img_box').stop().animate({ marginLeft: -600.5 }, 1000, function () {
       $('.room_img_box .room_img:first').appendTo('.room_img_box');
       $('.room_img_box').css({ marginLeft: 0 });
+      
     })
   });
 
   $(function () {
-    $('.next_1').click(function () {
-      $('.room1').show();
-      $('.room2').hide();
-      $('.room3').hide();
-      $('.room4').hide();
+    let count=0
+     $('.next_1').click(function () {
+      count++;
+      if(count==1){
+        $('.room1').show();
+        $('.room2').hide();
+        $('.room3').hide();
+        $('.room4').hide();
+      }
+      
+      if(count==2){
+        $('.room').hide();
+        $('.room2').show();
+        $('.room3').hide();
+        $('.room4').hide();
+      }
 
-    });
-    $('.next_1').click(function () {
-      $('.room1').hide();
-      $('.room2').fadeIn();
-      $('.room3').hide();
-      $('.room4').hide();
-
-    });
-    $('.next_1').click(function () {
-      $('.room1').hide();
-      $('.room2').hide();
-      $('.room3').fadeIn();
-      $('.room4').hide();
-
-    });
-    $('.next_1').click(function () {
+     if(count==3){
       $('.room1').hide();
       $('.room2').hide();
+      $('.room3').show();
+      $('.room4').hide();
+     }
+      
+     if(count==4){
+      $('.room1').hide();
+      $('.room2').hide();
       $('.room3').hide();
-      $('.room4').fadeIn();
-
+      $('.room4').show();
+      count=0;
+     }
+    
     });
+  
+  });
 
+  $(function(){
+    let conut=0
+    $('.next_2').click(function(){
+      count--;
+      if(count==1){
+        $('.room1').hide();
+        $('.room2').hide();
+        $('.room3').hide();
+        $('.room4').show();
+      }
+      if(count==2){
+        $('.room1').hide();
+        $('.room2').hide();
+        $('.room3').show();
+        $('.room4').hide();
+      }
+      if(count==3){
+        $('.room1').hide();
+        $('.room2').show();
+        $('.room3').hide();
+        $('.room4').hide();
+      }
+      if(count==4){
+        $('.room1').show();
+        $('.room2').hide();
+        $('.room3').hide();
+        $('.room4').hide();
+        count=0;
+      }
+    });
   });
 
 

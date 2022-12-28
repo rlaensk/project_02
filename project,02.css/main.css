@@ -9,8 +9,8 @@ ul,li,ol{ list-style: none;}
 
 #top{width: 100%; height: 100vh;}
 header{ width: 100%; height: 100px;display: flex; 
-    justify-content: space-between; align-items: center; position:relative;
-    z-index: 2500;}
+    justify-content: space-between; align-items: center; position:fixed;
+    z-index: 2500; background-color: rgba(255, 255, 255, 0.1);}
 #header_manu{ width: 12%; display: flex;justify-content: space-between;
         position: relative;}
 /* 햄버거메뉴 */
@@ -125,6 +125,7 @@ header{ width: 100%; height: 100px;display: flex;
                 width: 0; height:969px; position:fixed; overflow: hidden; z-index: 899; top: 0; left:0;}
 
 #menu_trigger a{ color: rgb(50,50,50);}
+#menu_trigger a:hover{opacity: 0.5;}
 .menu_s{ display: flex; flex-wrap: wrap; width: 100%; height: 380px; 
     justify-content: space-around; position:absolute;  top:25%;}  
 
@@ -199,11 +200,11 @@ header{ width: 100%; height: 100px;display: flex;
 #slider_text{ width:100%; height: 530px; position: relative; z-index: 150; 
         display: flex; flex-direction: column; flex-wrap: wrap;
        ; left:-4%;}
-.slider_text1{ font-size: 5vw; width: 55%; position: absolute; top: 42%; right: 13%; text-align: center;  }
+.slider_text1{ font-size: 5vw; width: 55%; position: absolute; top: 63%; right: 13%; text-align: center;  }
 .slider_text1 span{font-family:"Prata";color: white; }
-.slider_text2{ width:19%; font-size: 1em; line-height: 20px; position: absolute; bottom: -6%; right: 10%;
+.slider_text2{ width:19%; font-size: 1em; line-height: 20px; position: absolute; bottom: -30%; right: 10%;
                 font-weight: lighter; color: whitesmoke; opacity: 0.9; }
-.btn1{ width: 24%; line-height: 30px; position: absolute; bottom: -12%;
+.btn1{ width: 24%; line-height: 30px; position: absolute; bottom: -30%;
         right: 1%; letter-spacing: 4px; font-size: 0.8vw;
         display: flex;} 
 .btn1 a{position: absolute; top: 101px;}
@@ -252,15 +253,19 @@ header{ width: 100%; height: 100px;display: flex;
 #room_kind{ width: 100%; height: 1100px;
                 display: flex; flex-wrap: wrap; position: relative;}
 #room_box{ width: 50%; height: 706px; position: relative; top:6%;}
-.room_img_box{width: 100%%; display:flex; overflow:hidden;}
+.room_img_box{width: 100%; display:flex; overflow:hidden;}
+
 
 .room_img{width: 100%; height: 801px;}
-.room-text{ width:77%; height: 611px;background-color: #f9efe9;
-        position: absolute;top:53%; left:43%;padding: 26px;}
-.room_>h1{font-size: 5em;  font-family: 'PRATA'; color:rgb(50, 50, 50); margin: 60px;
+
+#room_text_box{width:100%; height: 611px; display: flex; position: relative; bottom: 62%; left:49%}
+.room-text{ width:67%; height: 611px; overflow: hidden; padding: 30px;
+        background-color: #f9efe9; margin:2%; position: absolute;}
+.room_{position: absolute;}
+.room_>h1{font-size: 4em;  font-family: 'PRATA'; color:rgb(50, 50, 50); margin: 24px;
                 text-align: center;}
 .room_>p{width: 47%; line-height: 24px; margin: 0 0 0 45%; font-size: 14px; color: #999;}
-.btn3{ width: 86%; line-height: 30px; position: absolute; bottom: 20%;
+.btn3{ width: 86%; line-height: 30px; position: absolute; bottom: -34%;
         right: -13%; letter-spacing: 4px; font-size: 0.8vw;
         display: flex;} 
 .btn-border2{width:30%;height:132px;right:82%;top:-162%; opacity: 0.5; position:absolute;}

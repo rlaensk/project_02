@@ -3,7 +3,7 @@
 @media (max-width:599px){
 
 
-#wrap{ width: 100%;}
+#wrap{ width: 100%; overflow: hidden;}
 header{height: 53px;}
 
 .country_toggle{display: none;}
@@ -14,18 +14,18 @@ header{height: 53px;}
 .container .menu .three{ left:20px;}
 #logo{ height: 18px; line-height: 15px;}
 #book_tap{ width: 81.6px;height: 27px; padding: 8px 8px 8px 12px;}
-video{ display: none;}
-#slider{height: 824px;}
+#slider video{display: none;}
+#slider{height: 1125px;}
 .slider_video{ position: relative; height: 100%;}
-.mini_slider{display: block; position: absolute;top: 0; left: 0; width: 100%; height: 1023px;
+.mini_slider{display: block; position: absolute;top: 0; left: 0; width: 100%; height: 100%;
         }
 #slider_text{ left:0; align-items: flex-start; width:100%;top:133px;}
-.slider_text1{ font-size: 7vw; width: 130%;text-align: justify; top:126px; left: 16px;}
+.slider_text1{ font-size: 7vw; width: 130%;text-align: justify; top:177px; left: 16px;}
 
-.slider_text2{width:100%; top:243px; font-size: 3vw; left: 16px;}
+.slider_text2{width:96%; top:335px; font-size: 3vw; left: 16px;}
 
 /* WATCH THE FILM */
-.btn1{width: 83%; top:42%}
+.btn1{width: 83%; top:65%}
 .btn1 .btn-border{width: 45%; height: 224px; right: 62%; top:80px;}
 .btn1>a{position: absolute; top:184px; left: 35px; font-size: 3vw; }
 
@@ -63,7 +63,7 @@ font-weight: bold; letter-spacing: 1px; top:23%; width: 93%; right: 9px;}
 #about_img img{width: 50%;height: auto; bottom: 55%; left: 27%;}
 .btn-border1{width: 49%; right: 61%; top:90px;}
 .btn2 svg{top:74px;}
-.btn2 a span{font-size: 13px; position: absolute; }
+.btn2 a span{font-size: 13px; position: absolute; top:149px!important;}
 .btn2 a{bottom:0 ; left: -10%;}
 .line[data-v-5d883f52], .line__border[data-v-5d883f52]{
         top: 28px;
@@ -74,13 +74,15 @@ font-weight: bold; letter-spacing: 1px; top:23%; width: 93%; right: 9px;}
 .room-text2>h1{font-size: 3em;line-height: 44px;  top:-94px; left: -23px;}
 .room-text2>p{width: 100%; margin: 29px 0; font-size: 1em; left:-23px;}
 .room_img{width: 100%; height: 419px; top:154px;}
-.room-text{width: 96%;height: 432px; top: 30%; left: 11px;}
-.room_>p{width: 95%; margin: 8%;}
+.room-text{width: 96%;height: 432px; top: 30%; left: 1px;}
+#room_text_box{left:0;}
+.room_>p{width: 95%; margin: 1%;}
 
 .room_>h1{font-size: 30px;}
 .btn-border2{width: 49%; right: 76%; top: -250%; }
 .btn3>a{position: relative; top: -33px; font-size: 1em;}
 .btn3 a span{font-size: 13px;}
+.btn3{bottom:-62%}
 
 .next_1::after{
         top:96%;
@@ -118,7 +120,7 @@ font-weight: bold; letter-spacing: 1px; top:23%; width: 93%; right: 9px;}
 #ACCOMMODATION p{
         width: 100%;
         top:26%;
-        left: 5%;
+        left: 1%;
         font-size: 1em;
         padding: 11px;
 }
@@ -151,7 +153,7 @@ font-weight: bold; letter-spacing: 1px; top:23%; width: 93%; right: 9px;}
 }
 .next_4::after{
        top: 74%;
-       right: 30%;
+       right: 22%;
 }
 
 .review_ p{ font-size: 1.5em; transform: translate(9%, -198%);}
@@ -167,4 +169,37 @@ font-weight: bold; letter-spacing: 1px; top:23%; width: 93%; right: 9px;}
 .offer_img1 img{width: 506.56px;}
 .see_{top:90%;}
 .o_text_box{font-size: 1.5em; top:109%}
+
+
+#newsletter{height: 540px;} 
+.newsletter_text{width: 100%; height: 128px;}
+.newsletter_text p{ width: 100%;
+        font-size:1.8em; text-align: left; line-height: 40px; right: -3%; top:6%}
+.newsletter_text span { bottom: 0; left: 4%; }
+
+#form{width: 100%; top:-5%}
+form{width: 95%; top: 18%;left: 4%;}
+form svg{left: 60%!important;top: 98%!important;}
+
+
+#neighbourhood{height: 550px;}
+#neighbourhood img{width: 100%; height: auto;}
+#neighbourhood p { font-size: 2em; left: 3%; bottom: 35%;}
+
+#neighbourhood span { width: 97%; bottom: 19%; right: 1%; }
+#neighbourhood .line[data-v-5d883f52] { top: 19%;}
+#neighbourhood svg{width: 22%!important;  right: 69%!important; top:77%!important;}
+#neighbourhood a { bottom: 8%; right: 74%; }
+
+#map{height: 369px;}
+#map>p {font-size: 1.8em; width: 100%;left: 10px; top: 16%; line-height: 37px; text-align: left;}
+.map_a{width: 90%; height: 200px; bottom:31%;left:7% }
+.map_a a:nth-of-type(1){display: block; position: absolute; top:60%;}
+.map_a a:nth-of-type(2){display: block; left: 1px;bottom:5%;}
+
+#video{ width: 100%; top:7%; height: 272px;}
+
+
+#about_hotel{height: 118px;}
+#about_hotel a {font-size: 3em;left:18%; padding: 0;}
 }
