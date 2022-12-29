@@ -33,7 +33,7 @@ header{height: 53px;}
 
 /*사이드메뉴 */
 
-.menu_s{top:15%; left: 5%; height: auto; justify-content:flex-start; }
+.menu_s{top:15%; left: 5%;  justify-content:flex-start; }
 .menu_s_ a{display: block;}
 .menu_s_{width: 88%;height: 70px;  display: flex; justify-content: space-between; align-items: center;}
 .about_us{width: 90%; height: auto;}
@@ -41,9 +41,9 @@ header{height: 53px;}
 .menu_nav{display: none; }
 .menu_s span a{margin:0;font-size: 1.5em;} 
 .menu_s .menu_nav{display: none; height: auto;}
-.menu_s .menu_nav ul li{margin: 0;}
+.menu_s .menu_nav ul li{margin: 0!important;}
 .menu_s ul li a{height: 30px; display: block;}
-#about_us ul{ height: 50px;}
+
 #accom span a{margin:0 !important;}
 #community span a{margin:0 !important;}
 #reservation span a{margin:0 !important;}
@@ -252,4 +252,45 @@ form svg{left: 60%!important;top: 98%!important;}
 
 #about_hotel{height: 118px;}
 #about_hotel a {font-size: 3em;left:18%; padding: 0;}
+}
+
+
+@media (min-width:600px),(max-width:1230px){
+#slider{height: 1030px;}
+#slider .slider_vieeo{height: 1030px;}
+#slider video{display: none;}
+.mid_slider{width: 100%; height: 112vh; display:block; position: absolute; top:0;left:0;}
+
+.slider_text1 {font-size: 4em; top: 82%; right: 36%; text-align: left;}
+.slider_text2 { width: 32%; line-height: 25px; bottom: -44%;}
+.btn1{ bottom: -40%; right: 19%;}
+#about { height: 721px;}
+#about_line>p {top: 11%; right: 5%; font-size:5em; letter-spacing: 0;}
+ .about_box { width: 121%; height: 500px; top: 155px; left: -74px; }
+#about_img img {width: 79%; height: 311px; top:25%; left:12%;}
+#about_text .but {width: 54%; position: absolute; left: 6%; font-size: 0.8em;
+      top: 41%;}
+.btn2{width: 66%; bottom: 57%; right: 20%; }
+.line[data-v-5d883f52],{top: -31px;}
+.line[data-v-5d883f52] {left: 114%; overflow:inherit}
+.room_img {height: 422px;}
+#room_kind{height: 837px;}
+.room-text { width: 83%;height: 400px;padding: 0;}
+.room_ h1{font-size:2em; margin: 46px!important;}
+.room1{margin:0;}
+.room-text2>h1 {font-size: 5em;letter-spacing: 0;line-height: 68px; left: 12%;top: 4%;}
+.room-text2>p { width: 100%;top: 20%; left: 14%; }
+.next_1::after {left: 123px;}
+.next_2::after {left: 124px;}
+#hotel_img{height: 434px;}
+#hotel_img img{height: 400px;}
+#ACCOMMODATION h1 {font-size: 6em; right: -32%; top: 4px;  }
+.tion_box1{height: 512px;}
+
+#ACCOMMODATION p {width: 65%;font-size: 14px; top: 17%; left: 8%;}
+#ACCOMMODATION img {width: 100%;height: 178px;}
+#ACCOMMODATION .img-box { width: 99%;top: 30%;right: 24px;}
+
+
+
 }

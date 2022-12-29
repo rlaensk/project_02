@@ -5,45 +5,12 @@ menuTrigger.addEventListener('click', (event) => {
   event.currentTarget.classList.toggle('active');
 });
 
-// 사이드메뉴 메뉴 X
-const span = document.querySelector('.plus1');
-span.addEventListener('click', (event) => {
-  event.currentTarget.classList.toggle('active');
-  $('.nav1').slidToggle();
-});
 
 
-const span1 = document.querySelector('.plus2');
-span1.addEventListener('click', (event) => {
-  event.currentTarget.classList.toggle('active');
-  $('.nav2').slideToggle();
-});
-
-
-const span2 = document.querySelector('.plus3');
-span2.addEventListener('click', (event) => {
-  event.currentTarget.classList.toggle('active');
-  $('.nav3').slidToggle();
-});
-
-
-
-const span3= document.querySelector('.plus4');
-span3.addEventListener('click', (event) => {
-  event.currentTarget.classList.toggle('active');
-  $('.nav4').slidToggle();
-
-});
-const span4 = document.querySelector('.plus5');
-span4.addEventListener('click', (event) => {
-  event.currentTarget.classList.toggle('active');
-$('.nav5'),slidToggle();
-});
-
-const span5 = document.querySelector('.plus6');
-span5.addEventListener('click', (event) => {
-  event.currentTarget.classList.toggle('active');
-  $('.nav6').slidToggle();
+$('.plus').click(function(){
+  $(this).not('.plus').removeClass(' active').parent().next().slideUp();
+  $(this).toggleClass(' active').parent().next().slideToggle();
+  
 });
 
 
@@ -282,3 +249,14 @@ $(function () {
       $('.review_1').css({ marginLeft: 0 });
     })
   });
+
+// 반응형 자바
+  let mal=window.matchMedia('screen and (min-width: 600px)');
+  if(mal.matches){
+    $('#about_line>p').text("Pool Villa Room");
+  }
+
+
+  // $(function(){
+  //   $('#about_img img').css({'top':'25%','left':'12%'});
+  // });

@@ -5,7 +5,7 @@
 *{ margin:0; padding:0; text-decoration: none; box-sizing: border-box; font-family:inter;}
 ul,li,ol{ list-style: none;}
 
-#wrap{width: 100%; height: auto; position: relative;}
+#wrap{width: 100%; height: auto; position: relative; overflow: hidden;}
 
 #top{width: 100%; height: 100vh;}
 header{ width: 100%; height: 100px;display: flex; 
@@ -122,7 +122,7 @@ header{ width: 100%; height: 100px;display: flex;
 
 
 #menu_trigger{background-color: rgb(255, 255, 255); transition: all 1.5s;
-                width: 0; height:969px; position:fixed; overflow: hidden; z-index: 899; top: 0; left:0;}
+                width: 0; height:969px; position:fixed;  z-index: 899; top: 0; left:0;}
 
 #menu_trigger a{ color: rgb(50,50,50);}
 #menu_trigger a:hover{opacity: 0.5;}
@@ -143,7 +143,7 @@ header{ width: 100%; height: 100px;display: flex;
 #community{transform: translateY(100px); transition: all 2.5s; opacity: 0;}
 #reservation{transform: translateY(100px); transition: all 3s; opacity: 0;}
 
-.side_footer{ width: 100%; height: 100px;  display: flex; flex-wrap: wrap;
+.side_footer{ width: 100%; height: 193px;  display: flex; flex-wrap: wrap;
             justify-content: space-between; position:absolute; bottom: 10%;}
 .call_{display: flex; width: 20%; justify-content: space-around; align-items: center;}
 .call_ ul{display: flex;}
@@ -196,7 +196,7 @@ header{ width: 100%; height: 100px;display: flex;
 #slider video{ width:100%; height: auto;
         position: absolute; top:0; left: 0;}
 .mini_slider{display: none;}
-
+.mid_slider{display: none;}
 #slider_text{ width:100%; height: 530px; position: relative; z-index: 150; 
         display: flex; flex-direction: column; flex-wrap: wrap;
        ; left:-4%;}
@@ -252,13 +252,13 @@ header{ width: 100%; height: 100px;display: flex;
 /* hotel-room */
 #room_kind{ width: 100%; height: 1100px;
                 display: flex; flex-wrap: wrap; position: relative;}
-#room_box{ width: 50%; height: 706px; position: relative; top:6%;}
-.room_img_box{width: 100%; display:flex; overflow:hidden;}
+#room_box{ width: 50%; height: 836px; position: relative; top:6%;}
+.room_img_box{width: 100%; display:flex; }
 
 
-.room_img{width: 100%; height: 801px;}
+.room_img{width: 100%; height: 801px; position: absolute;}
 
-#room_text_box{width:100%; height: 611px; display: flex; position: relative; bottom: 62%; left:49%}
+#room_text_box{width:100%; height: 611px; display: flex; position: absolute; bottom: -6%; left:49%}
 .room-text{ width:67%; height: 611px; overflow: hidden; padding: 30px;
         background-color: #f9efe9; margin:2%; position: absolute;}
 .room_{position: absolute;}
