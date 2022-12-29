@@ -9,39 +9,41 @@ menuTrigger.addEventListener('click', (event) => {
 const span = document.querySelector('.plus1');
 span.addEventListener('click', (event) => {
   event.currentTarget.classList.toggle('active');
+  $('.nav1').slidToggle();
 });
-$(function(){
-  ('.plus1 span').click(function(){
-    $('#about_us ul').slideToggle();
-  });
-});
-
 
 
 const span1 = document.querySelector('.plus2');
 span1.addEventListener('click', (event) => {
   event.currentTarget.classList.toggle('active');
+  $('.nav2').slideToggle();
 });
-$(function(){
-  $('.plus2').click(function(){
-    $('#about_us ul').slideToggle();
-  });
-});
+
+
 const span2 = document.querySelector('.plus3');
 span2.addEventListener('click', (event) => {
   event.currentTarget.classList.toggle('active');
+  $('.nav3').slidToggle();
 });
+
+
+
 const span3= document.querySelector('.plus4');
 span3.addEventListener('click', (event) => {
   event.currentTarget.classList.toggle('active');
+  $('.nav4').slidToggle();
+
 });
 const span4 = document.querySelector('.plus5');
 span4.addEventListener('click', (event) => {
   event.currentTarget.classList.toggle('active');
+$('.nav5'),slidToggle();
 });
+
 const span5 = document.querySelector('.plus6');
 span5.addEventListener('click', (event) => {
   event.currentTarget.classList.toggle('active');
+  $('.nav6').slidToggle();
 });
 
 
@@ -137,11 +139,14 @@ $(function () {
   });
 
   $('.next_2').click(function () {
-    $('.room_img_box').stop().animate({ marginLeft: -600.5 }, 1000, function () {
-      $('.room_img_box .room_img:first').appendTo('.room_img_box');
-      $('.room_img_box').css({ marginLeft: 0 });
+    $('.room_img_box .room_img:nth-of-type(2)').prependTo('.room_img_box');
+    $('.room_img_box').css('margin-left', -100.5);
+    $('.room_img_box').stop().animate({ marginLeft: 0 }, 1000);
+    // $('.room_img_box').stop().animate({ marginLeft: -600.5 }, 1000, function () {
+    //   $('.room_img_box .room_img:first').appendTo('.room_img_box');
+    //   $('.room_img_box').css({ marginLeft: 0 });
       
-    })
+    // })
   });
 
   $(function () {
@@ -174,42 +179,42 @@ $(function () {
       $('.room2').hide();
       $('.room3').hide();
       $('.room4').fadeIn();
-      count=0;
+      count=-1
      }
-    
+     console.log(count)
     });
   
-  });
-
-  $(function(){
-    let count=0
+   
     $('.next_2').click(function(){
       count--;
+      if(count==-1){count=3}
       if(count==0){
-        $('.room1').hide();
+        $('.room1').fadeIn();
         $('.room2').hide();
         $('.room3').hide();
-        $('.room4').show();
+        $('.room4').hide();
       }
+      
       if(count==1){
         $('.room1').hide();
-        $('.room2').hide();
-        $('.room3').show();
-        $('.room4').hide();
-      }
-      if(count==2){
-        $('.room1').hide();
-        $('.room2').show();
+        $('.room2').fadeIn();
         $('.room3').hide();
         $('.room4').hide();
       }
-      if(count==3){
-        $('.room1').show();
-        $('.room2').hide();
-        $('.room3').hide();
-        $('.room4').hide();
-        count=0;
-      }
+
+     if(count==2){
+      $('.room1').hide();
+      $('.room2').hide();
+      $('.room3').fadeIn();
+      $('.room4').hide();
+     }
+      
+     if(count==3){
+      $('.room1').hide();
+      $('.room2').hide();
+      $('.room3').hide();
+      $('.room4').fadeIn();
+     }
     });
   });
 

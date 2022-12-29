@@ -32,14 +32,18 @@ header{height: 53px;}
 
 
 /*사이드메뉴 */
+
 .menu_s{top:15%; left: 5%; height: auto; justify-content:flex-start; }
 .menu_s_ a{display: block;}
 .menu_s_{width: 88%;height: 70px;  display: flex; justify-content: space-between; align-items: center;}
-.about_us{width: 90%; height: 70px;}
+.about_us{width: 90%; height: auto;}
+.menu_s {height: auto;}
+.menu_nav{display: none; }
 .menu_s span a{margin:0;font-size: 1.5em;} 
-.menu_s ul{display: none; }
+.menu_s .menu_nav{display: none; height: auto;}
+.menu_s .menu_nav ul li{margin: 0;}
 .menu_s ul li a{height: 30px; display: block;}
-#about_us ul{ height: 150px;}
+#about_us ul{ height: 50px;}
 #accom span a{margin:0 !important;}
 #community span a{margin:0 !important;}
 #reservation span a{margin:0 !important;}
@@ -127,7 +131,7 @@ font-weight: bold; letter-spacing: 1px; top:23%; width: 93%; right: 9px;}
 .btn-border2{width: 49%; right: 76%; top: -250%; }
 .btn3>a{position: relative; top: -33px; font-size: 1em;}
 .btn3 a span{font-size: 13px;}
-.btn3{bottom:-62%}
+.btn3{bottom:-42%}
 
 .next_1::after{
         top:96%;
