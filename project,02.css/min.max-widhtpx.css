@@ -255,7 +255,7 @@ form svg{left: 60%!important;top: 98%!important;}
 }
 
 
-@media (min-width:600px),(max-width:1230px){
+@media (min-width:600px) and (max-width:1230px){
 #slider{height: 1030px;}
 #slider .slider_vieeo{height: 1030px;}
 #slider video{display: none;}
