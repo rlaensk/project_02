@@ -253,11 +253,22 @@ form svg{left: 60%!important;top: 98%!important;}
 
 
 @media (min-width:600px) and (max-width:1230px){
-
+#book_tap{padding: 11px 16px;}
+.menu_s{top:17%; left:80px;}
 .menu_s div{width: 30%;} 
-.menu_nav ul li{ font-size: 13px;}
-#special nav ul li{margin: 5% 0;}
+.menu_nav ul li{ font-size: 13px; }
+#about_us{width: 22%;}
+#offers{width: 22%;}
+#special nav ul li{margin: 4% 0;}
 .menu_s span a{font-size: 1.5em;}
+.menu_s nav ul li{margin: 4% 0;;}
+.menu_s nav{height: 350px;}
+.side_footer{bottom:-1px;}
+.call_{width: 31%;}
+.follow_us{width: 25%; margin-right: 5%;}
+.cradit {width: 17%; margin-right: 3%;}
+
+
 #slider{height: 1030px;}
 #slider .slider_vieeo{height: 1030px;}
 #slider video{display: none;}
