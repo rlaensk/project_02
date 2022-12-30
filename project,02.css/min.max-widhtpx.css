@@ -17,8 +17,7 @@ header{height: 53px;}
 #slider video{display: none;}
 #slider{height: 1125px;}
 .slider_videeo{ position: relative; height: 100%;}
-.mini_slider{display: block; position: absolute;top: 0; left: 0; width: 100%; height: 100%;
-        }
+.mini_slider{display: block; position: absolute;top: 0; left: 0; width: 100%; height: 1114px; }
 #slider_text{ left:0; align-items: flex-start; width:100%;top:133px;}
 .slider_text1{ font-size: 7vw; width: 130%;text-align: justify; top:177px; left: 16px;}
 
@@ -271,7 +270,7 @@ form svg{left: 60%!important;top: 98%!important;}
 #about_text .but {width: 54%; position: absolute; left: 6%; font-size: 0.8em;
       top: 41%;}
 .btn2{width: 66%; bottom: 57%; right: 20%; }
-.line[data-v-5d883f52],{top: -31px;}
+.line[data-v-5d883f52]{top: -31px;}
 .line[data-v-5d883f52] {left: 114%; overflow:inherit}
 .room_img {height: 422px;}
 #room_kind{height: 837px;}
@@ -290,7 +289,6 @@ form svg{left: 60%!important;top: 98%!important;}
 #ACCOMMODATION p {width: 65%;font-size: 14px; top: 17%; left: 8%;}
 #ACCOMMODATION img {width: 100%;height: 178px;}
 #ACCOMMODATION .img-box { width: 99%;top: 30%;right: 24px;}
-
 
 
 }

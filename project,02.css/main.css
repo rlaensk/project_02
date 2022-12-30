@@ -143,7 +143,7 @@ header{ width: 100%; height: 100px;display: flex;
 #community{transform: translateY(100px); transition: all 2.5s; opacity: 0;}
 #reservation{transform: translateY(100px); transition: all 3s; opacity: 0;}
 
-.side_footer{ width: 100%; height: 193px;  display: flex; flex-wrap: wrap;
+.side_footer{ width: 100%; height: 193px;  display: flex; flex-wrap: wrap; align-items: center;
             justify-content: space-between; position:absolute; bottom: 10%;}
 .call_{display: flex; width: 20%; justify-content: space-around; align-items: center;}
 .call_ ul{display: flex;}
@@ -193,8 +193,7 @@ header{ width: 100%; height: 100px;display: flex;
 
 /* 슬라이더 */
 #slider{ width: 100%; height:949px; position: relative; z-index: 800; top:-107px; left:0; }
-#slider video{ width:100%; height:949px;
-        position: absolute; top:0; left: 0;}
+#slider video{ width:100%; position: absolute; top:0; left: 0;}
         .slider_vieeo{height: 949px;}
 .mini_slider{display: none;}
 .mid_slider{display: none;}
