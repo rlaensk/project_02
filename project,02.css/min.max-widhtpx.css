@@ -158,7 +158,7 @@ font-weight: bold; letter-spacing: 1px; top:23%; width: 93%; right: 9px;}
 
 
 .tion_box{width: 100%;}
-#ACCOMMODATION{height: 1361px;}
+#ACCOMMODATION{height: 1249px;}
 #ACCOMMODATION .line{top: 3%;}
 #ACCOMMODATION h1{
         font-size: 4em;
@@ -175,8 +175,8 @@ font-weight: bold; letter-spacing: 1px; top:23%; width: 93%; right: 9px;}
         padding: 11px;
 }
 
-.tion_box1{height: 785px; top:28%}
-#ACCOMMODATION .img-box{width: 100%; height: 777px; top:31%; right: 0;}
+.tion_box1{height: 785px; top:32%}
+#ACCOMMODATION .img-box{width: 100%; height: 777px; top:35%; right: 0;}
 #ACCOMMODATION .img-box img{height: 200px;}
 #ACCOMMODATION #inpnity p{ top:53%; line-height: 35px; left: 0; font-size: 30px;} 
 #ACCOMMODATION .img-box .read1{ display: block; position: absolute;
@@ -191,12 +191,12 @@ font-weight: bold; letter-spacing: 1px; top:23%; width: 93%; right: 9px;}
 
 
 
-.overflow_hidden{ width: 100%;}
-#review h1{font-size: 4em; top:-1%; right:58%;}
-
+.overflow_hidden{ width: 100%; position: absolute; top:-20px;}
+#review h1{font-size: 4em; top:8%; right:58%;}
+.review_{top:-3%}
 .review_img{width: 100%; position: absolute; left: 1%;}
 .review_img img{text-align: center; width: 88% ; height: 450px;}
-
+#review .line{top:-3%}
 .next_3::after{
         bottom: 25%;
         left:25%
@@ -207,13 +207,13 @@ font-weight: bold; letter-spacing: 1px; top:23%; width: 93%; right: 9px;}
 }
 
 .review_ p{ font-size: 1.5em; transform: translate(9%, -198%);}
-#review .btn-border{width: 38%; height: 200px; top:81%; left:3%;}
-.see_2{bottom: 72px; left: 5%;}
+#review .btn-border{width: 38%; height: 200px; top:70%; left:3%;}
+.see_2{bottom: 180px; left: 5%;}
 
 
 #Events{height: 850px;}
 #Event_s{width: 100%; height: 559px;}
-#Event_s h1{ width: 75%; font-size:4em; left:3%;top:5%; letter-spacing: 5px; }
+#Event_s h1{ width: 75%; font-size:4em; left:22%;top:5%; letter-spacing: 2px; text-align: right; }
 #slider_box{top:15%;}
 #offer_box{width:460%; margin: 0 0 0 4%;}
 .offer_img1 img{width: 556.56px;}
