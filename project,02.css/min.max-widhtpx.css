@@ -253,6 +253,11 @@ form svg{left: 60%!important;top: 98%!important;}
 
 
 @media (min-width:600px) and (max-width:1230px){
+
+.menu_s div{width: 30%;} 
+.menu_nav ul li{ font-size: 13px;}
+#special nav ul li{margin: 5% 0;}
+.menu_s span a{font-size: 1.5em;}
 #slider{height: 1030px;}
 #slider .slider_vieeo{height: 1030px;}
 #slider video{display: none;}
