@@ -144,7 +144,7 @@ header{ width: 100%; height: 100px;display: flex;
 #reservation{transform: translateY(100px); transition: all 3s; opacity: 0;}
 
 .side_footer{ width: 100%; height: 193px;  display: flex; flex-wrap: wrap; align-items: center;
-            justify-content: space-between; position:absolute; bottom: 10%;}
+            justify-content: space-between; position:absolute; bottom: 10%;  }
 .call_{display: flex; width: 20%; justify-content: space-around; align-items: center;}
 .call_ ul{display: flex;}
 .follow_us{display: flex; width: 20%; justify-content: space-around;
@@ -152,7 +152,7 @@ header{ width: 100%; height: 100px;display: flex;
 .follow_us ul li a img{width: 30px;}
 .follow_us ul{display: flex; width: 60%; justify-content: space-around;}
 
-.cradit{width: 8%; margin-right: 2%;}
+.cradit{width: 11%; margin-right: 2%;}
 .cradit ul{width: 100%; height: 98px; display: flex; justify-content: space-around; align-items: center; }
 
 
@@ -258,7 +258,7 @@ header{ width: 100%; height: 100px;display: flex;
 
 .room_img{width: 100%; height: 801px; position: absolute;}
 
-#room_text_box{width:100%; height: 611px; display: flex; position: absolute; bottom: -6%; left:49%}
+#room_text_box{width:100%; height: 631px; display: flex; position: absolute; bottom: -16%; left:49%}
 .room-text{ width:67%; height: 611px; overflow: hidden; padding: 30px;
         background-color: #f9efe9; margin:2%; position: absolute;}
 .room_{position: absolute;}
@@ -338,21 +338,21 @@ font-size: 13px;
 #ACCOMMODATION .img-box{display: flex; position: absolute; width: 88%; top:42%; right: 88px;justify-content: space-around; flex-wrap: wrap;}
 #ACCOMMODATION img{ width: 100%; height: 357px;}
 #inpnity{position: relative;display: flex; flex-direction: column; flex-wrap: wrap;}
-#inpnity p{ position: absolute;top:110%; left: 0; width: 100%;font-size: 6em;
+#inpnity p{ position: absolute;top:110%; left: 0; width: 100%;font-size: 5em;
         font-family: 'Jeju Myeongjo', serif;
          color: rgb(50, 50, 50);
                 line-height: 76px; font-weight: bold;}
 .read1 a{ position: absolute; bottom: -75%; color: #7f7872; letter-spacing: 4px; font-size: 13px;}
 #BBQ{position:relative; display: flex; flex-direction: column; flex-wrap: wrap;z-index: 100;}
 #BBQ p{position: absolute; top:110%; left: 0;
-        width: 100%;font-size: 6em;
+        width: 100%;font-size: 5em;
         font-family: 'Jeju Myeongjo', serif; line-height: 76px;
          color: rgb(50, 50, 50); font-weight: bold;}
 .read2 a{position: absolute; bottom: -75%; color: #7f7872; letter-spacing: 4px; font-size: 13px;}
 
 
 #review{width: 100%; height:1009px; position: relative;}
-.overflow_hidden{ width: 84%; height: 888px; margin:0 auto; overflow:hidden;}
+.overflow_hidden{ width: 84%; height: 888px; margin:0 auto; overflow:hidden; font-size: 2em;}
 #review h1{font-size: 8em;font-family:'Jeju Myeongjo', serif;letter-spacing: -8px;
         position: absolute; top: -7%; right:34%; letter-spacing: -8px;
         color: rgb(50, 50, 50);}
@@ -375,33 +375,8 @@ font-size: 13px;
 .review_1 {display: flex; width: 80%; height: 815px; 
                 align-items: center;}
 
-                .next_4::after{
-                        content: "";
-                        width: 8px;
-                        height: 8px;
-                        border-top:1px solid #323232;
-                        border-right: 1px solid #323232;
-                        display: inline-block;
-                        transform: rotate(45deg);
-                        position: absolute;
-                        top:470px;
-                       right: 65px;
-                        cursor: pointer;
-                }
-                .next_3::after{
-                        content: "";
-                        width: 8px;
-                        height: 8px;
-                        border-top:1px solid #323232;
-                        border-right: 1px solid #323232;
-                        display: inline-block;
-                        transform: rotate(225deg);
-                        position: absolute;
-                        left:77px;
-                        bottom: 47%;
-                        cursor: pointer;
-                }
-
+ .next_3{position: absolute; bottom: 51%; left: 4%; color: #999;cursor: pointer; }           
+ .next_4{position: absolute;bottom: 51%;right: 44px;color: #999; cursor: pointer;}  
  #review .btn-border{width: 20%; height: 180px; left:19%; top:84%; opacity:0.5;}
  
 #Events{ width: 100%; height:1346.73px; position: relative; padding: 73px 0;}

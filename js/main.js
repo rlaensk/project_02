@@ -62,7 +62,7 @@ $(function () {
       $('#community').css('transform', 'translateY(100px)').css('opacity', '0');
 
       $('#reservation').css('transform', 'translateY(100px)').css('opacity', '0');
-
+      $('.side_footer').css('opacity','0');
       $('#menu_trigger').css({ 'width': '0px' });
 
     }
@@ -251,9 +251,11 @@ $(function () {
   });
 
 // 반응형 자바
-  let mal=window.matchMedia('screen and (min-width: 600px)');
+  let mal=window.matchMedia('screen and (max-width:1230px)');
   if(mal.matches){
     $('#about_line>p').text("Pool Villa Room");
+    $('#inpnity>p').text('Infinity&Rooftop Pool');
+    $('#BBQ>p').text('Breakfast&BBQ');
   }
 
 
