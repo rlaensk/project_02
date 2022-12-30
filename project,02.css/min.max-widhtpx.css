@@ -16,7 +16,7 @@ header{height: 53px;}
 #book_tap{ width: 81.6px;height: 27px; padding: 8px 8px 8px 12px;}
 #slider video{display: none;}
 #slider{height: 1125px;}
-.slider_video{ position: relative; height: 100%;}
+.slider_videeo{ position: relative; height: 100%;}
 .mini_slider{display: block; position: absolute;top: 0; left: 0; width: 100%; height: 100%;
         }
 #slider_text{ left:0; align-items: flex-start; width:100%;top:133px;}
