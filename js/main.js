@@ -41,9 +41,11 @@ $(function () {
       $('#community').css('transform', 'translateY(0px)').css('opacity', '1');
 
       $('#reservation').css('transform', 'translateY(0px)').css('opacity', '1');
-      $('.side_footer').fadeIn();
+     
+      $('.side_footer').css('opacity','1');
+     
     } else {
-      $('.side_footer').fadeOut();
+   
       $('.logo_text>p').css('color','#fff');
       $('.menu-trigger span').css('background-color','#fff');
       $('.country_toggle span').css('color','#fff');
@@ -62,6 +64,7 @@ $(function () {
       $('#community').css('transform', 'translateY(100px)').css('opacity', '0');
 
       $('#reservation').css('transform', 'translateY(100px)').css('opacity', '0');
+      
       $('.side_footer').css('opacity','0');
       $('#menu_trigger').css({ 'width': '0px' });
 
@@ -116,74 +119,7 @@ $(function () {
     })
   });
 
-  // $(function () {
-  //   let count=0
-  //    $('.next_1').click(function () {
-  //     count++;
-  //     if(count==0){
-  //       $('.room1').fadeIn();
-  //       $('.room2').hide();
-  //       $('.room3').hide();
-  //       $('.room4').hide();
-  //     }
-      
-  //     if(count==1){
-  //       $('.room1').hide();
-  //       $('.room2').fadeIn();
-  //       $('.room3').hide();
-  //       $('.room4').hide();
-  //     }
 
-  //    if(count==2){
-  //     $('.room1').hide();
-  //     $('.room2').hide();
-  //     $('.room3').fadeIn();
-  //     $('.room4').hide();
-  //    }
-      
-  //    if(count==3){
-  //     $('.room1').hide();
-  //     $('.room2').hide();
-  //     $('.room3').hide();
-  //     $('.room4').fadeIn();
-  //     count=-1
-  //    }
-  //    console.log(count)
-  //   });
-  
-   
-  //   $('.next_2').click(function(){
-  //     count--;
-  //     if(count==-1){count=3}
-  //     if(count==0){
-  //       $('.room1').fadeIn();
-  //       $('.room2').hide();
-  //       $('.room3').hide();
-  //       $('.room4').hide();
-  //     }
-      
-  //     if(count==1){
-  //       $('.room1').hide();
-  //       $('.room2').fadeIn();
-  //       $('.room3').hide();
-  //       $('.room4').hide();
-  //     }
-
-  //    if(count==2){
-  //     $('.room1').hide();
-  //     $('.room2').hide();
-  //     $('.room3').fadeIn();
-  //     $('.room4').hide();
-  //    }
-      
-  //    if(count==3){
-  //     $('.room1').hide();
-  //     $('.room2').hide();
-  //     $('.room3').hide();
-  //     $('.room4').fadeIn();
-  //    }
-  //   });
-  // });
 
 
   //index.js

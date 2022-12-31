@@ -51,11 +51,17 @@ header{height: 53px;}
 
 .side_footer{bottom:8%;}
 .call_{width: 100%; justify-content: space-between; font-size: 13px; margin: 0 5%; }
+
 .follow_us{width: 100%; flex-wrap: wrap; margin-right: 0;}
+
 .follow_us p{width: 100%;font-size: 13px; margin:5%;}
 .follow_us ul{width: 100%; justify-content: space-between; margin: 5%;}
-.cradit{width: 90%;}
+.cradit{width: 90%; }
+
+
 .cradit ul{height: auto; justify-content: space-between; margin-left: 7%;}
+
+
 
 .plus,
 .plus span {
