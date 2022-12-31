@@ -122,7 +122,7 @@ header{ width: 100%; height: 100px;display: flex;
 
 
 #menu_trigger{background-color: rgb(255, 255, 255); transition: all 1.5s;
-                width: 0; height:969px; position:fixed;  z-index: 899; top: 0; left:0;}
+                width: 0; height:100vh; position:fixed;  z-index: 899; top: 0; left:0;}
 .menu_trigger_s{height: auto;}
 #menu_trigger a{ color: rgb(50,50,50);}
 #menu_trigger a:hover{opacity: 0.5;}
