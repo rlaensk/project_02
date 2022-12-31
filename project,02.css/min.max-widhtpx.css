@@ -13,7 +13,8 @@ header{height: 53px;}
 .container .menu .two{ left:20px;}
 .container .menu .three{ left:20px;}
 #logo{ height: 26px;}
-#logo a p{font-size: 1em; line-height: 19px;}
+#logo a p{font-size: 0.7em; line-height: 19px;}
+#logo a p:nth-child(2){ font-size: 0.6em}
 #book_tap{ width: 97.6px;height: 27px; line-height: 30px;}
 #book_tap a{font-size: 0.8em;}
 #slider video{display: none;}
@@ -100,17 +101,17 @@ header{height: 53px;}
 
 /* Pool villa Room */
 #about{height: 980px;}
-#about_line>p{font-size:50px; line-height: 40px;
-font-weight: bold; letter-spacing: 1px; top:16%; width: 93%; right: 9px;}
+#about_line>p{font-size:40px; line-height: 40px;
+font-weight: bold; letter-spacing: 1px; top:13%; width: 93%; right: 9px;}
 
 #about_line{flex-direction: column;}
-#about_line .line{top:-10%;}
+#about_line .line{top:-12%;}
 #about_text{width: 100%;}
-#about_text .but{width: 92%; bottom: -13%; left: 3%;
+#about_text .but{width: 92%; bottom: -5%; left: 3%;
                 line-height: 27px; font-size: 3vw; padding: 4px; text-align: justify;}
 #about_img{width: 100%;position: absolute; top: 12%; height: 435px;}
-.about_box{width: 102%; height: 408px; top:14%; }
-#about_img img{width: 50%;height:254px; bottom: 11%; left: 27%;}
+.about_box{width: 102%; height: 408px; top:8%; }
+#about_img img{width: 50%;height:254px; bottom: 16%; left: 27%;}
 .btn-border1{width: 49%; right: 61%; top:90px;}
 .btn2 svg{top:74px;}
 .btn2 a span{font-size: 13px; position: absolute; top:149px!important;}
@@ -121,40 +122,39 @@ font-weight: bold; letter-spacing: 1px; top:16%; width: 93%; right: 9px;}
 #room_kind{height:789px;}
 #room_box{width: 100%;}
 .room-text2{width: 100%; position: absolute; top:-3%; left:10%;}
-.room-text2>h1{font-size: 3em;line-height: 44px;  top:-94px; left: -23px;}
+.room-text2>h1{font-size: 2em;line-height: 25px;  top:-65px; left: -23px;}
 .room-text2>p{width: 100%; margin: 29px 0; font-size: 1em; left:-23px;}
 .room_img{width: 100%; height: 419px; top:2px;}
-.room-text{width: 96%;height: 432px; top: 30%; left: 1px;}
-#room_text_box{left:0; top:0;}
-.room_>p{width: 95%; margin: 1%;}
+.room-text{width: 96%;height: 362px; top: 30%; left: 1px;}
+#room_text_box{left:0; top:0; }
+.room_>p{width: 95%; margin: 2%;}
 
-.room_>h1{font-size: 30px;}
+.room_>h1{ width: 70%; font-size: 30px; margin: 30px!important;}
 .btn-border2{width: 49%; right: 76%; top: -250%; }
 .btn3>a{position: relative; top: -33px; font-size: 1em;}
 .btn3 a span{font-size: 13px;}
 .btn3{bottom:-57%}
 
 .next_1::after{
-        top:96%;
-        left: -73px;
+        top:80%;
+        left: -53px;
 }
 .next_2::after{
-        top:96%;
-        left:-413px;
+        top:80%;
+        left:-285px;
 }
 .see a{font-size: 15px;
-       right: 141px;
-        bottom: -48px;}
+       right: 24%;
+        bottom: 20px;}
 
 #hotel_img{
         width: 100%;
-        height: 372px;
+        height: 250px;
         padding: 0;
-        top: 94px;
+        top: 54px;
         position:relative;
 }       
 
-#hotel_img{width: 100%; height:450px;}
 #hotel_img img{width: 100%; height: inherit;}
 
 
@@ -177,45 +177,48 @@ font-weight: bold; letter-spacing: 1px; top:16%; width: 93%; right: 9px;}
 }
 
 .tion_box1{height: 785px; top:32%}
-#ACCOMMODATION .img-box{width: 100%; height: 777px; top:35%; right: 0;}
-#ACCOMMODATION .img-box img{height: 200px;}
-#ACCOMMODATION #inpnity p{ top:53%; line-height: 35px; left: 0; font-size: 30px;} 
+#ACCOMMODATION .img-box{width: 95%; height: 777px; top:35%; right: 8px;}
+#ACCOMMODATION .img-box img{height: 180px;}
+#ACCOMMODATION #inpnity p{ top:48%; line-height: 35px; left: 0; font-size: 30px;} 
 #ACCOMMODATION .img-box .read1{ display: block; position: absolute;
-                bottom: 61px; width: 150px; left: 3%; }
-#ACCOMMODATION .img-box .read1 a{font-size: 17px;} 
-#ACCOMMODATION #BBQ p{ top:53%; line-height: 35px; left: 0; font-size: 30px;} 
+                top:75%; width: 150px; left: 3%; }
+#ACCOMMODATION .img-box .read1 a{font-size: 15px;} 
+#ACCOMMODATION #BBQ p{ top:48%; line-height: 35px; left: 0; font-size: 30px;} 
 #ACCOMMODATION .img-box .read2{ display: block; position: absolute;
-        bottom: 61px; width: 150px; left: 3%; }
-#ACCOMMODATION .img-box .read2 a{font-size: 17px;} 
+        top:75%; width: 150px; left: 3%; }
+#ACCOMMODATION .img-box .read2 a{font-size: 15px;} 
 
 .line[data-v-5d883f52]{top:10%;}
 
 
 
 .overflow_hidden{ width: 100%; position: absolute; top:-20px;}
-#review h1{font-size: 4em; top:8%; right:58%;}
-.review_{top:-3%}
-.review_img{width: 100%; position: absolute; left: 1%;}
-.review_img img{text-align: center; width: 78% ; height: 400px; margin: 50px;}
+#review{height: 900px;}
+
+#review h1{font-size: 3.5em; top:8%; left: 8%;}
+.review_{top:-5%}
+.review_img{width: 100%; position: absolute; right: 5px;}
+.review_img img{text-align: center; width: 85% ; height: 350px; margin: 30px;}
 #review .line{top:-3%}
 .review_1{height: 902px;}
-.next_3{ bottom: 22%; left:15%}
-.next_4{bottom: 22%; right: 15%;}
+.next_3{ bottom: 25%; left:15%}
+.next_4{bottom: 25%; right: 15%;}
 
 .review_ p{ font-size: 0.8em; transform: translate(9%, -450%);}
-#review .btn-border{width: 38%; top:67%; height: 200px;  left:55%;}
-.see_2{bottom: 208px; left: 65%;}
+#review .btn-border{width: 38%; top:75%; height: 200px;  left:40%;}
+.see_2{bottom: 98px; left: 45%;}
 
 
-#Events{height: 850px;}
-#Event_s{width: 100%; height: 559px;}
-#Event_s h1{ width: 75%; font-size:4em; left:22%;top:5%; letter-spacing: 2px; text-align: right; }
+#Events{width:100%; height: 850px;}
+#Event_s{width: 100%; height: 522px;}
+#Event_s h1{ width: 75%; font-size:3em; left:22%;top:-4%; letter-spacing: 2px; text-align: right; }
 #slider_box{top:15%;}
-#offer_box{width:460%; margin: 0 0 0 4%;}
-.offer_img1 img{width: 556.56px;}
-.see_{top:90%;}
-.o_text_box{font-size: 1.5em; top:109%}
-
+#offer_box{width:480%; margin: 0 0 0 4%;  justify-content: flex-start;}
+.offer_img1{left:4%;}
+.offer_img1 img{width: 96%; height: 223px;}
+.see_{top:78%; right:0;}
+.o_text_box{font-size: 1em; top:85%; width: 94%; left: 1%;} 
+.o_text_box p{font-size: 1.5em; color: #555; margin: 5% 0;}
 
 #newsletter{height: 540px;} 
 .newsletter_text{width: 100%; height: 128px;}

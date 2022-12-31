@@ -379,10 +379,10 @@ font-size: 13px;
  .next_4{position: absolute;bottom: 51%;right: 44px;color: #999; cursor: pointer;}  
  #review .btn-border{width: 20%; height: 180px; left:19%; top:84%; opacity:0.5;}
  
-#Events{ width: 100%; height:1346.73px; position: relative; padding: 73px 0;}
+#Events{ width: 100%; height:1068.73px; position: relative;}
 #Event_s{width: 860px;height: 962px; background-color: #f9efe9;margin-top: 8%;}
 #Events h1{position: absolute; font-size: 8em; font-family:'Jeju Myeongjo', serif;
-       width: 26%; left:53%; top: 167px; letter-spacing: -4px; color: rgb(50, 50, 50);}
+       width: 26%; left:48%; top: -51px; letter-spacing: -4px; color: rgb(50, 50, 50);}
 
 .see_{position: absolute;
         width: 185px;
@@ -392,9 +392,9 @@ font-size: 13px;
       
         letter-spacing: 3px;
         font-size: 13px;
-        top: 35%;}       
+        top: 20%;}       
         .see_ a{  color: #7f7872;}
-#slider_box{position: absolute;top:39%; height: 530px; width: 100%;
+#slider_box{position: absolute;top:20%; height: 530px; width: 100%;
         overflow: hidden; z-index: 100;}
 #offer_box{width: 181%; height: 368px;position:absolute; display: flex;
                 justify-content: space-around;
@@ -410,7 +410,7 @@ font-size: 13px;
 
 #Events .line[data-v-5d883f52], .line__border[data-v-5d883f52]{
         position: absolute;
-        top:8.9%;
+        top:-0.1%;
 }
 
 
@@ -514,6 +514,7 @@ video{width: 100%; height: auto;}
         background-color: hsla(0,0%,100%,.5);
         z-index: 5;
 }
+#map .line{top:70px;}
 #map>p{font-size: 5em; position: absolute; z-index: 10; width: 48%;
         text-align: right; font-family: 'prata'; left: 105.3px;top:16%; line-height: 87px;}
 .map_a{display: flex;flex-wrap: wrap; width: 54%; z-index: 100; color:rgb(50, 50, 50);
