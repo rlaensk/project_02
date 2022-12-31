@@ -17,7 +17,7 @@ header{height: 53px;}
 #slider video{display: none;}
 #slider{height: 1022px;}
 .slider_videeo{ position: relative; height: 1109px;}
-.mini_slider{display: block; position: absolute;top: 0; left: 0; width: 100%; height: 100vh; }
+.mini_slider{display: block; position: absolute;top: 0; left: 0; width: 100%; height: 112vh; }
 #slider_text{ left:0; align-items: flex-start; width:100%;top:133px;}
 .slider_text1{ font-size: 7vw; width: 130%;text-align: justify; top:177px; left: 16px;}
 
