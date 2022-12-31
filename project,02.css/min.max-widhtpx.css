@@ -12,8 +12,9 @@ header{height: 53px;}
 .container .menu .one{ left:20px;}
 .container .menu .two{ left:20px;}
 .container .menu .three{ left:20px;}
-#logo{ height: 18px; line-height: 15px;}
-#book_tap{ width: 81.6px;height: 27px; padding: 8px 8px 8px 12px;}
+#logo{ height: 26px; line-height: 15px;}
+#book_tap{ width: 97.6px;height: 27px; padding: 4px 8px 3px 20px;}
+#book_tap a{font-size: 0.8em;}
 #slider video{display: none;}
 #slider{height: 1022px;}
 .slider_videeo{ position: relative; height: 1109px;}
