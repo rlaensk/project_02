@@ -111,7 +111,7 @@ header{ width: 100%; height: 100px;display: flex;
 .cs_img a:nth-child(2){margin-left: 31px;}
 #CS_toggle ul li{ font-weight: bold; font-size:12px; letter-spacing: 2px; line-height: 30px;}
 
-#book_tap{width:33%; height: 38px; padding:11px 38px; border: 1px solid #fff;
+#book_tap{width:34%; height: 37px; line-height: 36px; text-align: center; border: 1px solid #fff;
         font-size: 0.8em;color:#99a1a7  }
 #book_tap a{color: whitesmoke;}
 
@@ -123,7 +123,7 @@ header{ width: 100%; height: 100px;display: flex;
 
 #menu_trigger{background-color: rgb(255, 255, 255); transition: all 1.5s;
                 width: 0; height:969px; position:fixed;  z-index: 899; top: 0; left:0;}
-
+.menu_trigger_s{height: auto;}
 #menu_trigger a{ color: rgb(50,50,50);}
 #menu_trigger a:hover{opacity: 0.5;}
 .menu_s{ display: flex; flex-wrap: wrap; width: 100%; height: 380px; 

@@ -12,8 +12,9 @@ header{height: 53px;}
 .container .menu .one{ left:20px;}
 .container .menu .two{ left:20px;}
 .container .menu .three{ left:20px;}
-#logo{ height: 26px; line-height: 15px;}
-#book_tap{ width: 97.6px;height: 27px; padding: 4px 8px 3px 20px;}
+#logo{ height: 26px;}
+#logo a p{font-size: 1em; line-height: 19px;}
+#book_tap{ width: 97.6px;height: 27px; line-height: 30px;}
 #book_tap a{font-size: 0.8em;}
 #slider video{display: none;}
 #slider{height: 1022px;}
@@ -33,11 +34,10 @@ header{height: 53px;}
 
 /*사이드메뉴 */
 
-.menu_s{top:15%; left: 5%;  justify-content:flex-start; }
+.menu_s{top:8%; left: 5%;height: auto;  justify-content:flex-start; }
 .menu_s_ a{display: block;}
 .menu_s_{width: 88%;height: 70px;  display: flex; justify-content: space-between; align-items: center;}
 .about_us{width: 90%; height: auto;}
-.menu_s {height: auto;}
 .menu_nav{display: none; }
 .menu_s span a{margin:0;font-size: 1.5em;} 
 .menu_s .menu_nav{display: none; height: auto;}
@@ -48,7 +48,7 @@ header{height: 53px;}
 #community span a{margin:0 !important;}
 #reservation span a{margin:0 !important;}
 
-.side_footer{bottom:15%;}
+.side_footer{bottom:8%;}
 .call_{width: 100%; justify-content: space-between; font-size: 13px; margin: 0 5%; }
 .follow_us{width: 100%; flex-wrap: wrap; margin-right: 0;}
 .follow_us p{width: 100%;font-size: 13px; margin:5%;}
