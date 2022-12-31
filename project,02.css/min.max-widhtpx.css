@@ -15,9 +15,9 @@ header{height: 53px;}
 #logo{ height: 18px; line-height: 15px;}
 #book_tap{ width: 81.6px;height: 27px; padding: 8px 8px 8px 12px;}
 #slider video{display: none;}
-#slider{height: 1125px;}
-.slider_videeo{ position: relative; height: 1144px;}
-.mini_slider{display: block; position: absolute;top: 0; left: 0; width: 100%; height: 1145px; }
+#slider{height: 1022px;}
+.slider_videeo{ position: relative; height: 1109px;}
+.mini_slider{display: block; position: absolute;top: 0; left: 0; width: 100%; height: 1024px; }
 #slider_text{ left:0; align-items: flex-start; width:100%;top:133px;}
 .slider_text1{ font-size: 7vw; width: 130%;text-align: justify; top:177px; left: 16px;}
 
@@ -100,16 +100,16 @@ header{height: 53px;}
 /* Pool villa Room */
 #about{height: 980px;}
 #about_line>p{font-size:50px; line-height: 40px;
-font-weight: bold; letter-spacing: 1px; top:23%; width: 93%; right: 9px;}
+font-weight: bold; letter-spacing: 1px; top:16%; width: 93%; right: 9px;}
 
 #about_line{flex-direction: column;}
-#about_line .line{top:6%;}
+#about_line .line{top:-10%;}
 #about_text{width: 100%;}
 #about_text .but{width: 92%; bottom: -13%; left: 3%;
                 line-height: 27px; font-size: 3vw; padding: 4px; text-align: justify;}
-#about_img{width: 100%;position: absolute; top: -2%;}
-.about_box{width: 102%; height: 354px; top:20%;}
-#about_img img{width: 50%;height: auto; bottom: 55%; left: 27%;}
+#about_img{width: 100%;position: absolute; top: 12%; height: 435px;}
+.about_box{width: 102%; height: 408px; top:14%; }
+#about_img img{width: 50%;height:254px; bottom: 11%; left: 27%;}
 .btn-border1{width: 49%; right: 61%; top:90px;}
 .btn2 svg{top:74px;}
 .btn2 a span{font-size: 13px; position: absolute; top:149px!important;}
