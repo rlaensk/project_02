@@ -106,84 +106,84 @@ $(function () {
   });
 
   $('.next_2').click(function () {
-    $('.room_img_box .room_img:nth-of-type(2)').prependTo('.room_img_box');
+    $('.room_img_box .room_img:first)').prependTo('.room_img_box');
     $('.room_img_box').css('margin-left', -100.5);
     $('.room_img_box').stop().animate({ marginLeft: 0 }, 1000);
-    // $('.room_img_box').stop().animate({ marginLeft: -600.5 }, 1000, function () {
-    //   $('.room_img_box .room_img:first').appendTo('.room_img_box');
-    //   $('.room_img_box').css({ marginLeft: 0 });
+    $('.room_img_box').stop().animate({ marginLeft: -600.5 }, 1000, function () {
+      $('.room_img_box .room_img:first').appendTo('.room_img_box');
+      $('.room_img_box').css({ marginLeft: 0 });
       
-    // })
+    })
   });
 
-  $(function () {
-    let count=0
-     $('.next_1').click(function () {
-      count++;
-      if(count==0){
-        $('.room1').fadeIn();
-        $('.room2').hide();
-        $('.room3').hide();
-        $('.room4').hide();
-      }
+  // $(function () {
+  //   let count=0
+  //    $('.next_1').click(function () {
+  //     count++;
+  //     if(count==0){
+  //       $('.room1').fadeIn();
+  //       $('.room2').hide();
+  //       $('.room3').hide();
+  //       $('.room4').hide();
+  //     }
       
-      if(count==1){
-        $('.room1').hide();
-        $('.room2').fadeIn();
-        $('.room3').hide();
-        $('.room4').hide();
-      }
+  //     if(count==1){
+  //       $('.room1').hide();
+  //       $('.room2').fadeIn();
+  //       $('.room3').hide();
+  //       $('.room4').hide();
+  //     }
 
-     if(count==2){
-      $('.room1').hide();
-      $('.room2').hide();
-      $('.room3').fadeIn();
-      $('.room4').hide();
-     }
+  //    if(count==2){
+  //     $('.room1').hide();
+  //     $('.room2').hide();
+  //     $('.room3').fadeIn();
+  //     $('.room4').hide();
+  //    }
       
-     if(count==3){
-      $('.room1').hide();
-      $('.room2').hide();
-      $('.room3').hide();
-      $('.room4').fadeIn();
-      count=-1
-     }
-     console.log(count)
-    });
+  //    if(count==3){
+  //     $('.room1').hide();
+  //     $('.room2').hide();
+  //     $('.room3').hide();
+  //     $('.room4').fadeIn();
+  //     count=-1
+  //    }
+  //    console.log(count)
+  //   });
   
    
-    $('.next_2').click(function(){
-      count--;
-      if(count==-1){count=3}
-      if(count==0){
-        $('.room1').fadeIn();
-        $('.room2').hide();
-        $('.room3').hide();
-        $('.room4').hide();
-      }
+  //   $('.next_2').click(function(){
+  //     count--;
+  //     if(count==-1){count=3}
+  //     if(count==0){
+  //       $('.room1').fadeIn();
+  //       $('.room2').hide();
+  //       $('.room3').hide();
+  //       $('.room4').hide();
+  //     }
       
-      if(count==1){
-        $('.room1').hide();
-        $('.room2').fadeIn();
-        $('.room3').hide();
-        $('.room4').hide();
-      }
+  //     if(count==1){
+  //       $('.room1').hide();
+  //       $('.room2').fadeIn();
+  //       $('.room3').hide();
+  //       $('.room4').hide();
+  //     }
 
-     if(count==2){
-      $('.room1').hide();
-      $('.room2').hide();
-      $('.room3').fadeIn();
-      $('.room4').hide();
-     }
+  //    if(count==2){
+  //     $('.room1').hide();
+  //     $('.room2').hide();
+  //     $('.room3').fadeIn();
+  //     $('.room4').hide();
+  //    }
       
-     if(count==3){
-      $('.room1').hide();
-      $('.room2').hide();
-      $('.room3').hide();
-      $('.room4').fadeIn();
-     }
-    });
-  });
+  //    if(count==3){
+  //     $('.room1').hide();
+  //     $('.room2').hide();
+  //     $('.room3').hide();
+  //     $('.room4').fadeIn();
+  //    }
+  //   });
+  // });
 
 
   //index.js
