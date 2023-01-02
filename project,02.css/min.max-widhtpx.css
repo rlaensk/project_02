@@ -7,6 +7,7 @@
 header{height: 53px;}
 
 .country_toggle{display: none;}
+
 #CS_num{ justify-content: flex-end; margin-right: 13px;}
 #CS_toggle{display: none;}
 .container .menu .one{ left:20px;}
@@ -35,6 +36,7 @@ header{height: 53px;}
 
 /*사이드메뉴 */
 
+#menu_trigger{height: 1500px;}
 .menu_s{top:8%; left: 5%;height: auto;  justify-content:flex-start; }
 .menu_s_ a{display: block;}
 .menu_s_{width: 88%;height: 70px;  display: flex; justify-content: space-between; align-items: center;}
@@ -49,7 +51,7 @@ header{height: 53px;}
 #community span a{margin:0 !important;}
 #reservation span a{margin:0 !important;}
 
-.side_footer{bottom:8%;}
+.side_footer{top:110%; flex-wrap: wrap;    margin: 0 0 0 -7%;}
 .call_{width: 100%; justify-content: space-between; font-size: 13px; margin: 0 5%; }
 
 .follow_us{width: 100%; flex-wrap: wrap; margin-right: 0;}
@@ -264,9 +266,11 @@ form svg{left: 37%!important;top: 82%!important;}
 
 
 @media (min-width:600px) and (max-width:1230px){
-#book_tap{padding: 11px 16px;}
+#book_tap{width:45% ; padding: 1px 16px;}
+
+.cstoggle+ul { width: 18%; right: 51px; }
 .menu_s{top:17%; left:80px;}
-.menu_s div{width: 30%;} 
+.menu_s div{width: 32%;} 
 .menu_nav ul li{ font-size: 13px; }
 #about_us{width: 22%;}
 #offers{width: 22%;}
@@ -274,20 +278,22 @@ form svg{left: 37%!important;top: 82%!important;}
 .menu_s span a{font-size: 1.5em;}
 .menu_s nav ul li{margin: 4% 0;;}
 .menu_s nav{height: 350px;}
-.side_footer{bottom:-1px;}
+.side_footer{right: 5%;opacity: 1;width: 100%!important;bottom: -94%; margin: 0 0 0 -44px;}
+.side_footer span a{font-size: 1em;}
 .call_{width: 31%;}
 .follow_us{width: 25%; margin-right: 5%;}
 .cradit {width: 17%; margin-right: 3%;}
+.cradit ul {width: 80%;}
 
 
 #slider{height: 1030px;}
 #slider .slider_vieeo{height: 1030px;}
 #slider video{display: none;}
 .mid_slider{width: 100%; height: 112vh; display:block; position: absolute; top:0;left:0;}
-
-.slider_text1 {font-size: 4em; top: 82%; right: 36%; text-align: left;}
-.slider_text2 { width: 32%; line-height: 25px; bottom: -44%;}
-.btn1{ bottom: -40%; right: 19%;}
+#header_manu .dropdown_menu {width: 32%;  right: -9px; }
+.slider_text1 {font-size: 4em; top: 64%; right: 36%; text-align: left;}
+.slider_text2 { width: 32%; line-height: 25px; bottom: -17%;}
+.btn1{ bottom: -21%; right: 19%;}
 #about { height: 721px;}
 #about_line>p {top: 11%; right: 5%; font-size:5em; letter-spacing: -7px;}
  .about_box { width: 121%; height: 500px; top: 155px; left: -74px; }

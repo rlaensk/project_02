@@ -82,15 +82,19 @@ $(function () {
     let layer = $('.dropdown_menu');
 
     btn.click(function () {
-      layer.slideToggle();
-    });
-
+    layer.slideToggle();
+   
   });
+});
+
+
+
+  
 
   // cs
   $(function () {
     let btn1 = $('.cstoggle');
-    let layer1 = $('.cstoggle+ul')
+    let layer1 = $('.csdropdown');
 
     btn1.click(function () {
       layer1.slideToggle();
