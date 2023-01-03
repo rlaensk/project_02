@@ -1,0 +1,26 @@
+@charset "ntf-8";
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+
+*{ margin: 0; padding: 0; text-decoration: none; color:rgb(49, 49, 49); box-sizing: border-box; font-family: 'inter';}
+li, ul ,ol{ list-style-type: none;}
+
+#wrap{width: 100%; height: auto;}
+#room_n{ width: 100%; height: 280px;position:relative;}
+#room_n h1{font-size: 8vw; font-family:'Jeju Myeongjo'; padding: 40px 0 0 40px;}
+#room_n ul{display: flex; width: 100%; height: 50px; align-items: center;}
+#room_n ul li{    width: 9%; text-align: center; font-size: 0.8vw; letter-spacing: 2px;}
+#room_n ul li a{color: rgba(128,128,128,0.8);}
+
+#room_k{width: 100%; height: 5000px;}
+#room_k article{width: 100%; height: 100vh;}
+.r-img-box{position: relative; width: 100%; height: auto;}
+.rm_img{width: 50%; height: 100vh; background: url(http://minjun1555.speedgabia.com/_elafonisi/room/4/3.jpg) no-repeat 40% 50%;
+     background-size: cover;}
+
+.rm_img h2{padding: 10%; font-size: 5vw; text-align: right; color: rgb(255,255,255);
+        font-family: 'Jeju Myeongjo';}
+.r_img{width:23%; height: 450px; background: url(http://minjun1555.speedgabia.com/_elafonisi/room/4/19.jpg) no-repeat 42% 50%;
+    background-size: cover; position: absolute; top:14%; right: 34%;}
+.r_img:nth-of-type(2){width:23%; height: 450px;background: url(http://minjun1555.speedgabia.com/_elafonisi/room/4/4.jpg) no-repeat 50% 50%;
+    background-size: cover; position: absolute; top:14%; right: 6%;}
+ #r-text-box{position: absolute;top: 7%;right: 350px;line-height: 41px;}   

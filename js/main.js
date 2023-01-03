@@ -1,3 +1,23 @@
+// scroll하면 헤더배경색 변하기
+$(function(){
+  let isOn=false;
+  $(window).scroll(function(){
+    if($(this).scrollTop()>100){
+      if(!isOn){
+        $('header').addClass('on');
+        isOn=true;
+      }
+    }else{
+      if(isOn){
+        $('header').removeClass('on');
+        isOn=false;
+      }
+    }
+  });
+
+});
+
+
 // 햄버거메뉴 누르면 X
 const menuTrigger = document.querySelector('.menu-trigger');
 
@@ -103,26 +123,36 @@ $(function () {
 
 
   // hotel room
+  $('.room_').not(':first').css('display','none');
 
   $('.next_1').click(function () {
-    $('.room_img_box .room_img:last').prependTo('.room_img_box');
-    $('.room_img_box').css('margin-left', -100.5);
+    $('.room_img:first').insertAfter('.room_img:last');
+    $('.room_img_box').css('margin-left', -50.5);
     $('.room_img_box').stop().animate({ marginLeft: 0 }, 1000);
+    
+    $('.room_:first').insertAfter('.room_:last');
+    $('.room_:first').css('display','block');
+    $('.room_').not(':first').css('display','none');
+    $('.room_').css('margin-left',50);
+    $('.room_').stop().animate({marginLeft:0},1000);
+
+      // $('.room_:first').insertAfter('.room_:last');
 
   
   });
 
   $('.next_2').click(function () {
-    $('.room_img_box .room_img:first)').prependTo('.room_img_box');
-    $('.room_img_box').css('margin-left', -100.5);
+    $('.room_img:last').insertBefore('.room_img:first');
+    $('.room_img_box').css('margin-left', 50.5);
     $('.room_img_box').stop().animate({ marginLeft: 0 }, 1000);
-    $('.room_img_box').stop().animate({ marginLeft: -600.5 }, 1000, function () {
-      $('.room_img_box .room_img:first').appendTo('.room_img_box');
-      $('.room_img_box').css({ marginLeft: 0 });
-      
-    })
-  });
 
+    $('.room_:last').insertBefore('.room_:first');
+    $('.room_:first').css('display','block');
+    $('.room_').not(':first').css('display','none');
+    $('.room_').css('margin-left', 50.5);
+    $('.room_').stop().animate({ marginLeft: 0 }, 1000);
+    });
+ 
 
 
 

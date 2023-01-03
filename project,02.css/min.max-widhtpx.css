@@ -149,7 +149,7 @@ font-weight: bold; letter-spacing: 1px; top:13%; width: 93%; right: 9px;}
 }
 .next_2::after{
         top:80%;
-        left:-291px;
+        left:-4171px;
 }
 .see a{font-size: 15px;
        right: 24%;
@@ -222,11 +222,34 @@ font-weight: bold; letter-spacing: 1px; top:13%; width: 93%; right: 9px;}
 #Event_s h1{ width: 75%; font-size:3em; left:22%;top:-4%; letter-spacing: 2px; text-align: right; }
 #slider_box{top:12%;}
 #offer_box{width:480%; margin: 0 0 0 4%;  justify-content: flex-start;}
-.offer_img1{left:4%;}
+.offer_img1{right:7px ;}
 .offer_img1 img{width: 96%; height: 223px;}
 .see_{top:89%; right:0;}
 .o_text_box{font-size: 1em; top:79%; width: 94%; left: 1%;} 
 .o_text_box p{font-size: 1.5em; color: #555; margin: 5% 0;}
+Special
+OffersSEE MORE
+
+Breakfasy&BBQ
+
+Start the day with breakfast cooked by the best chef in Gyeongju
+
+Free warm water
+
+We provide free lukewarm water for individual swimming pools.
+
+CAMERA RENTAL
+
+We lend you Polaroids for your happy moments!
+
+
+Pickup service
+
+Pick-up service for the squeaky kids! Have a comfortable trip without a car!
+
+Winter vacation event
+
+Save up to 20% on phone reservations!
 
 #newsletter{height: 540px;} 
 .newsletter_text{width: 100%; height: 128px;}
@@ -237,7 +260,7 @@ font-weight: bold; letter-spacing: 1px; top:13%; width: 93%; right: 9px;}
 #form{width: 100%; top:2%}
 #form input{width: 96%;}
 form{width: 95%; top: 18%;left: 4%;}
-form svg{left: 37%!important;top: 82%!important;}
+form svg{left: 37%!important;top: 91%!important;}
 
 
 #neighbourhood{height: 550px;}
@@ -260,7 +283,7 @@ form svg{left: 37%!important;top: 82%!important;}
 
 
 #about_hotel{height: 79px;}
-#about_hotel a {font-size: 2em;left:18%; padding: 0;}
+#about_hotel a {font-size: 2em;left:29%; padding: 50px 0 0 0;}
 
 }
 
