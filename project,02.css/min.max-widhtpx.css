@@ -225,7 +225,7 @@ form svg{left: 37%!important;top: 91%!important;}
 #ACCOMMODATION img{width: 100%; height:221px;}
 #ACCOMMODATION .img-box { width: 99%;top: 42%;right: -1px;}
 #inpnity{width: 45%;}
-#inpnity p{ top:97%; left:1%; font-size: 2em;}
+#inpnity p{width: 100%; top:97%; left:1%; font-size: 2em;line-height: 40px;}
 #BBQ{width: 45%; }
 #BBQ p{ top:97%; left:1%; font-size: 2em;}
 

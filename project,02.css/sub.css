@@ -9,8 +9,9 @@ li, ul ,ol{ list-style-type: none;}
 
 .btn-border1{opacity:0.9;}
 #room_n{ width: 100%; height: 497px; bottom:-132px; position:relative;}
+.line[data-v-5d883f52]{top: -138px;}
 #room_n h1{font-size: 6.5vw; font-family:'Jeju Myeongjo'; padding: 47px; color:rgb(40, 40, 40)}
-#room_n ul{display: flex; width: 100%; height: 50px; align-items: center; }
+#room_n ul{display: flex; width: 100%; height: 50px; align-items: center; flex-wrap:wrap; }
 #room_n ul li{ width: 11%; text-align: center; font-size: 0.9vw; letter-spacing: 2px;}
 #room_n ul li a{color: rgba(128,128,128,0.8);}
 
@@ -95,3 +96,18 @@ li, ul ,ol{ list-style-type: none;}
   #about_hotel{width: 100%; height: 191px; }
   #about_hotel a{font-size: 6em; font-family: 'prata'; position: absolute; left: 30%; padding: 35px 0; color: rgb(50, 50, 50);}
   
+
+  /* 반응형 */
+  @media (max-width:599px){
+    #room_n h1{ padding: 12px; font-size: 18.5vw;}
+    #room_n ul li{width: 100%; line-height: 30px; text-align: left; margin-left: 20px;}
+    .r-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
+    .rm_img{width: 100%;height: 350px; }
+     .r_img:nth-of-type(2){width: 100%; height: 350px; position: absolute; top:0;}
+    .r_img:nth-of-type(3){width: 100%; height: 350px;right: 0; position: absolute; top:0;}
+    #r-text-box { top: 33%;right: 100px;line-height: 23px;font-size: 3vw; }
+    .btn-border1 {top: 45px;}
+    .btn_1 a span{left:-19px}
+  
+  
+  }
