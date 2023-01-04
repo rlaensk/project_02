@@ -37,7 +37,7 @@ header{height: 53px;}
 /*사이드메뉴 */
 
 #menu_trigger{height: 1500px;}
-.menu_s{top:8%; left: 5%;height: auto;  justify-content:flex-start; }
+.menu_s{ left: 5%;height: auto;  justify-content:flex-start; }
 .menu_s_ a{display: block;}
 .menu_s_{width: 88%;height: 70px;  display: flex; justify-content: space-between; align-items: center;}
 .about_us{width: 90%; height: auto;}

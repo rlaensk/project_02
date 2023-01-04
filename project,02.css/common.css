@@ -6,7 +6,7 @@ ul,li,ol{ list-style: none;}
 
 
 #wrap{width: 100%; height: auto; position: relative; overflow: hidden;}
-#top{width: 100%; height: 100px;}
+#top{width: 100%; height: 100vh;}
 
 header{ width: 100%; height: 100px;display: flex; 
     justify-content: space-between; align-items: center; position:fixed;
@@ -153,9 +153,7 @@ header.on{background:rgba(202, 202, 202, 0.377);}
      
         .follow_us ul li a img{width: 30px;}
 .follow_us ul{display: flex; width: 60%; justify-content: space-around;}
-/* .call_{transform: translateY(100px);transition: all 0.5s; opacity: 0;}
-.follow_us{transform: translateY(100px); transition: all 0.5; opacity: 0; }
-.cradit{transform: translateY(100px); transition: all 1s; opacity: 0;} */
+
 
 .cradit{width: 11%; margin-right: 2%;}
 .cradit ul{width: 100%; height: 98px; display: flex; justify-content: space-around; align-items: center; }
