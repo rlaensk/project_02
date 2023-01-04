@@ -99,15 +99,22 @@ li, ul ,ol{ list-style-type: none;}
 
   /* 반응형 */
   @media (max-width:599px){
-    #room_n h1{ padding: 12px; font-size: 18.5vw;}
+    #room_n h1{ padding: 12px; font-size: 14.5vw;}
     #room_n ul li{width: 100%; line-height: 30px; text-align: left; margin-left: 20px;}
+    #room_n ul li a{font-size: 3vw;}
     .r-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
-    .rm_img{width: 100%;height: 350px; }
-     .r_img:nth-of-type(2){width: 100%; height: 350px; position: absolute; top:0;}
-    .r_img:nth-of-type(3){width: 100%; height: 350px;right: 0; position: absolute; top:0;}
-    #r-text-box { top: 33%;right: 100px;line-height: 23px;font-size: 3vw; }
+    .rm_img{width: 100%;height: 450px; }
+     .r_img:nth-of-type(2){width: 100%; height: 450px; position: absolute; top:0;}
+    .r_img:nth-of-type(3){width: 100%; height: 450px;right: 0; position: absolute; top:0;}
+    #r-text-box { top: 43%;right: 100px;line-height: 23px;font-size: 3vw; }
     .btn-border1 {top: 45px;}
-    .btn_1 a span{left:-19px}
-  
-  
+    .btn_1 a span{top:124px; left:-19px}
+    .rm_img h2 {    position: absolute; z-index: 100; font-size: 6vw;}
+
+
+
+
+
+
+
   }
