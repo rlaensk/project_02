@@ -196,3 +196,115 @@ header.on{background:rgba(202, 202, 202, 0.377);}
       
 footer{width: 100%; height: 150px; display: flex; justify-content: flex-end; align-items: center;}
 footer p{font-size: 0.5vw; margin-right: 15px; opacity:0.7;}
+
+
+@media (max-width:599px){
+
+
+  #wrap{ width: 100%; overflow: hidden;}
+  header{height: 53px;}
+  
+  .country_toggle{display: none;}
+  
+  #CS_num{ justify-content: flex-end; margin-right: 13px;}
+  #CS_toggle{display: none;}
+  .container .menu .one{ left:20px;}
+  .container .menu .two{ left:20px;}
+  .container .menu .three{ left:20px;}
+  #logo{ height: 26px;}
+  #logo a p{font-size: 0.7em; line-height: 19px;}
+  #logo a p:nth-child(2){ font-size: 0.6em}
+  #book_tap{ width: 97.6px;height: 27px; line-height: 15px;}
+  #book_tap a{font-size: 0.8em;}
+
+  #menu_trigger{height: 1500px;}
+.menu_s{top:8%; left: 5%;height: auto;  justify-content:flex-start; }
+.menu_s_ a{display: block;}
+.menu_s_{width: 88%;height: 70px;  display: flex; justify-content: space-between; align-items: center;}
+.about_us{width: 90%; height: auto;}
+.menu_nav{display: none; }
+.menu_s span a{margin:0;font-size: 1.5em;} 
+.menu_s .menu_nav{display: none; height: auto;}
+.menu_s .menu_nav ul li{margin: 0!important;}
+.menu_s ul li a{height: 30px; display: block;}
+
+#accom span a{margin:0 !important;}
+#community span a{margin:0 !important;}
+#reservation span a{margin:0 !important;}
+
+.side_footer{top:110%; flex-wrap: wrap;    margin: 0 0 0 -7%;}
+.call_{width: 100%; justify-content: space-between; font-size: 13px; margin: 0 5%; }
+
+.follow_us{width: 100%; flex-wrap: wrap; margin-right: 0;}
+
+.follow_us p{width: 100%;font-size: 13px; margin:5%;}
+.follow_us ul{width: 100%; justify-content: space-between; margin: 5%;}
+.cradit{width: 90%; }
+
+
+.cradit ul{height: auto; justify-content: space-between; margin-left: 7%;}
+
+.plus,
+.plus span {
+  display: inline-block;
+  transition: all 0.4s;
+  box-sizing: border-box;
+}
+
+.plus {
+  position: relative;
+  width: 33px;
+  height: 24px;
+  z-index: 260;;
+  left: 31px;
+}
+.plus span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(26, 26, 26);
+  border-radius: 4px;
+}
+
+.plus span:nth-of-type(1) {
+  top: 0;
+}
+
+.plus span:nth-of-type(2) {
+  bottom: 0;
+}
+
+
+.plus.active span:nth-of-type(1) {
+  transform: translateY(11px) rotate(-45deg);
+}
+
+.plus.active span:nth-of-type(2) {
+  transform: translateY(-11px) rotate(45deg);
+}
+
+
+}
+
+@media (min-width:600px) and (max-width:1230px){
+  #book_tap{width:45% ; padding: 1px 16px;}
+  
+  .cstoggle+ul { width: 18%; right: 51px; }
+  .menu_s{top:17%; left:80px;}
+  .menu_s div{width: 32%;} 
+  .menu_nav ul li{ font-size: 13px; }
+  #about_us{width: 22%;}
+  #offers{width: 22%;}
+  #special nav ul li{margin: 4% 0;}
+  .menu_s span a{font-size: 1.5em;}
+  .menu_s nav ul li{margin: 4% 0;;}
+  .menu_s nav{height: 350px;}
+  .side_footer{right: 5%;opacity: 1;width: 100%!important;bottom: -94%; margin: 0 0 0 -44px;}
+  .side_footer span a{font-size: 1em;}
+  .call_{width: 31%;}
+  .follow_us{width: 25%; margin-right: 5%;}
+  .cradit {width: 17%; margin-right: 3%;}
+  .cradit ul {width: 80%;}
+  
+}

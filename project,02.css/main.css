@@ -10,7 +10,7 @@
 .mid_slider{display: none;}
 #slider_text{ width:100%; height: 530px; position: relative; z-index: 150; 
         display: flex; flex-direction: column; flex-wrap: wrap;
-       ; left:-4%;}
+        left:-4%;}
 .slider_text1{ font-size: 5vw; width: 55%; position: absolute; top: 63%; right: 13%; text-align: center;  }
 .slider_text1 span{font-family:"Prata";color: white; }
 .slider_text2{ width:19%; font-size: 1em; line-height: 20px; position: absolute; bottom: -30%; right: 10%;
