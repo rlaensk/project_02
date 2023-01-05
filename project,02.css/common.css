@@ -113,7 +113,7 @@ header.on{background:rgba(202, 202, 202, 0.377);}
 #CS_toggle ul li{ font-weight: bold; font-size:12px; letter-spacing: 2px; line-height: 30px;}
 
 #book_tap{width:34%; height: 48px; line-height: 36px; text-align: center; border: 1px solid #fff;
-        font-size: 0.8vw;color:#99a1a7 ; padding: 5px; }
+        font-size: 1.7vw;color:#99a1a7 ; padding: 5px; }
 #book_tap a{color: whitesmoke;}
 
 
@@ -198,7 +198,7 @@ footer{width: 100%; height: 150px; display: flex; justify-content: flex-end; ali
 footer p{font-size: 0.5vw; margin-right: 15px; opacity:0.7;}
 
 
-@media (max-width:599px){
+@media (min-width:320px) and (max-width:774px){
 
 
   #wrap{ width: 100%; overflow: hidden;}
@@ -206,7 +206,7 @@ footer p{font-size: 0.5vw; margin-right: 15px; opacity:0.7;}
   
   .country_toggle{display: none;}
   
-  #CS_num{ justify-content: flex-end; margin-right: 13px;}
+  #CS_num{width: 197px; justify-content: flex-end; margin-right: 13px;}
   #CS_toggle{display: none;}
   .container .menu .one{ left:20px;}
   .container .menu .two{ left:20px;}
@@ -214,7 +214,7 @@ footer p{font-size: 0.5vw; margin-right: 15px; opacity:0.7;}
   #logo{ height: 26px;}
   #logo a p{font-size: 0.7em; line-height: 19px;}
   #logo a p:nth-child(2){ font-size: 0.6em}
-  #book_tap{ width: 97.6px;height: 27px; line-height: 15px;}
+  #book_tap{ width: 55%;height: 27px; line-height: 15px;}
   #book_tap a{font-size: 0.8em;}
 
   #menu_trigger{height: 1500px;}
@@ -287,8 +287,10 @@ footer p{font-size: 0.5vw; margin-right: 15px; opacity:0.7;}
 
 }
 
-@media (min-width:600px) and (max-width:1230px){
-  #book_tap{width:45% ; padding: 1px 16px;}
+@media (min-width:775px) and (max-width:1000px){
+  #book_tap{width:45% ; padding: 6px 16.5px;font-size: 1.3vw;}
+  #header_manu{width: 140px;}
+  header #CS_num{width: 275px;}
   
   .cstoggle+ul { width: 18%; right: 51px; }
   .menu_s{top:17%; left:80px;}

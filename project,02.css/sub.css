@@ -93,28 +93,148 @@ li, ul ,ol{ list-style-type: none;}
     background-size: cover; position: absolute; top:39%;left: 6%;}
   #d2-text-box{position: absolute;top: 5%;left: 15%;line-height: 41px;}   
 
-  #about_hotel{width: 100%; height: 191px; }
-  #about_hotel a{font-size: 6em; font-family: 'prata'; position: absolute; left: 30%; padding: 35px 0; color: rgb(50, 50, 50);}
+  #about_hotel_1{width: 100%; height: 191px; }
+  #about_hotel_1 a{font-size: 6em; font-family: 'prata'; position: absolute; left: 30%; padding: 35px 0; color: rgb(50, 50, 50);}
   
 
   /* 반응형 */
-  @media (max-width:599px){
+  @media (min-width:320px) and (max-width:499px){
+    #room_n{height: 410px;}
+    #room_k article{height: 587px;}
     #room_n h1{ padding: 12px; font-size: 14.5vw;}
     #room_n ul li{width: 100%; line-height: 30px; text-align: left; margin-left: 20px;}
     #room_n ul li a{font-size: 3vw;}
     .r-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
-    .rm_img{width: 100%;height: 450px; }
-     .r_img:nth-of-type(2){width: 100%; height: 450px; position: absolute; top:0;}
-    .r_img:nth-of-type(3){width: 100%; height: 450px;right: 0; position: absolute; top:0;}
-    #r-text-box { top: 43%;right: 100px;line-height: 23px;font-size: 3vw; }
-    .btn-border1 {top: 45px;}
-    .btn_1 a span{top:124px; left:-19px}
-    .rm_img h2 {    position: absolute; z-index: 100; font-size: 6vw;}
+    .rm_img{width: 100%;height: 335px; }
+     .r_img:nth-of-type(2){width: 100%; height: 335px; position: absolute; top:0;}
+    .r_img:nth-of-type(3){width: 100%; height: 335px;right: 0; position: absolute; top:0;}
+    #r-text-box { top: 62%;right: 78px;line-height: 23px;font-size: 3vw; }
+    .btn-border1 {top: 45px; left:2%}
+    .btn_1 a span{top:123px!important; left:26px!important;}
+    .rm_img h2 { position: absolute; z-index: 100; font-size: 7vw;}
+
+    .s-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
+    .sm_img{width: 100%;height: 335px; }
+     .s_img:nth-of-type(2){width: 100%; height: 335px; position: absolute; top:0;}
+    .s_img:nth-of-type(3){width: 100%; height: 335px;right: 0; position: absolute; top:0;}
+    #s-text-box { top: 62%;left:32px;line-height: 23px;font-size: 3vw; }
+    .btn-border1 {top: 45px; left:2%}
+    .btn_2 a span{top:123px!important; left:26px!important;}
+    .sm_img h2 { position: absolute; z-index: 100; font-size: 6vw;}
 
 
+    .t-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
+    .tm_img{width: 100%;height: 335px; }
+     .t_img:nth-of-type(2){width: 100%; height: 335px; position: absolute; top:0;}
+    .t_img:nth-of-type(3){width: 100%; height: 335px;right: 0; position: absolute; top:0;}
+    #t-text-box { top: 62%;right: 68px;line-height: 23px;font-size: 3vw; }
+    .btn-border1 {top: 45px; left:2%}
+    .btn_1 a span{top:123px!important; left:26px!important;}
+    .tm_img h2 { position: absolute; z-index: 100; font-size: 6vw;}
 
 
+    
+    .t2-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
+    .t2m_img{width: 100%;height: 335px; }
+     .t2_img:nth-of-type(2){width: 100%; height: 335px; position: absolute; top:0;}
+    .t2_img:nth-of-type(3){width: 100%; height: 335px;right: 0; position: absolute; top:0;}
+    #t2-text-box { top: 62%;left:32px;line-height: 23px;font-size: 3vw; }
+    .btn-border1 {top: 45px; left:2%}
+    .btn_2 a span{top:123px!important; left:37px!important;}
+    .t2m_img h2 { position: absolute; z-index: 100; font-size: 6vw;}
 
+    .d-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
+    .dm_img{width: 100%;height: 335px; }
+     .d_img:nth-of-type(2){width: 100%; height: 335px; position: absolute; top:0;left:0;}
+    .d_img:nth-of-type(3){width: 100%; height: 335px;right: 0; position: absolute; top:0;}
+    #d-text-box { top: 62%;right: 68px;line-height: 23px;font-size: 3vw; }
+    .btn-border1 {top: 45px; left:2%}
+    .btn_2 a span{top:123px!important; left:26px!important;}
+    .dm_img h2 { position: absolute; z-index: 100; font-size: 6vw;}
+
+    .d2-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
+    .d2m_img{width: 100%;height: 335px; }
+     .d2_img:nth-of-type(2){width: 100%; height: 335px; position: absolute; left:0; top:0;}
+    .d2_img:nth-of-type(3){width: 100%; height: 335px;right: 0; position: absolute; top:0;left:0;}
+    #d2-text-box { top: 62%;left:32px;line-height: 23px;font-size: 3vw; }
+    .btn-border1 {top: 45px; left:2%}
+    .btn_2 a span{top:123px!important; left:37px!important;}
+    .d2m_img h2 { position: absolute; z-index: 100; font-size: 6vw;}
+    #about_hotel_1{ height:71px ;}
+    #about_hotel_1 a { font-size: 1.5em;left: 50px;}
+
+  }
+
+
+  @media (min-width:500px) and (max-width:766px){
+
+    #room_n{height: 455px;}
+    #room_k article{height: 587px;}
+    #room_n h1{ padding: 12px; font-size: 4.5em;}
+    #room_n ul li{width: 100%; line-height: 30px; text-align: left; margin-left: 20px;}
+    #room_n ul li a{font-size: 3em;}
+    .r-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
+    .rm_img{width: 100%;height: 335px; }
+     .r_img:nth-of-type(2){width: 100%; height: 335px; position: absolute; top:0;left:0;}
+    .r_img:nth-of-type(3){width: 100%; height: 335px;right: 0; position: absolute; top:0;}
+    #r-text-box {width: 100%; top: 62%;left:8%;line-height: 23px;font-size: 0.8em; }
+    .btn-border1 {top: 45px; left:2%}
+    .btn_1 a span{top:123px!important; left:26px!important;}
+    .rm_img h2 { position: absolute; z-index: 100; font-size: 3em;}
+
+    .s-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
+    .sm_img{width: 100%;height: 335px; }
+     .s_img:nth-of-type(2){width: 100%; height: 335px; position: absolute; top:0;left:0;}
+    .s_img:nth-of-type(3){width: 100%; height: 335px;right: 0; position: absolute; top:0;left:0;}
+    #s-text-box { top: 62%;left:32px;line-height: 23px;font-size: 0.8em; }
+    .btn-border1 {top: 45px; left:2%}
+    .btn_2 a span{top:123px!important; left:26px!important;}
+    .sm_img h2 { position: absolute; z-index: 100; font-size: 3em;}
+
+
+    .t-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
+    .tm_img{width: 100%;height: 335px; }
+     .t_img:nth-of-type(2){width: 100%; height: 335px; position: absolute; top:0;}
+    .t_img:nth-of-type(3){width: 100%; height: 335px;right: 0; position: absolute; top:0;}
+    #t-text-box {width: 100%; top: 62%;left: 8%;line-height: 23px;font-size: 0.8em; }
+    .btn-border1 {top: 45px; left:2%}
+    .btn_1 a span{top:123px!important; left:26px!important;}
+    .tm_img h2 { position: absolute; z-index: 100; font-size: 3em;}
+
+
+    
+    .t2-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
+    .t2m_img{width: 100%;height: 335px; }
+     .t2_img:nth-of-type(2){width: 100%; height: 335px; position: absolute; top:0;}
+    .t2_img:nth-of-type(3){width: 100%; height: 335px;right: 0; position: absolute; top:0;}
+    #t2-text-box { top: 62%;left:32px;line-height: 23px;font-size: 0.8em; }
+    .btn-border1 {top: 45px; left:2%}
+    .btn_2 a span{top:123px!important; left:37px!important;}
+    .t2m_img h2 { position: absolute; z-index: 100; font-size: 2em;}
+
+    .d-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
+    .dm_img{width: 100%;height: 335px; }
+     .d_img:nth-of-type(2){width: 100%; height: 335px; position: absolute; top:0;left:0;}
+    .d_img:nth-of-type(3){width: 100%; height: 335px;right: 0; position: absolute; top:0;}
+    #d-text-box {width: 100%; top: 62%;left:8%;line-height: 23px;font-size: 0.8em; }
+    .btn-border1 {top: 45px; left:2%}
+    .btn_2 a span{top:123px!important; left:26px!important;}
+    .dm_img h2 { position: absolute; z-index: 100; font-size: 3em;}
+
+    .d2-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
+    .d2m_img{width: 100%;height: 335px; }
+     .d2_img:nth-of-type(2){width: 100%; height: 335px; position: absolute; left:0; top:0;}
+    .d2_img:nth-of-type(3){width: 100%; height: 335px;right: 0; position: absolute; top:0;left:0;}
+    #d2-text-box { top: 62%;left:32px;line-height: 23px;font-size: 0.8em; }
+    .btn-border1 {top: 45px; left:2%}
+    .btn_2 a span{top:123px!important; left:37px!important;}
+    .d2m_img h2 { position: absolute; z-index: 100; font-size: 3em;}
+    #about_hotel_1{ height:116px ;}
+    #about_hotel_1 a { width:100% ;font-size: 2em;right: 30%;}
+  }
+
+
+  @media (min-width:600px) and (max-width:1000px){
 
 
   }

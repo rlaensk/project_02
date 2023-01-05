@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media (max-width:599px){
+@media (min-width:320px) and (max-width:774px){
 
 
 #wrap{ width: 100%; overflow: hidden;}
@@ -10,14 +10,14 @@
 .slider_videeo{ position: relative; height: 1109px;}
 .mini_slider{display: block; position: absolute;top: 0; left: 0; width: 100%; height: 112vh; }
 #slider_text{ left:0; align-items: flex-start; width:100%;top:133px;}
-.slider_text1{ font-size: 7vw; width: 130%;text-align: justify; top:177px; left: 16px;}
+.slider_text1{ font-size: 2.5em; width: 130%;text-align: justify; top:177px; left: 16px;}
 
-.slider_text2{width:96%; top:335px; font-size: 3vw; left: 16px;}
+.slider_text2{width:96%; top:335px; font-size: 1em; left: 16px;}
 
 /* WATCH THE FILM */
-.btn1{width: 83%; top:65%}
+.btn1{width: 56%; top:65% ;left:60px;}
 .btn1 .btn-border{width: 45%; height: 224px; right: 62%; top:80px;}
-.btn1>a{position: absolute; top:184px; left: 35px; font-size: 3vw; }
+.btn1>a{position: absolute; top:184px; left: 35px; font-size: 3em; }
 
 
 
@@ -53,19 +53,23 @@ font-weight: bold; letter-spacing: 1px; top:13%; width: 93%; right: 9px;}
 #room_text_box{left:0; top:0; }
 .room_>p{width: 95%; margin: 2%;}
 
-.room_>h1{ width: 70%; font-size: 30px; margin: 30px!important;}
+.room_>h1{ width: 83%; font-size: 30px; margin: 30px 11px!important;}
 .btn-border2{width: 49%; right: 76%; top: -250%; }
 .btn3>a{position: relative; top: -33px; font-size: 1em;}
 .btn3 a span{font-size: 13px;}
 .btn3{bottom:-57%}
+.next{position: relative; width: 100%; height: 30px; top:-25%}
 
 .next_1::after{
-        top:80%;
-        left: -84px;
+        top:108%;
+        left: 73%;
+        position: absolute;
+     
 }
 .next_2::after{
-        top:80%;
-        left:-417px;
+        top:110%;
+        left:25%;
+        position: absolute;
 }
 .see a{font-size: 15px;
        right: 24%;
@@ -101,12 +105,14 @@ font-weight: bold; letter-spacing: 1px; top:13%; width: 93%; right: 9px;}
 }
 
 .tion_box1{height: 785px; top:32%}
-#ACCOMMODATION .img-box{width: 95%; height: 777px; top:35%; right: 8px;}
+#ACCOMMODATION .img-box{width: 100%; height: 777px; top:35%; right: 8px;}
 #ACCOMMODATION .img-box img{height: 180px;}
+#ACCOMMODATION #inpnity{width:79%;}
 #ACCOMMODATION #inpnity p{ top:48%; line-height: 35px; left: 0; font-size: 30px;} 
 #ACCOMMODATION .img-box .read1{ display: block; position: absolute;
                 top:75%; width: 150px; left: 3%; }
-#ACCOMMODATION .img-box .read1 a{font-size: 15px;} 
+#ACCOMMODATION .img-box .read1 a{font-size: 15px;}
+#ACCOMMODATION #BBQ{width:79%;}
 #ACCOMMODATION #BBQ p{ top:48%; line-height: 35px; left: 0; font-size: 30px;} 
 #ACCOMMODATION .img-box .read2{ display: block; position: absolute;
         top:75%; width: 150px; left: 3%; }
@@ -122,13 +128,13 @@ font-weight: bold; letter-spacing: 1px; top:13%; width: 93%; right: 9px;}
 #review h1{font-size: 3.5em; top:8%; left: 8%;}
 .review_{top:-5%}
 .review_img{width: 100%; position: absolute; right: 5px;}
-.review_img img{text-align: center; width: 85% ; height: 350px; margin: 30px;}
+.review_img img{text-align: center; width: 80% ; height: 385px; margin: 12%;}
 #review .line{top:-3%}
 .review_1{height: 902px;}
 .next_3{ bottom: 25%; left:15%}
 .next_4{bottom: 25%; right: 15%;}
 
-.review_ p{ font-size: 0.8em; transform: translate(9%, -450%);}
+.review_ p{ font-size: 0.8em; transform: translate(20%, -450%);}
 #review .btn-border{width: 38%; top:75%; height: 200px;  left:40%;}
 .see_2{bottom: 98px; left: 45%;}
 
@@ -154,65 +160,70 @@ font-weight: bold; letter-spacing: 1px; top:13%; width: 93%; right: 9px;}
 #form{width: 100%; top:2%}
 #form input{width: 96%;}
 form{width: 95%; top: 18%;left: 4%;}
-form svg{left: 37%!important;top: 91%!important;}
+form .form a{bottom:-39%;}
 
 
 #neighbourhood{height: 550px;}
+.nei_img_ov{ width: 100%; height: 200px; overflow: hidden;}
 #neighbourhood img{width: 100%; height: auto;}
-#neighbourhood p { font-size: 2em; left: 3%; bottom: 59%;}
+#neighbourhood p { font-size: 2em; left: 3%; top:37%;}
 
 #neighbourhood span { width: 97%; bottom: 37%; right: 1%; }
 #neighbourhood .line[data-v-5d883f52] { top: 19%;}
-#neighbourhood svg{width: 48%!important;  right: 52%!important; top:61%!important;}
+
 #neighbourhood a { bottom: 25%; right: 66%; }
 
 #map{height: 212px;}
-#map>p {font-size: 1.5em; width: 100%;left: 10px; top: 15%; line-height: 24px; text-align:left; }
-.map_a{width: 90%; height: 200px; bottom:8%;left:7% }
+#map>p {font-size: 1.5em; width: 98%;left: 8px; top: 17%; line-height: 24px; text-align:left; }
+.map_a{width: 90%; height: 200px; bottom:-2%;left:7% }
 .map_a a{font-size:0.8em;}
-.map_a a:nth-of-type(1){display: block; position: absolute; top:60%;}
+.map_a a:nth-of-type(1){display: block; position: absolute; top:53%;}
 .map_a a:nth-of-type(2){display: block; left: 1px;bottom:13%;}
 
-#video{ width: 100%; top:7%; height: 190px;}
-
-
+#video{ width: 100%; top:7%; height: 193px;}
+#map>p{font-size:4.5vw; line-height: 106%;}
+#map>p a{bottom:3%;}
+#map_a a:nth-of-type(2){bottom:6%;}
 #about_hotel{height: 79px;}
-#about_hotel a {font-size: 2em;left:29%; padding: 50px 0 0 0;}
+#about_hotel a {font-size: 9vw;left:23%; padding: 50px 0 0 0; width: 71%;}
 
 }
 
 
-@media (min-width:600px) and (max-width:1230px){
+@media (min-width:775px) and (max-width:1000px){
 
 
 #slider{height: 1030px;}
 #slider .slider_vieeo{height: 1030px;}
 #slider video{display: none;}
 .mid_slider{width: 100%; height: 112vh; display:block; position: absolute; top:0;left:0;}
-#header_manu .dropdown_menu {width: 32%;  right: -9px; }
-.slider_text1 {font-size: 4em; top: 64%; right: 36%; text-align: left;}
-.slider_text2 { width: 32%; line-height: 25px; bottom: -17%;}
-.btn1{ bottom: -21%; right: 19%;}
+.mid2_slider{display: none;}
+#header_manu .dropdown_menu {width: 32%; right: -9px; }
+.slider_text1 {width: 60%; font-size: 4em; top: 64%; right: 25%; text-align: left;}
+.slider_text2 { width: 38%; line-height: 25px; bottom: -17%; font-size: 0.8em;}
+.btn1{width: 32%; bottom: -21%; right: 19%; font-size: 1vw;}
 #about { height: 721px;}
-#about_line>p {top: 11%; right: 5%; font-size:5em; letter-spacing: -7px;}
- .about_box { width: 121%; height: 500px; top: 155px; left: -74px; }
-#about_img img {width: 79%; height: 311px; top:25%; left:12%;}
+#about_line>p {top: 9%; right: 5%; font-size:5em; letter-spacing: -2px;}
+ .about_box { width: 121%; height: 500px; top: 155px; left: -62px; }
+#about_img img {width:71%; height: 311px; top:25%; left:12%;}
 #about_text .but {width: 54%; position: absolute; left: 6%; font-size: 0.8em;
       top: 41%;}
 .btn2{width: 66%; bottom: 57%; right: 20%; }
 .line[data-v-5d883f52]{top: -146px;}
 .line[data-v-5d883f52] {left: 114%; overflow:inherit}
+.room_{margin-left:-16px;}
 .room_img {height: 422px;}
+.room_>p{width: 60%;margin: -4px 0 0 31%;}
 #room_kind{height: 837px;}
-.room-text { width: 83%;height: 365px;padding: 0;}
+.room-text { width: 370px;height: 370px;padding: 0;}
 .room_img_box{height: 422px; position: absolute; top:10%}
-.room_ h1{font-size:2em; margin: 46px!important;}
+.room_ h1{font-size:3em; margin: 44px!important;}
 .room1{margin:0;}
 #room_text_box{height: 422px;top:30%;}
 .room-text2>h1 {font-size: 5em;letter-spacing: 0;line-height: 68px; left: 12%;top: 4%;}
 .room-text2>p { width: 100%;top: 24%; left: 14%; }
-.next_1::after {left: 123px;}
-.next_2::after {left: 124px;}
+.next_1::after {left: 94px;}
+.next_2::after {left: 97px;}
 #hotel_img{height: 454px;}
 #hotel_img img{height: 400px;}
 #ACCOMMODATION{height: 971px;}
@@ -244,14 +255,16 @@ form svg{left: 37%!important;top: 91%!important;}
  .next_4{bottom: 51%;right: 104px;}  
  .review_1 {height: 679px; margin-left: -26px!important; }
 #review .btn-border{ top:80%}
-.review_ p{position: absolute; left:0;}
+.review_ p{position: absolute; left:0; font-size: 1.5em; transform:translate(15%, -60px);}
 .see_2{bottom:7%}
 #Events{height: 911px;}
-#Events .line{left:25%;}
+#Events .line{left:-3%;}
 #Events .line[data-v-5d883f52]{top:8%}
 #Event_s{height: 745px;}
 #Event_s h1 { font-size: 7em; left: 33px;top: 61px; letter-spacing: 1px;}
 #slider_box{top:34%; width: 150%;}
+.o_text_box{width: 390px; top:98%}
+.o_text_box>p{margin: 11px 0;}
 .see_{top:32%}
 .newsletter_text p{width: 625px; left: 6%; top:10%; text-align: left; font-size: 2.5em;}
 .newsletter_text span{left:6% ;top:45%;}
@@ -262,18 +275,50 @@ form{width: 100%; left: 0;}
 .offer_img1 img{height: 269px;}
 #neighbourhood{height: 924px;}
 #neighbourhood img{width: 97%; height: 428px;}
-#neighbourhood p{font-size: 5em;left: 23px;top: 50%;}
+#neighbourhood p{font-size: 5em;left: 162px;top: 50%;}
 #neighbourhood .line{left:134px; top:8%}
-#neighbourhood span{width: 23%;bottom: 23%; right: 18%;}
+#neighbourhood span{width: 27%;bottom: 23%; right: 15%;}
 #neighbourhood .btn-border{width: 14%!important; right: 32%!important; top:77%!important;}
 #neighbourhood a{bottom:13%;}
 
 
 #video{width: 97%; height:300px;}
 #map{height:300px;}
-#map>p{width: 80%;font-size: 2.5em;line-height: 52px; top:53px;}
+#map>p{width: 88%;font-size: 2.5em;line-height: 52px; top:53px;}
 .map_a a:nth-child(2) { left: 44%;}
 .map_a{bottom: 24%;}
-#about_hotel a {left:24%}
+#about_hotel a {left:20% ;font-size:5em;}
+
+}  
+
+@media (min-width:1001px) and (max-width:1600px){
+.slider_vieeo video{display: none;}
+.mid2_slider{display: block; width: 100%; height: 1080px; position: absolute;}
+.slider_text1{font-size: 5em; right: 30%;}
+.slider_text1 span{color:rgb(8, 8, 8);}
+.slider_text2{ color:rgb(8,8,8); opacity: 1;}
+.slider_text2 a{color: rgb(50,50,50)!important;}
+.btn1 a span{color: rgb(8,8,8); font-size: 1.5em;}
+.room-text{width: 600px;}
+.room4 h1{margin-left:0; width: 100%;}
+#hotel_img{height: 590px;}
+#hotel_img img{height: 519px;}
+
+#inpnity{flex-direction: row;}
+#ACCOMMODATION .img-box {width: 100%;}
+#ACCOMMODATION img{width: 636px; height: 296px;margin-left: 15%;}
+#neighbourhood .line[data-v-5d883f52]{top: 275px; }
+#neighbourhood span{ width: 27%;}
+#neighbourhood p{left: 13% ;top:54%;}
+#inpnity p{left: 107px; font-size: 4em;}
+#BBQ p{left:107px; font-size: 4em;}
+.read1 a,.read2 a {left:17%}
+
+#map{height: 391px;}
+#video{height: 391px;}
+#map>p{width: 88%; font-size: 3em;left:80px; line-height: 62px;}
+#about_hotel a{left: 20%; padding:69px 0;}
+
+
 
 }
