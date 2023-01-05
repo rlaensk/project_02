@@ -291,7 +291,7 @@ form{width: 100%; left: 0;}
 
 }  
 
-@media (min-width:1001px) and (max-width:1600px){
+@media (min-width:1001px) and (max-width:1206px){
 .slider_vieeo video{display: none;}
 .mid2_slider{display: block; width: 100%; height: 1080px; position: absolute;}
 .slider_text1{font-size: 5em; right: 30%;}
@@ -299,25 +299,90 @@ form{width: 100%; left: 0;}
 .slider_text2{ color:rgb(8,8,8); opacity: 1;}
 .slider_text2 a{color: rgb(50,50,50)!important;}
 .btn1 a span{color: rgb(8,8,8); font-size: 1.5em;}
+#about_line>p {  font-size: 8vw; right: 58%;  line-height: 101px; width: 36%;}
+.about_box{height: 850px; top:183px;}
+#about_img img {  height: 437px; bottom: 18%; }
 .room-text{width: 600px;}
-.room4 h1{margin-left:0; width: 100%;}
+.room4 h1{margin:85px 0; width: 100%;}
+.btn3{font-size: 1em; bottom:-47%;}
 #hotel_img{height: 590px;}
 #hotel_img img{height: 519px;}
 
-#inpnity{flex-direction: row;}
-#ACCOMMODATION .img-box {width: 100%;}
-#ACCOMMODATION img{width: 636px; height: 296px;margin-left: 15%;}
+#inpnity{ width: 45%;}
+#ACCOMMODATION{height: 1255px;}
+#ACCOMMODATION .img-box {width: 100%; top:40%;  right: 69px;}
+#ACCOMMODATION h1{right: -5%;}
+#ACCOMMODATION p{width: 66%;}
+#ACCOMMODATION img{width: 100%; height: 211px;margin-left: 15%;}
+.tion_box1{ height: 845px;  top:12%;}
 #neighbourhood .line[data-v-5d883f52]{top: 275px; }
 #neighbourhood span{ width: 27%;}
 #neighbourhood p{left: 13% ;top:54%;}
-#inpnity p{left: 107px; font-size: 4em;}
-#BBQ p{left:107px; font-size: 4em;}
-.read1 a,.read2 a {left:17%}
+#inpnity p{top:99%; left: 74px; font-size: 2em;}
+#BBQ p{top:99%; left:75px; font-size: 2em;}
+#BBQ{width: 45%;}
+.read1 a,.read2 a {left:20%}
 
+#review h1{right: 9%;}
+.review_1{height: 711px;}
+.review_ p{font-size: 2em; position: absolute;}
+.next_3, .next_4{bottom:60%;}
+.next_4{right:28px ;}
+.see_2{bottom:115px; left:78%}
 #map{height: 391px;}
 #video{height: 391px;}
 #map>p{width: 88%; font-size: 3em;left:80px; line-height: 62px;}
 #about_hotel a{left: 20%; padding:69px 0;}
+
+
+
+}
+
+
+@media (min-width:1207px) and (max-width:1600px){
+
+.slider_vieeo video{display: none;}
+.mid2_slider{display: block; width: 100%; height: 1080px; position: absolute;}
+.slider_text1{font-size: 5em; right: 30%;}
+.slider_text1 span{color:rgb(8, 8, 8);}
+.slider_text2{ color:rgb(8,8,8); opacity: 1;}
+.slider_text2 a{color: rgb(50,50,50)!important;}
+.btn1 a span{color: rgb(8,8,8); font-size: 1.5em;}
+#about_line>p {  font-size: 8vw; right: 58%;  line-height: 101px; width: 36%;}
+.about_box{height: 850px; top:183px;}
+#about_img img {  height: 437px; bottom: 18%; }
+.room-text{width: 600px;}
+.room4 h1{margin:85px 0; width: 100%;}
+.btn3{font-size: 1em; bottom:-47%;}
+#hotel_img{height: 590px;}
+#hotel_img img{height: 519px;}
+
+#inpnity{width: 45%;}
+#ACCOMMODATION{height: 1255px;}
+#ACCOMMODATION .img-box {width: 100%; top:40%;  right: 92px;}
+#ACCOMMODATION h1{right: -5%;}
+#ACCOMMODATION p{width: 66%;}
+#ACCOMMODATION img{width: 100%; height: 211px;margin-left: 15%;}
+.tion_box1{ height: 845px;  top:12%;}
+#neighbourhood .line[data-v-5d883f52]{top: 275px; }
+#neighbourhood span{ width: 27%;}
+#neighbourhood p{left: 13% ;top:54%;}
+#inpnity p{top:99%; left: 96px; font-size: 2em;}
+#BBQ p{top:99%; left:99px; font-size: 2em;}
+#BBQ{width: 45%;}
+.read1 a,.read2 a {left:20%}
+
+#review h1{right: 9%;}
+.review_1{height: 711px;}
+.review_ p{font-size: 2em; position: absolute;}
+.next_3, .next_4{bottom:60%;}
+.next_4{right:28px ;}
+.see_2{bottom:115px; left:78%}
+#map{height: 391px;}
+#video{height: 391px;}
+#map>p{width: 88%; font-size: 3em;left:80px; line-height: 62px;}
+#about_hotel a{left: 20%; padding:69px 0;}
+
 
 
 

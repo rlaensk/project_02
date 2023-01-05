@@ -34,8 +34,8 @@
 #about{ width: 100%; height: 1254px;}
 #about_line{display: flex; flex-wrap: wrap; position: relative;}
 #about_text{ width: 47%; height:605px; position: relative;}
-#about_line>p{font-size: 8vw; font-family:'Jeju Myeongjo', serif;; letter-spacing: 2px;
-                font-weight: bold; position: absolute; top:19%; right: 60%; z-index: 100; 
+#about_line>p{width: 32%; font-size: 8em; font-family:'Jeju Myeongjo', serif;; letter-spacing: 2px;
+                font-weight: bold; position: absolute; top:19%; right: 64%; z-index: 100; 
                 color:rgb(8, 8,8); line-height: 135px;}
 #about_text .but{width: 45%; position: absolute; bottom: -8%; left: 22%;
                 line-height: 22px; font-size: 1em; color: rgb(138, 138, 138);}

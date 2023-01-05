@@ -71,7 +71,7 @@ header.on{background:rgba(202, 202, 202, 0.377);}
 
 
 /* 언어선택 */
-.country_toggle{ width: 26%; height: 30px; line-height: 30px; font-size: 13px; cursor: pointer;
+.country_toggle{ width: 26%; height: 30px; line-height: 30px; font-size: 1em; cursor: pointer;
                 position: absolute; top: -2px; right:4%; border:0; background-color: transparent;}
 /* 언어화살표 */
 .arrow { position: relative; }
@@ -91,18 +91,18 @@ header.on{background:rgba(202, 202, 202, 0.377);}
 
 /* logo */
 #logo{ width:240px; height: 35px; display: flex; justify-content: center; line-height: 20px; text-align: center; 
-        margin: 0 0 0 7%;}
+       }
 
 #logo a p{font-size: 1.2em; font-family: "Prata"; color: whitesmoke;}
-#logo a p:nth-child(2){ font-size: 1em}
+#logo a p:nth-child(2){ font-size: 1em; width: 150px;}
 
 /* HOT CALL */
 #CS_num{width: 24%; height: auto;display: flex; justify-content: space-around; flex-wrap: wrap;}
-#CS_toggle{width:28%; height: auto;font-size: 0.8vw;
+#CS_toggle{width:28%; height: auto;font-size: 1em;
         display: flex; justify-content: center; align-items: center;}
 .cstoggle{position: relative; display: flex; cursor: pointer; width: 95%; border:0; background-color: transparent; }
 .cstoggle+ul{width: 12%; height: 190px; top: 87px; position: absolute;
-                top:74px; right: 176px; background-color: #fff; display: none;
+                top:78px; right: 176px; background-color: #fff; display: none;
                 line-height: 29px; padding: 35px 0 0 55px; letter-spacing: 4px;}
 .cstoggle+ul .cs_text{ color: rgb(85, 85, 85);}
 
@@ -113,7 +113,7 @@ header.on{background:rgba(202, 202, 202, 0.377);}
 #CS_toggle ul li{ font-weight: bold; font-size:12px; letter-spacing: 2px; line-height: 30px;}
 
 #book_tap{width:34%; height: 48px; line-height: 36px; text-align: center; border: 1px solid #fff;
-        font-size: 1.7vw;color:#99a1a7 ; padding: 5px; }
+        font-size: 1em;color:#99a1a7 ; padding: 5px; }
 #book_tap a{color: whitesmoke;}
 
 
@@ -291,8 +291,9 @@ footer p{font-size: 0.5vw; margin-right: 15px; opacity:0.7;}
   #book_tap{width:45% ; padding: 6px 16.5px;font-size: 1.3vw;}
   #header_manu{width: 140px;}
   header #CS_num{width: 275px;}
+
   
-  .cstoggle+ul { width: 18%; right: 51px; }
+  .cstoggle+ul { width: 207px; right: 51px; top:78px; }
   .menu_s{top:17%; left:80px;}
   .menu_s div{width: 32%;} 
   .menu_nav ul li{ font-size: 13px; }
@@ -309,4 +310,23 @@ footer p{font-size: 0.5vw; margin-right: 15px; opacity:0.7;}
   .cradit {width: 17%; margin-right: 3%;}
   .cradit ul {width: 80%;}
   
+}
+@media (min-width:1001px) and (max-width:1206px){
+  #CS_num{width: 25%; }
+  #book_tap{font-size: 0.8em;}
+  #logo{margin-left: 3%;}
+  #logo a p{width: 150px;}
+  .cstoggle+ul { width: 207px; right: 51px; top:78px; }
+
+
+}
+@media (min-width:1207px) and (max-width:1600px){
+  #CS_num{width: 21%; }
+  #book_tap{font-size: 0.8em;}
+  #logo{margin-left: 3%;}
+  #logo a p{width: 150px;}
+  .cstoggle+ul { width: 224px; right: 82px; top:78px; }
+
+
+
 }
