@@ -4,7 +4,6 @@
 *{ margin:0; padding:0; text-decoration: none; box-sizing: border-box; font-family:inter;}
 ul,li,ol{ list-style: none;}
 
-
 #wrap{width: 100%; height: auto; position: relative; overflow: hidden;}
 #top{width: 100%; height: 100vh;}
 
@@ -15,6 +14,10 @@ header.on{background:rgba(202, 202, 202, 0.377);}
 #header_manu{ width: 12%; display: flex;justify-content: space-between;
         position: relative;}
 /* 햄버거메뉴 */
+#menu_trigger{-ms-overflow-style: none; /* 인터넷 익스플로러 */
+  scrollbar-width: none;}
+#menu_trigger::-webkit-scrollbar {
+  display: none;}
 
 .menu-trigger,
 .menu-trigger span {
@@ -122,15 +125,15 @@ header.on{background:rgba(202, 202, 202, 0.377);}
 
 
 
-#menu_trigger{background-color: rgb(255, 255, 255); transition: all 1.5s;
-                width: 0; height:100vh; position:fixed;  z-index: 899; top: 0; left:0;}
+#menu_trigger{background-color: rgb(255, 255, 255); overflow-x: hidden; transition: all 1.5s;
+                width: 0; height:100vh;display: none; position:fixed;  z-index: 899; top: 0; left:0;}
 .menu_trigger_s{height: auto;}
 #menu_trigger a{ color: rgb(50,50,50);}
 #menu_trigger a:hover{opacity: 0.5;}
 .menu_s{ display: flex; flex-wrap: wrap; width: 100%; height: 380px; 
     justify-content: space-around; position:absolute;  top:25%;}  
 
-.menu_s span a{ font-size: 1em; font-family:"PRAta"; display: block; margin: 20% 0;} 
+.menu_s span a{ font-size: 2em; font-family:"PRAta"; display: block; margin: 20% 0;} 
 .menu_s p a{margin: 5% 0 ;}
 .menu_s nav{height:400px;}
 .menu_s nav ul li{margin: 6% 0; }
@@ -146,7 +149,7 @@ header.on{background:rgba(202, 202, 202, 0.377);}
 
 .side_footer{ width: 100%; height: 193px;  display: flex; align-items: center; justify-content: space-between; position:absolute; left: 1%; bottom: -66%; opacity: 0;  }
 .call_{display: flex; width: 20%; justify-content: space-around; align-items: center;}
-
+.call_ span a{font-size:1em;}
 .call_ ul{display: flex;}
 .follow_us{display: flex; width: 20%; justify-content: space-around;
         align-items: center; margin-right: 9%;}
@@ -221,7 +224,7 @@ footer p{font-size: 0.5vw; margin-right: 15px; opacity:0.7;}
 .menu_s{top:8%; left: 5%;height: auto;  justify-content:flex-start; }
 .menu_s_ a{display: block;}
 .menu_s_{width: 88%;height: 70px;  display: flex; justify-content: space-between; align-items: center;}
-.about_us{width: 90%; height: auto;}
+.about_us{width: 98%; height: auto;}
 .menu_nav{display: none; }
 .menu_s span a{margin:0;font-size: 1.5em;} 
 .menu_s .menu_nav{display: none; height: auto;}
@@ -306,6 +309,8 @@ footer p{font-size: 0.5vw; margin-right: 15px; opacity:0.7;}
   .side_footer{right: 5%;opacity: 1;width: 100%!important;bottom: -94%; margin: 0 0 0 -44px;}
   .side_footer span a{font-size: 1em;}
   .call_{width: 31%;}
+  .call_ p{font-size: 0.5em;}
+  .call_ span a{font-size:0.8em;}
   .follow_us{width: 25%; margin-right: 5%;}
   .cradit {width: 17%; margin-right: 3%;}
   .cradit ul {width: 80%;}
