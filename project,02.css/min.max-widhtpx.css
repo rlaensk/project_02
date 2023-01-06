@@ -1,4 +1,10 @@
 @charset "utf-8";
+@font-face {
+        font-family: 'SUIT-Regular';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
 
 @media (min-width:320px) and (max-width:774px){
 
@@ -114,8 +120,10 @@ font-weight: bold; letter-spacing: 1px; top:13%; width: 93%; right: 9px;}
 #ACCOMMODATION .img-box .read1 a{font-size: 15px;}
 #ACCOMMODATION #BBQ{width:79%;}
 #ACCOMMODATION #BBQ p{ top:48%; line-height: 35px; left: 0; font-size: 30px;} 
+#ACCOMMODATION .img-box .read1 ,.read2{height: 161px;}
+#ACCOMMODATION .img-box .read1{top:43%}
 #ACCOMMODATION .img-box .read2{ display: block; position: absolute;
-        top:75%; width: 150px; left: 3%; }
+        top:42%; width: 150px; left: 3%; }
 #ACCOMMODATION .img-box .read2 a{font-size: 15px;} 
 
 .line[data-v-5d883f52]{top:10%;}

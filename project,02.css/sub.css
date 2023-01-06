@@ -1,18 +1,24 @@
 @charset "ntf-8";
 @import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
-
-*{ margin: 0; padding: 0; text-decoration: none; color:rgb(127, 127, 127); box-sizing: border-box; font-family: 'inter';}
+@font-face {
+  font-family: 'SUIT-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+*{ margin: 0; padding: 0; text-decoration: none; color:rgb(127, 127, 127); box-sizing: border-box;  font-family: 'SUIT-Regular';}
 li, ul ,ol{ list-style-type: none;}
 
 #wrap{width: 100%; height: auto;}
 #top{height: 0;}
 
-.btn-border1{opacity:0.9;}
+
 #room_n{ width: 100%; height: 497px; bottom:-132px; position:relative;}
 .line[data-v-5d883f52]{top: -138px;}
 #room_n h1{font-size: 6.5vw; font-family:'Jeju Myeongjo'; padding: 47px; color:rgb(40, 40, 40)}
 #room_n ul{display: flex; width: 100%; height: 50px; align-items: center; flex-wrap:wrap; }
 #room_n ul li{ width: 11%; text-align: center; font-size: 0.9vw; letter-spacing: 2px;}
+#room_n ul li:hover a{color:#333;}
 #room_n ul li a{color: rgba(128,128,128,0.8);}
 
 #room_k{width: 100%; height: auto;}
@@ -24,10 +30,17 @@ li, ul ,ol{ list-style-type: none;}
 .rm_img h2{padding: 10%; font-size: 5vw; text-align: right; color: rgb(255,255,255);
         font-family: 'Jeju Myeongjo';}
 .r_img{width:23%; height: 450px; background: url(http://minjun1555.speedgabia.com/_elafonisi/room/4/19.jpg) no-repeat 42% 50%;
-    background-size: cover; position: absolute; top:39%; right: 34%;}
+    background-size: cover; position: absolute; top:35%; right: 34%;}
 .r_img:nth-of-type(2){width:23%; height: 450px;background: url(http://minjun1555.speedgabia.com/_elafonisi/room/4/4.jpg) no-repeat 50% 50%;
-    background-size: cover; position: absolute; top:39%; right: 6%;}
+    background-size: cover; position: absolute; top:35%; right: 6%;}
  #r-text-box{position: absolute;top: 8%;right: 350px;line-height: 41px;}   
+ .btn_1{width: 100px; height: 100px; position: relative; }
+ 
+ .btn_1 span{width: 105px; color:#7f7872; margin:0 23px; position: absolute;top:31px;left: 6px; font-size:1em;}
+.learn{position: absolute; right: 10%;}
+
+
+
 
  .s-img-box{position: relative; width: 100%; height: auto;}
  .sm_img{width: 50%; height: 100vh; background: url(http://minjun1555.speedgabia.com/_elafonisi/room/7/4.jpg) no-repeat 47% 50%;
@@ -36,10 +49,14 @@ li, ul ,ol{ list-style-type: none;}
  .sm_img h2{padding: 10%; font-size: 5vw; text-align: right; color: rgb(255,255,255);
          font-family: 'Jeju Myeongjo';}
  .s_img{width:23%; height: 450px;    background: url(http://minjun1555.speedgabia.com/_elafonisi/room/7/1.jpg) no-repeat 42% 50%;
-     background-size: cover; position: absolute; top:39%;left: 34%;}
- .s_img:nth-of-type(2){width:23%; height: 450px;    background: url(http://minjun1555.speedgabia.com/_elafonisi/room/7/11.jpg) no-repeat 50% 50%;
-     background-size: cover; position: absolute; top:39%;left: 6%;}
+     background-size: cover; position: absolute; top:35%;left: 34%;}
+ .s_img:nth-of-type(2){width:23%; height: 450px;background: url(http://minjun1555.speedgabia.com/_elafonisi/room/7/11.jpg) no-repeat 50% 50%;
+     background-size: cover; position: absolute; top:35%;left: 6%;}
   #s-text-box{position: absolute;top: 5%;left: 15%;line-height: 41px;}   
+  .btn_2{width: 100px; height: 100px; position: relative; }
+ 
+  .btn_2 span{width: 105px; color:#7f7872; margin:0 23px; position: absolute;top:31px;left: 6px; font-size:1em;}
+  .suite .learn{position: absolute; left: 10%; bottom: 169px;}
 
 
  .t-img-box{position: relative; width: 100%; height: auto;}
@@ -49,9 +66,9 @@ li, ul ,ol{ list-style-type: none;}
 .tm_img h2{padding: 10%; font-size: 5vw; text-align: right; color: rgb(255,255,255);
         font-family: 'Jeju Myeongjo';}
 .t_img{width:23%; height: 450px;    background: url(http://minjun1555.speedgabia.com/_elafonisi/room/7/1.jpg) no-repeat 42% 50%;
-    background-size: cover; position: absolute; top:39%; right: 34%;}
+    background-size: cover; position: absolute; top:35%; right: 34%;}
 .t_img:nth-of-type(2){width:23%; height: 450px;    background: url(http://minjun1555.speedgabia.com/_elafonisi/room/7/11.jpg) no-repeat 50% 50%;
-    background-size: cover; position: absolute; top:39%; right: 6%;}
+    background-size: cover; position: absolute; top:35%; right: 6%;}
  #t-text-box{position: absolute;top: 8%;right: 350px;line-height: 41px;}   
 
  .t2-img-box{position: relative; width: 100%; height: auto;}
@@ -61,12 +78,11 @@ li, ul ,ol{ list-style-type: none;}
  .t2m_img h2{padding: 10%; font-size: 5vw; text-align: right; color: rgb(255,255,255);
          font-family: 'Jeju Myeongjo';}
  .t2_img{width:23%; height: 450px;     background: url(http://minjun1555.speedgabia.com/_elafonisi/room/6/3.jpg) no-repeat 50% 50%;
-    background-size: cover; position: absolute; top:39%;left: 34%;}
+    background-size: cover; position: absolute; top:35%;left: 34%;}
  .t2_img:nth-of-type(2){width:23%; height: 450px;     background: url(http://minjun1555.speedgabia.com/_elafonisi/room/6/5.jpg) no-repeat 50% 50%;
-    background-size: cover;position: absolute; top:39%;left: 6%;}
+    background-size: cover;position: absolute; top:35%;left: 6%;}
   #t2-text-box{position: absolute;top: 5%;left: 15%;line-height: 41px;}   
-
-
+  .twin2 .learn{position: absolute; left: 10%; bottom: 169px;}
 
   .d-img-box{position: relative; width: 100%; height: auto;}
   .dm_img{width: 50%; height: 100vh;background: url(http://minjun1555.speedgabia.com/_elafonisi/room/9/1.jpg) no-repeat 50% 50%;
@@ -75,11 +91,11 @@ li, ul ,ol{ list-style-type: none;}
   .dm_img h2{padding: 10%; font-size: 5vw; text-align: right; color: rgb(255,255,255);
           font-family: 'Jeju Myeongjo';}
   .d_img{width:23%; height: 450px;    background: url(http://minjun1555.speedgabia.com/_elafonisi/room/9/5.jpg) no-repeat 50% 50%;
-    background-size: cover; position: absolute; top:39%; right: 34%;}
+    background-size: cover; position: absolute; top:35%; right: 34%;}
   .d_img:nth-of-type(2){width:23%; height: 450px;      background: url(http://minjun1555.speedgabia.com/_elafonisi/room/9/7.jpg) no-repeat 50% 50%;
-    background-size: cover; position: absolute; top:39%; right: 6%;}
+    background-size: cover; position: absolute; top:35%; right: 6%;}
    #d-text-box{position: absolute;top: 8%;right: 350px;line-height: 41px;}   
-  
+   .double .learn{position: absolute; right: 10%; bottom: 169px;}
 
  .d2-img-box{position: relative; width: 100%; height: auto;}
  .d2m_img{width: 50%; height: 100vh;    background: url(http://minjun1555.speedgabia.com/_elafonisi/room/8/3.jpg) no-repeat 50% 50%;
@@ -88,10 +104,12 @@ li, ul ,ol{ list-style-type: none;}
  .d2m_img h2{padding: 10%; font-size: 5vw; text-align: right; color: rgb(255,255,255);
          font-family: 'Jeju Myeongjo';}
  .d2_img{width:23%; height: 450px;      background: url(http://minjun1555.speedgabia.com/_elafonisi/room/8/7.jpg) no-repeat 50% 50%;
-    background-size: cover; position: absolute; top:39%;left: 34%;}
+    background-size: cover; position: absolute; top:35%;left: 34%;}
  .d2_img:nth-of-type(2){width:23%; height: 450px;      background: url(http://minjun1555.speedgabia.com/_elafonisi/room/8/8.jpg) no-repeat 50% 50%;
-    background-size: cover; position: absolute; top:39%;left: 6%;}
+    background-size: cover; position: absolute; top:35%;left: 6%;}
   #d2-text-box{position: absolute;top: 5%;left: 15%;line-height: 41px;}   
+  
+  .double2 .learn{position: absolute; left: 10%; bottom: 169px;}
 
   #about_hotel_1{width: 100%; height: 191px; }
   #about_hotel_1 a{font-size: 6em; font-family: 'prata'; position: absolute; left: 30%; padding: 35px 0; color: rgb(50, 50, 50);}
@@ -100,6 +118,7 @@ li, ul ,ol{ list-style-type: none;}
   /* 반응형 */
   @media (min-width:320px) and (max-width:499px){
     #room_n{height: 410px;}
+    .learn{bottom: %30%;}
     #room_k article{height: 587px;}
     #room_n h1{ padding: 12px; font-size: 14.5vw;}
     #room_n ul li{width: 100%; line-height: 30px; text-align: left; margin-left: 20px;}
@@ -109,8 +128,9 @@ li, ul ,ol{ list-style-type: none;}
      .r_img:nth-of-type(2){width: 100%; height: 335px; position: absolute; top:0;}
     .r_img:nth-of-type(3){width: 100%; height: 335px;right: 0; position: absolute; top:0;}
     #r-text-box { top: 62%;right: 78px;line-height: 23px;font-size: 3vw; }
-    .btn-border1 {top: 45px; left:2%}
-    .btn_1 a span{top:123px!important; left:26px!important;}
+   .royal .learn{bottom:50%;}
+    /* .btn_1 a span{top:123px!important; left:26px!important;} */
+    #r-text-box .btn_1:hover.btn_1 a span{color:#222;}
     .rm_img h2 { position: absolute; z-index: 100; font-size: 7vw;}
 
     .s-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
@@ -118,18 +138,18 @@ li, ul ,ol{ list-style-type: none;}
      .s_img:nth-of-type(2){width: 100%; height: 335px; position: absolute; top:0;}
     .s_img:nth-of-type(3){width: 100%; height: 335px;right: 0; position: absolute; top:0;}
     #s-text-box { top: 62%;left:32px;line-height: 23px;font-size: 3vw; }
-    .btn-border1 {top: 45px; left:2%}
+   
     .btn_2 a span{top:123px!important; left:26px!important;}
     .sm_img h2 { position: absolute; z-index: 100; font-size: 6vw;}
-
+    .suite .learn{right: 10%; bottom: 80%;}
 
     .t-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
     .tm_img{width: 100%;height: 335px; }
      .t_img:nth-of-type(2){width: 100%; height: 335px; position: absolute; top:0;}
     .t_img:nth-of-type(3){width: 100%; height: 335px;right: 0; position: absolute; top:0;}
     #t-text-box { top: 62%;right: 68px;line-height: 23px;font-size: 3vw; }
-    .btn-border1 {top: 45px; left:2%}
-    .btn_1 a span{top:123px!important; left:26px!important;}
+   
+    /* .btn_1 a span{top:123px!important; left:26px!important;} */
     .tm_img h2 { position: absolute; z-index: 100; font-size: 6vw;}
 
 
@@ -139,7 +159,7 @@ li, ul ,ol{ list-style-type: none;}
      .t2_img:nth-of-type(2){width: 100%; height: 335px; position: absolute; top:0;}
     .t2_img:nth-of-type(3){width: 100%; height: 335px;right: 0; position: absolute; top:0;}
     #t2-text-box { top: 62%;left:32px;line-height: 23px;font-size: 3vw; }
-    .btn-border1 {top: 45px; left:2%}
+
     .btn_2 a span{top:123px!important; left:37px!important;}
     .t2m_img h2 { position: absolute; z-index: 100; font-size: 6vw;}
 
@@ -148,7 +168,7 @@ li, ul ,ol{ list-style-type: none;}
      .d_img:nth-of-type(2){width: 100%; height: 335px; position: absolute; top:0;left:0;}
     .d_img:nth-of-type(3){width: 100%; height: 335px;right: 0; position: absolute; top:0;}
     #d-text-box { top: 62%;right: 68px;line-height: 23px;font-size: 3vw; }
-    .btn-border1 {top: 45px; left:2%}
+
     .btn_2 a span{top:123px!important; left:26px!important;}
     .dm_img h2 { position: absolute; z-index: 100; font-size: 6vw;}
 
@@ -157,7 +177,7 @@ li, ul ,ol{ list-style-type: none;}
      .d2_img:nth-of-type(2){width: 100%; height: 335px; position: absolute; left:0; top:0;}
     .d2_img:nth-of-type(3){width: 100%; height: 335px;right: 0; position: absolute; top:0;left:0;}
     #d2-text-box { top: 62%;left:32px;line-height: 23px;font-size: 3vw; }
-    .btn-border1 {top: 45px; left:2%}
+
     .btn_2 a span{top:123px!important; left:37px!important;}
     .d2m_img h2 { position: absolute; z-index: 100; font-size: 6vw;}
     #about_hotel_1{ height:71px ;}
@@ -178,8 +198,8 @@ li, ul ,ol{ list-style-type: none;}
      .r_img:nth-of-type(2){width: 100%; height: 335px; position: absolute; top:0;left:0;}
     .r_img:nth-of-type(3){width: 100%; height: 335px;right: 0; position: absolute; top:0;}
     #r-text-box {width: 100%; top: 62%;left:8%;line-height: 23px;font-size: 0.8em; }
-    .btn-border1 {top: 45px; left:2%}
-    .btn_1 a span{top:123px!important; left:26px!important;}
+
+    /* .btn_1 a span{top:123px!important; left:26px!important;} */
     .rm_img h2 { position: absolute; z-index: 100; font-size: 3em;}
 
     .s-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
@@ -187,7 +207,7 @@ li, ul ,ol{ list-style-type: none;}
      .s_img:nth-of-type(2){width: 100%; height: 335px; position: absolute; top:0;left:0;}
     .s_img:nth-of-type(3){width: 100%; height: 335px;right: 0; position: absolute; top:0;left:0;}
     #s-text-box { top: 62%;left:32px;line-height: 23px;font-size: 0.8em; }
-    .btn-border1 {top: 45px; left:2%}
+
     .btn_2 a span{top:123px!important; left:26px!important;}
     .sm_img h2 { position: absolute; z-index: 100; font-size: 3em;}
 
@@ -197,8 +217,8 @@ li, ul ,ol{ list-style-type: none;}
      .t_img:nth-of-type(2){width: 100%; height: 335px; position: absolute; top:0;}
     .t_img:nth-of-type(3){width: 100%; height: 335px;right: 0; position: absolute; top:0;}
     #t-text-box {width: 100%; top: 62%;left: 8%;line-height: 23px;font-size: 0.8em; }
-    .btn-border1 {top: 45px; left:2%}
-    .btn_1 a span{top:123px!important; left:26px!important;}
+  
+    /* .btn_1 a span{top:123px!important; left:26px!important;} */
     .tm_img h2 { position: absolute; z-index: 100; font-size: 3em;}
 
 
@@ -217,7 +237,7 @@ li, ul ,ol{ list-style-type: none;}
      .d_img:nth-of-type(2){width: 100%; height: 335px; position: absolute; top:0;left:0;}
     .d_img:nth-of-type(3){width: 100%; height: 335px;right: 0; position: absolute; top:0;}
     #d-text-box {width: 100%; top: 62%;left:8%;line-height: 23px;font-size: 0.8em; }
-    .btn-border1 {top: 45px; left:2%}
+
     .btn_2 a span{top:123px!important; left:26px!important;}
     .dm_img h2 { position: absolute; z-index: 100; font-size: 3em;}
 
@@ -226,7 +246,7 @@ li, ul ,ol{ list-style-type: none;}
      .d2_img:nth-of-type(2){width: 100%; height: 335px; position: absolute; left:0; top:0;}
     .d2_img:nth-of-type(3){width: 100%; height: 335px;right: 0; position: absolute; top:0;left:0;}
     #d2-text-box { top: 62%;left:32px;line-height: 23px;font-size: 0.8em; }
-    .btn-border1 {top: 45px; left:2%}
+
     .btn_2 a span{top:123px!important; left:37px!important;}
     .d2m_img h2 { position: absolute; z-index: 100; font-size: 3em;}
     #about_hotel_1{ height:116px ;}
@@ -235,6 +255,16 @@ li, ul ,ol{ list-style-type: none;}
 
 
   @media (min-width:600px) and (max-width:1000px){
-
+    #room_n{height: 399px;}
+    #room_n h1{font-size: 5em; padding: 22px;}
+    #room_n ul li{width: 38%;height: 35px;line-height: 35px; text-align: left;padding: 0 2%;}
+    #room_n ul li a{font-size: 1em;}
+    .rm_img{height: 490px;}
+    .r_img, .r_img:nth-of-type(2){height: 205px; top:36%}
+    #r-text-box{top:1%; right: 105px; line-height: 27px;}
+    #r-text-box p{font-size:0.8em;}
+    .btn_1 a span{top:141px; left:-13px;}
+    #room_k article{height: 588px;}
+    .royal .rearn{ position: absolute;right: 0;}
 
   }
