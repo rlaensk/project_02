@@ -17,7 +17,7 @@ li, ul ,ol{ list-style-type: none;}
 .line[data-v-5d883f52]{top: -138px;}
 #room_n h1{font-size: 6.5vw; font-family:'Jeju Myeongjo'; padding: 47px; color:rgb(40, 40, 40)}
 #room_n ul{display: flex; width: 100%; height: 50px; align-items: center; flex-wrap:wrap; }
-#room_n ul li{ width: 11%; text-align: center; font-size: 0.5em; letter-spacing: 2px;}
+#room_n ul li{ width: 11%; text-align: center; font-size: 1em; letter-spacing: 2px;}
 #room_n ul li:hover a{color:#333;}
 #room_n ul li a{color: rgba(128,128,128,0.8);}
 
@@ -120,7 +120,7 @@ li, ul ,ol{ list-style-type: none;}
   @media (min-width:320px) and (max-width:499px){
     #room_n{height: 410px;}
     #room_k article{height: 668px;}
-    #r-img-box h2{z-index: 10; padding:5% 21% 0 0;font-size: 3em; position: absolute; }
+    #r-img-box h2 {width: 100%; z-index: 10; padding:5% 21% 0 0;font-size: 3em; position: absolute; }
     #room_n h1{ padding: 12px; font-size: 14.5vw;}
     #room_n ul li{width: 100%; line-height: 30px; text-align: left; margin-left: 20px;}
     #room_n ul li a{font-size: 3vw;}
@@ -137,7 +137,7 @@ li, ul ,ol{ list-style-type: none;}
    .learn a{letter-spacing: 2px;}
     .btn_1 span{width: 150px; font-size: 1.3em;left: -20px;}
     #r-text-box .btn_1:hover.btn_1 a span{color:#222;}
-    .rm_img h2 { position: absolute; z-index: 100; font-size: 3em;}
+    #r-img-box h2 { position: absolute; z-index: 100; font-size: 3em;}
 
     #s-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
     .sm_img{width: 100%;height: 400px; }
@@ -147,7 +147,10 @@ li, ul ,ol{ list-style-type: none;}
     .suite .learn{bottom: 16%; left: 54%; width: 129px;}
     .btn_2 a span{top:123px!important; left:26px!important;}
     #s-img-box h2 { position: absolute; z-index: 100; font-size: 3em;}
-
+    .prne{width: 100%; height: 100px; position: absolute; bottom: 35%;}
+    .prev1{bottom: 10%; color: white; position: absolute; top: 0; left: 10%; font-size: 2em;}
+    .next1{bottom: 10%; color: white; position: absolute;top: 0; right: 10%; font-size: 2em;}
+   
 
     #t-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
     .tm_img{width: 100%;height: 400px; }
@@ -157,7 +160,10 @@ li, ul ,ol{ list-style-type: none;}
     .twin .learn{bottom: 16%; left: 54%; width: 129px;}
     /* .btn_1 a span{top:123px!important; left:26px!important;} */
     #t-img-box h2 { width: 100%;top:5%; right: 5%; position: absolute; z-index: 100; font-size: 3em;}
-
+    .prne{width: 100%; height: 100px; position: absolute; bottom: 35%;}
+    .prev1{bottom: 10%; color: white; position: absolute; top: 0; left: 10%; font-size: 2em;}
+    .next1{bottom: 10%; color: white; position: absolute;top: 0; right: 10%; font-size: 2em;}
+   
 
     
     #t2-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
@@ -168,6 +174,11 @@ li, ul ,ol{ list-style-type: none;}
     .twin2 .learn{bottom: 16%; left: 54%; width: 129px;}
     .btn_2 a span{top:123px!important; left:37px!important;}
     #t2-img-box h2 { position: absolute; top: 2%; right: 5%; z-index: 100; font-size: 2.5em;}
+    .prne{width: 100%; height: 100px; position: absolute; bottom: 35%;}
+    .prev1{bottom: 10%; color: white; position: absolute; top: 0; left: 10%; font-size: 2em;}
+    .next1{bottom: 10%; color: white; position: absolute;top: 0; right: 10%; font-size: 2em;}
+   
+
 
     #d-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
     .dm_img{width: 100%;height: 400px; }
@@ -177,6 +188,12 @@ li, ul ,ol{ list-style-type: none;}
 
     .btn_2 span{width: 150px; font-size: 1.3em;left: -20px;}
     #d-img-box h2 { width: 100%; top:5%; right: 5%; position: absolute; z-index: 100; font-size: 3em;}
+    .prne{width: 100%; height: 100px; position: absolute; bottom: 35%;}
+    .prev1{bottom: 10%; color: white; position: absolute; top: 0; left: 10%; font-size: 2em;}
+    .next1{bottom: 10%; color: white; position: absolute;top: 0; right: 10%; font-size: 2em;}
+   
+
+
 
     #d2-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
     .d2m_img{width: 100%;height: 400px; }
@@ -187,6 +204,12 @@ li, ul ,ol{ list-style-type: none;}
     .btn_2 a span{top:123px!important; left:37px!important;}
     #d2-img-box h2 { width: 100%; position: absolute; top:5%; right: 5%;  z-index: 100; font-size: 2.5em;}
     .double2 .learn{bottom: 16%; left: 54%; width: 129px;}
+    .prne{width: 100%; height: 100px; position: absolute; bottom: 35%;}
+    .prev1{bottom: 10%; color: white; position: absolute; top: 0; left: 10%; font-size: 2em;}
+    .next1{bottom: 10%; color: white; position: absolute;top: 0; right: 10%; font-size: 2em;}
+   
+    
+    
     #about_hotel_1{ height:71px ;}
     #about_hotel_1 a { font-size: 1.5em;left: 87px;}
 
@@ -200,15 +223,21 @@ li, ul ,ol{ list-style-type: none;}
     #room_n h1{ padding: 12px; font-size: 4.5em;}
     #room_n ul li{width: 100%; line-height: 30px; font-size: 0.4em; text-align: left; margin-left: 20px;}
     #room_n ul li a{font-size: 3em;}
-    #r-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
-    .rm_img{width: 100%;height:400px; }
-     .r_img:nth-of-type(2){width: 100%; height: 400px; position: absolute; top:0;left:0;}
-    .r_img:nth-of-type(3){width: 100%; height: 400px;right: 0; position: absolute; top:0;}
+    #r-img-box{width: 313%; display: flex; flex-wrap: wrap; position: relative;}
+ 
+    .rm_img{width: 32%;height:400px; }
+     .r_img:nth-of-type(2){width: 32%; height: 400px; position: absolute; top:0;left:0;}
+    .r_img:nth-of-type(3){width: 32%; height: 400px;right: 0; position: absolute; top:0;}
     #r-text-box {width: 100%; top: 62%;left:8%;line-height: 23px;font-size: 0.8em; }
     .royal .learn{bottom: 14%; width: 129px; left: 75%;}
     .btn_1 span{width: 150px; font-size: 1.3em;left: -20px;}
     /* .btn_1 a span{top:123px!important; left:26px!important;} */
-    #r-img-box h2 { position: absolute; z-index: 100; font-size:3em;left: 0;}
+    #r-img-box h2 { width: 33%; position: absolute; z-index: 100; font-size:3em;left: 0;}
+    .prne{width: 100%; height: 100px; position: absolute; bottom: 35%;}
+    .prev1{bottom: 10%; color: white; position: absolute; top: 0; left: 10%; font-size: 2em;cursor: pointer; }
+    .next1{bottom: 10%; color: white; position: absolute;top: 0; right: 10%; font-size: 2em; cursor: pointer;}
+   
+
 
     #s-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
     .sm_img{width: 100%;height: 400px; }
@@ -229,7 +258,7 @@ li, ul ,ol{ list-style-type: none;}
     .twin .learn{bottom: 14%; width: 129px;left:75%;}
     .btn_2 span{width: 150px; font-size: 1.3em; left: -18px;}
     
-    #t-img-box h2 { position: absolute; z-index: 100; font-size:3em; left: 0;}
+    #t-img-box h2 { width: 96%; position: absolute; z-index: 100; font-size:3em;left: 0;}
 
 
     
@@ -253,7 +282,7 @@ li, ul ,ol{ list-style-type: none;}
     #t-text-box {width: 100%; top: 62%;left: 8%;line-height: 23px;font-size: 0.8em; }
     .double .learn{bottom: 14%; width: 129px;left: 75%;}
     .btn_2 a span{top:123px!important; left:26px!important;}
-    #d-img-box h2 { position: absolute; z-index: 100; font-size: 3em;left:0;}
+    #d-img-box h2 {width: 96%; position: absolute; z-index: 100; font-size: 3em;left:0;}
 
     #d2-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
     .d2m_img{width: 100%;height: 400px; }
@@ -263,7 +292,7 @@ li, ul ,ol{ list-style-type: none;}
     #t-text-box {width: 100%; top: 62%;left: 8%;line-height: 23px;font-size: 0.8em; }
     .double2 .learn{bottom: 14%; width: 129px;left: 75%;}
     .btn_2 a span{top:123px!important; left:37px!important;}
-    .d2m_img h2 { position: absolute; z-index: 100; font-size: 2.5em;}
+    #d2-img-box h2 { width: 90%; position: absolute; z-index: 100; font-size: 2.5em;}
     #about_hotel_1{ height:116px ;}
     #about_hotel_1 a { width:69% ;font-size: 2em;right: 30%;}
   }
@@ -277,17 +306,17 @@ li, ul ,ol{ list-style-type: none;}
     #room_n ul li{width: 38%;height: 35px;line-height: 35px; text-align: left;padding: 0 2%;}
     #room_n ul li a{font-size: 2em;}
     .rm_img{height: 490px;}
-    .r_img, .r_img:nth-of-type(2){height: 205px; top:36%}
+    .r_img, .r_img:nth-of-type(2){height: 205px; top:26%}
     #r-text-box{top:1%; right: 10%; line-height: 27px;}
     #r-text-box p{font-size:0.8em;}
     .btn_1 a span{top:141px; left:-13px;}
 
-    .royal .rearn{ position: absolute;right: 0; bottom: 114px;}
+    .royal .learn{ position: absolute;right: 0; bottom: 131px;}
 
     #s-text-box { left: 10%; top: 1%;line-height: 29px; font-size: 0.8em; }
    .sm_img{height: 490px;}
-  .s_img:nth-of-type(2){ height: 205px; top: 36%;}
-  .s_img{ height: 205px; top:36%;}
+  .s_img:nth-of-type(2){ height: 205px; top: 26%;}
+  .s_img{ height: 205px; top:26%;}
   .suite .learn{bottom:75px ;}
 
 
@@ -297,22 +326,22 @@ li, ul ,ol{ list-style-type: none;}
 
 #t-text-box {top: 1%;line-height: 29px; font-size: 1em; right: 14%; }
  .tm_img{height: 490px;}
-.t_img:nth-of-type(2){ height: 205px; top: 36%;}
-.t_img{ height: 205px; top:36%;}
+.t_img:nth-of-type(2){ height: 205px; top: 46%;}
+.t_img{ height: 205px; top:46%;}
 .twin .learn{bottom:75px ;}
 
 
 #t2-text-box {top: 1%;line-height: 29px; font-size: 0.8em; left: 12%; }
 .t2m_img{height: 490px;}
-.t2_img:nth-of-type(2){ height: 205px; top: 36%;}
-.t2_img{ height: 205px; top:36%;}
+.t2_img:nth-of-type(2){ height: 205px; top: 26%;}
+.t2_img{ height: 205px; top:26%;}
 .twin2 .learn{bottom:75px ;}
 
 
 #d-text-box {top: 1%;line-height: 29px; font-size: 0.8em; right: 10%; }
 .dm_img{height: 490px;}
-.d_img:nth-of-type(2){ height: 205px; top: 36%;}
-.d_img{ height: 205px; top:36%;}
+.d_img:nth-of-type(2){ height: 205px; top: 46%;}
+.d_img{ height: 205px; top:46%;}
 .double .learn{bottom:75px ;}
 
 
@@ -320,8 +349,8 @@ li, ul ,ol{ list-style-type: none;}
 
 #d2-text-box {left: 10%; top: 1%;line-height: 29px; font-size: 0.8em; }
 .d2m_img{height: 490px;}
-.d2_img:nth-of-type(2){ height: 205px; top: 36%;}
-.d2_img{ height: 205px; top:36%;}
+.d2_img:nth-of-type(2){ height: 205px; top: 26%;}
+.d2_img{ height: 205px; top:26%;}
 .double2 .learn{bottom:75px ;}
 
 
@@ -332,7 +361,7 @@ li, ul ,ol{ list-style-type: none;}
 
   @media (min-width:1201px) and (max-width:1500px){
 
-    #room_k img{height: ;}
+ 
 #room_n ul li:nth-child(2){width: 6%;}
 
 #room_n ul li:nth-child(6){width: 16%;}

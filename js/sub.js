@@ -134,9 +134,28 @@ $(function () {
     $('.d2m_img h2').text('Delux Double SPA Room ');
   }
 
- if(mal2.matches){
-  $('prev1').click(function(){
-    $('#r-img-box .r_img_:last').insertAfter('#r-img-box .r_img:first_');
-    
-  });
- }
+
+
+
+  function prev(){
+    $('.rimg .r_img_:last').prependTo('.rimg');
+    $('.rimg').css('margin-left','-590px');
+    $('.rimg').stop().animate({marginLeft:0}, 1000);
+
+}
+
+  function next(){
+    $('.rimg .r_img_:first').stop().animate({marginLeft:'-590px'},800);
+    $('.rimg .r_img_:first').appendTo('.rimg');
+    $('.rimg').css('margin-left','-590px');
+    $('.rimg').stop().animate({marginLeft:0}, 1000);
+  }
+
+if(mal2.matches){
+$('.prev1').click(function(){
+  prev();
+});
+$('next1').click(function(){
+ next();
+});
+}
