@@ -123,3 +123,16 @@ $(function () {
     });
   });
   
+
+  let mal1=window.matchMedia('screen and (min-width:500px) and (max-width:1599px)');
+  if(mal1.matches){
+    $('.royal h2').text('Royal Suite room');
+    $('.tm_img h2').text('Delux Twin Room');
+    $('.dm_img h2').text('Delux Double Room');
+    $('.t2m_img h2').text('Delux Twin SPA Room ');
+    $('.d2m_img h2').text('Delux Double SPA Room ');
+  }
+
+$(function(){
+  $()
+});
