@@ -125,6 +125,7 @@ $(function () {
   
 
   let mal1=window.matchMedia('screen and (min-width:500px) and (max-width:1599px)');
+  let mal2=window.matchMedia('screen and (min-width:320px) and (max-width:766px)');
   if(mal1.matches){
     $('.royal h2').text('Royal Suite room');
     $('.tm_img h2').text('Delux Twin Room');
@@ -133,6 +134,9 @@ $(function () {
     $('.d2m_img h2').text('Delux Double SPA Room ');
   }
 
-$(function(){
-  $()
-});
+ if(mal2.matches){
+  $('prev1').click(function(){
+    $('#r-img-box .r_img_:last').insertAfter('#r-img-box .r_img:first_');
+    
+  });
+ }

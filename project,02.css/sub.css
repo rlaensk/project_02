@@ -22,12 +22,13 @@ li, ul ,ol{ list-style-type: none;}
 #room_n ul li a{color: rgba(128,128,128,0.8);}
 
 #room_k{width: 100%; height: auto;}
+#room_k h2{position: absolute;}
 #room_k article{width: 100%; height: 1111px; position: relative;}
-.r-img-box{position: relative; width: 100%; height: auto;}
+#r-img-box{position: relative; width: 100%; height:100vh;}
 .rm_img{width: 50%; height: 100vh; background: url(http://minjun1555.speedgabia.com/_elafonisi/room/4/3.jpg) no-repeat 40% 50%;
      background-size: cover;}
 
-.rm_img h2{padding: 10%; font-size: 5vw; text-align: right; color: rgb(255,255,255);
+#r-img-box h2{padding: 4%; right: 51%;  font-size: 5vw; text-align: right; color: rgb(255,255,255);
         font-family: 'Jeju Myeongjo';}
 .r_img{width:23%; height: 450px; background: url(http://minjun1555.speedgabia.com/_elafonisi/room/4/19.jpg) no-repeat 42% 50%;
     background-size: cover; position: absolute; top:35%; right: 34%;}
@@ -42,11 +43,11 @@ li, ul ,ol{ list-style-type: none;}
 
 
 
- .s-img-box{position: relative; width: 100%; height: auto;}
+ #s-img-box{position: relative; width: 100%; height: 100vh;}
  .sm_img{width: 50%; height: 100vh; background: url(http://minjun1555.speedgabia.com/_elafonisi/room/7/4.jpg) no-repeat 47% 50%;
      background-size: cover; position: absolute; right: 0;}
  
- .sm_img h2{padding: 10%; font-size: 5vw; text-align: right; color: rgb(255,255,255);
+ #s-img-box h2{padding: 7%; position: absolute; right: 0; z-index: 10; font-size: 5vw; text-align: right; color: rgb(255,255,255);
          font-family: 'Jeju Myeongjo';}
  .s_img{width:23%; height: 450px;    background: url(http://minjun1555.speedgabia.com/_elafonisi/room/7/1.jpg) no-repeat 42% 50%;
      background-size: cover; position: absolute; top:35%;left: 34%;}
@@ -59,11 +60,11 @@ li, ul ,ol{ list-style-type: none;}
   .suite .learn{position: absolute; left: 10%; bottom: 169px;}
 
 
- .t-img-box{position: relative; width: 100%; height: auto;}
+ #t-img-box{position: relative; width: 100%; height: auto;}
 .tm_img{width: 50%; height: 100vh; background: url(http://minjun1555.speedgabia.com/_elafonisi/room/7/4.jpg) no-repeat 47% 50%;
     background-size: cover;}
 
-.tm_img h2{padding: 10%; font-size: 5vw; text-align: right; color: rgb(255,255,255);
+#t-img-box h2{padding: 4%;  right: 51%; font-size: 5vw; text-align: right; color: rgb(255,255,255);
         font-family: 'Jeju Myeongjo';}
 .t_img{width:23%; height: 450px;    background: url(http://minjun1555.speedgabia.com/_elafonisi/room/7/1.jpg) no-repeat 42% 50%;
     background-size: cover; position: absolute; top:35%; right: 34%;}
@@ -71,11 +72,11 @@ li, ul ,ol{ list-style-type: none;}
     background-size: cover; position: absolute; top:35%; right: 6%;}
  #t-text-box{position: absolute;top: 3%;right: 23%;line-height: 41px;}   
 
- .t2-img-box{position: relative; width: 100%; height: auto;}
+ #t2-img-box{position: relative; width: 100%; height: 100vh;}
  .t2m_img{width: 50%; height: 100vh;    background: url(http://minjun1555.speedgabia.com/_elafonisi/room/6/1.jpg) no-repeat 50% 50%;
     background-size: cover; position: absolute; right: 0;}
  
- .t2m_img h2{padding: 10%; font-size: 5vw; text-align: right; color: rgb(255,255,255);
+ #t2-img-box h2{padding: 4%; font-size: 5vw; position:absolute; right: 0;z-index: 10; text-align: right; color: rgb(255,255,255);
          font-family: 'Jeju Myeongjo';}
  .t2_img{width:23%; height: 450px;     background: url(http://minjun1555.speedgabia.com/_elafonisi/room/6/3.jpg) no-repeat 50% 50%;
     background-size: cover; position: absolute; top:35%;left: 34%;}
@@ -84,11 +85,11 @@ li, ul ,ol{ list-style-type: none;}
   #t2-text-box{position: absolute;top: 5%;left: 15%;line-height: 41px;}   
   .twin2 .learn{position: absolute; left: 10%; bottom: 169px;}
 
-  .d-img-box{position: relative; width: 100%; height: auto;}
+  #d-img-box{position: relative; width: 100%; height: auto;}
   .dm_img{width: 50%; height: 100vh;background: url(http://minjun1555.speedgabia.com/_elafonisi/room/9/1.jpg) no-repeat 50% 50%;
     background-size: cover;}
   
-  .dm_img h2{padding: 10%; font-size: 5vw; text-align: right; color: rgb(255,255,255);
+  #d-img-box h2{padding: 4%; right: 51%; font-size: 5vw; text-align: right; color: rgb(255,255,255);
           font-family: 'Jeju Myeongjo';}
   .d_img{width:23%; height: 450px;    background: url(http://minjun1555.speedgabia.com/_elafonisi/room/9/5.jpg) no-repeat 50% 50%;
     background-size: cover; position: absolute; top:35%; right: 34%;}
@@ -97,13 +98,13 @@ li, ul ,ol{ list-style-type: none;}
    #d-text-box{position: absolute;top: 3%;right:23%;line-height: 41px;}   
    .double .learn{position: absolute; right: 10%; bottom: 169px;}
 
- .d2-img-box{position: relative; width: 100%; height: auto;}
+ #d2-img-box{position: relative; width: 100%; height: 100vh;}
  .d2m_img{width: 50%; height: 100vh;    background: url(http://minjun1555.speedgabia.com/_elafonisi/room/8/3.jpg) no-repeat 50% 50%;
     background-size: cover; position: absolute; right: 0;}
  
- .d2m_img h2{padding: 10%; font-size: 5vw; text-align: right; color: rgb(255,255,255);
+ #d2-img-box h2{position: absolute; right: 0; z-index: 10; padding: 5%; font-size: 5vw; text-align: right; color: rgb(255,255,255);
          font-family: 'Jeju Myeongjo';}
- .d2_img{width:23%; height: 450px;      background: url(http://minjun1555.speedgabia.com/_elafonisi/room/8/7.jpg) no-repeat 50% 50%;
+ .d2_img{width:23%; height: 450px; background: url(http://minjun1555.speedgabia.com/_elafonisi/room/8/7.jpg) no-repeat 50% 50%;
     background-size: cover; position: absolute; top:35%;left: 34%;}
  .d2_img:nth-of-type(2){width:23%; height: 450px;      background: url(http://minjun1555.speedgabia.com/_elafonisi/room/8/8.jpg) no-repeat 50% 50%;
     background-size: cover; position: absolute; top:35%;left: 6%;}
@@ -119,14 +120,18 @@ li, ul ,ol{ list-style-type: none;}
   @media (min-width:320px) and (max-width:499px){
     #room_n{height: 410px;}
     #room_k article{height: 668px;}
-    #room_k h2{right: 0;}
+    #r-img-box h2{z-index: 10; padding:5% 21% 0 0;font-size: 3em; position: absolute; }
     #room_n h1{ padding: 12px; font-size: 14.5vw;}
     #room_n ul li{width: 100%; line-height: 30px; text-align: left; margin-left: 20px;}
     #room_n ul li a{font-size: 3vw;}
-    .r-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
-    .rm_img{width: 100%;height: 400px; }
-    .r_img:nth-of-type(2){width: 100%; height: 400px; position: absolute; top:0;}
-    .r_img:nth-of-type(3){width: 100%; height: 400px;right: 0; position: absolute; top:0;}
+    #r-img-box{width: 323%;  display: flex; flex-wrap: wrap; position: relative;}
+    .rm_img{width: 31%;height: 400px; }
+    .r_img:nth-of-type(2){width: 31%; height: 400px; position: absolute; top:0;}
+    .r_img:nth-of-type(3){width: 31%; height: 400px;right: 0; position: absolute; top:0;}
+    .prne{width: 100%; height: 100px; position: absolute; bottom: 35%;}
+    .prev1{bottom: 10%; color: white; position: absolute; top: 0; left: 10%; font-size: 2em;}
+    .next1{bottom: 10%; color: white; position: absolute;top: 0; right: 10%; font-size: 2em;}
+   
     #r-text-box{ width: 64%; top: 62%;right: 27%;line-height: 23px;font-size: 3vw; }
    .royal .learn{bottom: 16%; width: 129px;}
    .learn a{letter-spacing: 2px;}
@@ -134,53 +139,53 @@ li, ul ,ol{ list-style-type: none;}
     #r-text-box .btn_1:hover.btn_1 a span{color:#222;}
     .rm_img h2 { position: absolute; z-index: 100; font-size: 3em;}
 
-    .s-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
+    #s-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
     .sm_img{width: 100%;height: 400px; }
      .s_img:nth-of-type(2){width: 100%; height: 400px; position: absolute; top:0;}
     .s_img:nth-of-type(3){width: 100%; height: 400px;right: 0; position: absolute; top:0;}
     #s-text-box { top: 62%;left:32px;line-height: 23px;font-size: 3vw; }
     .suite .learn{bottom: 16%; left: 54%; width: 129px;}
     .btn_2 a span{top:123px!important; left:26px!important;}
-    .sm_img h2 { position: absolute; z-index: 100; font-size: 3em;}
+    #s-img-box h2 { position: absolute; z-index: 100; font-size: 3em;}
 
 
-    .t-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
+    #t-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
     .tm_img{width: 100%;height: 400px; }
      .t_img:nth-of-type(2){width: 100%; height:400px; position: absolute; top:0;}
     .t_img:nth-of-type(3){width: 100%; height: 400px;right: 0; position: absolute; top:0;}
     #t-text-box { top: 62%;right:30%;line-height: 23px;font-size: 3vw; }
     .twin .learn{bottom: 16%; left: 54%; width: 129px;}
     /* .btn_1 a span{top:123px!important; left:26px!important;} */
-    .tm_img h2 { position: absolute; z-index: 100; font-size: 3em;}
+    #t-img-box h2 { width: 100%;top:5%; right: 5%; position: absolute; z-index: 100; font-size: 3em;}
 
 
     
-    .t2-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
+    #t2-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
     .t2m_img{width: 100%;height: 400px; }
      .t2_img:nth-of-type(2){width: 100%; height: 400px; position: absolute; top:0;}
     .t2_img:nth-of-type(3){width: 100%; height: 400px;right: 0; position: absolute; top:0;}
     #t2-text-box { top: 62%;left:32px;line-height: 23px;font-size: 3vw; }
     .twin2 .learn{bottom: 16%; left: 54%; width: 129px;}
     .btn_2 a span{top:123px!important; left:37px!important;}
-    .t2m_img h2 { position: absolute; z-index: 100; font-size: 2.5em;}
+    #t2-img-box h2 { position: absolute; top: 2%; right: 5%; z-index: 100; font-size: 2.5em;}
 
-    .d-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
+    #d-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
     .dm_img{width: 100%;height: 400px; }
      .d_img:nth-of-type(2){width: 100%; height: 400px; position: absolute; top:0;left:0;}
     .d_img:nth-of-type(3){width: 100%; height: 400px;right: 0; position: absolute; top:0;}
     #d-text-box { top: 62%;right: 29%;line-height: 23px;font-size: 3vw; }
 
     .btn_2 span{width: 150px; font-size: 1.3em;left: -20px;}
-    .dm_img h2 { position: absolute; z-index: 100; font-size: 3em;}
+    #d-img-box h2 { width: 100%; top:5%; right: 5%; position: absolute; z-index: 100; font-size: 3em;}
 
-    .d2-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
+    #d2-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
     .d2m_img{width: 100%;height: 400px; }
      .d2_img:nth-of-type(2){width: 100%; height: 400px; position: absolute; left:0; top:0;}
     .d2_img:nth-of-type(3){width: 100%; height: 400px;right: 0; position: absolute; top:0;left:0;}
     #d2-text-box { top: 62%;left:32px;line-height: 23px;font-size: 3vw; }
     .double .learn{bottom: 14%; left: 54%; width: 129px;}
     .btn_2 a span{top:123px!important; left:37px!important;}
-    .d2m_img h2 { position: absolute; z-index: 100; font-size: 2.5em;}
+    #d2-img-box h2 { width: 100%; position: absolute; top:5%; right: 5%;  z-index: 100; font-size: 2.5em;}
     .double2 .learn{bottom: 16%; left: 54%; width: 129px;}
     #about_hotel_1{ height:71px ;}
     #about_hotel_1 a { font-size: 1.5em;left: 87px;}
@@ -195,7 +200,7 @@ li, ul ,ol{ list-style-type: none;}
     #room_n h1{ padding: 12px; font-size: 4.5em;}
     #room_n ul li{width: 100%; line-height: 30px; font-size: 0.4em; text-align: left; margin-left: 20px;}
     #room_n ul li a{font-size: 3em;}
-    .r-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
+    #r-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
     .rm_img{width: 100%;height:400px; }
      .r_img:nth-of-type(2){width: 100%; height: 400px; position: absolute; top:0;left:0;}
     .r_img:nth-of-type(3){width: 100%; height: 400px;right: 0; position: absolute; top:0;}
@@ -203,9 +208,9 @@ li, ul ,ol{ list-style-type: none;}
     .royal .learn{bottom: 14%; width: 129px; left: 75%;}
     .btn_1 span{width: 150px; font-size: 1.3em;left: -20px;}
     /* .btn_1 a span{top:123px!important; left:26px!important;} */
-    .rm_img h2 { position: absolute; z-index: 100; font-size:3em;left: 0;}
+    #r-img-box h2 { position: absolute; z-index: 100; font-size:3em;left: 0;}
 
-    .s-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
+    #s-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
     .sm_img{width: 100%;height: 400px; }
      .s_img:nth-of-type(2){width: 100%; height: 400px; position: absolute; top:0;left:0;}
     .s_img:nth-of-type(3){width: 100%; height: 400px;right: 0; position: absolute; top:0;left:0;}
@@ -213,10 +218,10 @@ li, ul ,ol{ list-style-type: none;}
     .suite .learn{bottom: 14%; width: 129px;left: 75%;}
     .btn_2 span{width: 150px; font-size: 1.3em; left: -18px;}
 
-    .sm_img h2 { position: absolute; z-index: 100; font-size: 3em;left: 0;}
+    #s-img-box h2 { position: absolute; z-index: 100; font-size: 3em;left: 0;}
 
 
-    .t-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
+    #t-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
     .tm_img{width: 100%;height: 400px; }
      .t_img:nth-of-type(2){width: 100%; height:400px; position: absolute; top:0;}
     .t_img:nth-of-type(3){width: 100%; height: 400px;right: 0; position: absolute; top:0;}
@@ -224,23 +229,23 @@ li, ul ,ol{ list-style-type: none;}
     .twin .learn{bottom: 14%; width: 129px;left:75%;}
     .btn_2 span{width: 150px; font-size: 1.3em; left: -18px;}
     
-    .tm_img h2 { position: absolute; z-index: 100; font-size:3em; left: 0;}
+    #t-img-box h2 { position: absolute; z-index: 100; font-size:3em; left: 0;}
 
 
     
-    .t2-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
+    #t2-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
     .t2m_img{width: 100%;height: 400px; }
      .t2_img:nth-of-type(2){width: 100%; height: 400px; position: absolute; top:0;}
     .t2_img:nth-of-type(3){width: 100%; height: 400px;right: 0; position: absolute; top:0;}
     #t2-text-box { top: 62%;left:32px;line-height: 23px;font-size: 0.8em; }
     .btn-border1 {top: 45px; left:2%}
     .btn_2 a span{top:123px!important; left:37px!important;}
-    .t2m_img h2 { position: absolute; z-index: 100; font-size: 2.5em;left: 0;}
+    #t2-img-box h2 { position: absolute; z-index: 100; font-size: 2.5em;left: 0;}
     #t-text-box {width: 100%; top: 62%;left: 8%;line-height: 23px;font-size: 0.8em; }
     .twin2 .learn{bottom: 14%; width: 129px;left: 75%;}
 
 
-    .d-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
+    #d-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
     .dm_img{width: 100%;height: 400px; }
      .d_img:nth-of-type(2){width: 100%; height:400px; position: absolute; top:0;left:0;}
     .d_img:nth-of-type(3){width: 100%; height: 400px;right: 0; position: absolute; top:0;}
@@ -248,9 +253,9 @@ li, ul ,ol{ list-style-type: none;}
     #t-text-box {width: 100%; top: 62%;left: 8%;line-height: 23px;font-size: 0.8em; }
     .double .learn{bottom: 14%; width: 129px;left: 75%;}
     .btn_2 a span{top:123px!important; left:26px!important;}
-    .dm_img h2 { position: absolute; z-index: 100; font-size: 3em;left:0;}
+    #d-img-box h2 { position: absolute; z-index: 100; font-size: 3em;left:0;}
 
-    .d2-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
+    #d2-img-box{ display: flex; flex-direction: column; flex-wrap: wrap; position: relative;}
     .d2m_img{width: 100%;height: 400px; }
      .d2_img:nth-of-type(2){width: 100%; height: 400px; position: absolute; left:0; top:0;}
     .d2_img:nth-of-type(3){width: 100%; height: 400px;right: 0; position: absolute; top:0;left:0;}
