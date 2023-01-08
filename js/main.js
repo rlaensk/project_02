@@ -123,7 +123,16 @@ $(function () {
   });
 });
 
+$(function(){
+  $('#popup').css('opacity','1');
+});
 
+$('#close1').click(function(){
+  $('.pop1').css('opacity','0');
+});
+$('#close2').click(function(){
+  $('.pop2').css('opacity','0');
+});
 // hotel room
 $('.room_').not(':first').css('display', 'none');
 
