@@ -152,3 +152,99 @@ $('.next1').click(function () {
 });
 
 
+$('.prev2').click(function () {
+  $('#s-img-box .s_img1:last').prependTo('#s-img-box');
+  $('#s-img-box').css({ marginLeft: '-100%' });
+  $('#s-img-box').stop().animate({ marginLeft: 0 }, 800);
+
+});
+
+$('.next2').click(function () {
+  $('#s-img-box').stop().animate({ marginLeft: '-100%' }, 800, function () {
+    $('#s-img-box .s_img1:first').appendTo('#s-img-box');
+    $('#s-img-box').css({ marginLeft: 0 });
+  });
+});
+
+
+
+$('.prev3').click(function () {
+  $('#t-img-box .t_img1:last').prependTo('#t-img-box');
+  $('#t-img-box').css({ marginLeft: '-100%' });
+  $('#t-img-box').stop().animate({ marginLeft: 0 }, 800);
+
+});
+
+$('.next3').click(function () {
+  $('#t-img-box').stop().animate({ marginLeft: '-100%' }, 800, function () {
+    $('#t-img-box .t_img1:first').appendTo('#t-img-box');
+    $('#t-img-box').css({ marginLeft: 0 });
+  });
+});
+
+
+$('.prev4').click(function () {
+  $('#t2-img-box .t2_img1:last').prependTo('#t2-img-box');
+  $('#t2-img-box').css({ marginLeft: '-100%' });
+  $('#t2-img-box').stop().animate({ marginLeft: 0 }, 800);
+
+});
+
+$('.next4').click(function () {
+  $('#t2-img-box').stop().animate({ marginLeft: '-100%' }, 800, function () {
+    $('#t2-img-box .t2_img1:first').appendTo('#t2-img-box');
+    $('#t2-img-box').css({ marginLeft: 0 });
+  });
+});
+
+$('.prev5').click(function () {
+  $('#d-img-box .d_img1:last').prependTo('#d-img-box');
+  $('#d-img-box').css({ marginLeft: '-100%' });
+  $('#d-img-box').stop().animate({ marginLeft: 0 }, 800);
+
+});
+
+$('.next5').click(function () {
+  $('#d-img-box').stop().animate({ marginLeft: '-100%' }, 800, function () {
+    $('#d-img-box .d_img1:first').appendTo('#d-img-box');
+    $('#d-img-box').css({ marginLeft: 0 });
+  });
+});
+
+
+$('.prev6').click(function () {
+  $('#d2-img-box .d2_img1:last').prependTo('#d2-img-box');
+  $('#d2-img-box').css({ marginLeft: '-100%' });
+  $('#d2-img-box').stop().animate({ marginLeft: 0 }, 800);
+
+});
+
+$('.next6').click(function () {
+  $('#d2-img-box').stop().animate({ marginLeft: '-100%' }, 800, function () {
+    $('#d2-img-box .d2_img1:first').appendTo('#d2-img-box');
+    $('#d2-img-box').css({ marginLeft: 0 });
+  });
+});
+
+window.addEventListener('scroll',function(){
+
+let value=window.scrollY
+  console.log('scrollY' ,value)
+
+   if(value>50){
+    $('#r-text-box').css('animation','slide1 1s').css('opacity','1');
+   }if(value>800){
+    $('#s-text-box').css('animation','slide2 1s').css('opacity','1');
+   }if(value>2000){
+    $('#t-text-box').css('animation','slide1 1s').css('opacity','1');
+   }if(value>3000){
+   $('#t2-text-box').css('animation','slide2 1s').css('opacity','1');
+   }if(value>4000){
+    $('#d-text-box').css('animation','slide1 1s').css('opacity','1');
+    }if(value>5000){
+      $('#d2-text-box').css('animation','slide2 1s').css('opacity','1');
+      }
+
+
+  });
+
