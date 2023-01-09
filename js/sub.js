@@ -137,25 +137,18 @@ $(function () {
 
 
 
-  function prev(){
-    $('.rimg .r_img_:last').prependTo('.rimg');
-    $('.rimg').css('margin-left','-590px');
-    $('.rimg').stop().animate({marginLeft:0}, 1000);
+$('.prev1').click(function () {
+  $('.rimg .r_img1:last').prependTo('.rimg');
+  $('.rimg').css({ marginLeft: '-100%' });
+  $('.rimg').stop().animate({ marginLeft: 0 }, 800);
 
-}
-
-  function next(){
-    $('.rimg .r_img_:first').stop().animate({marginLeft:'-590px'},800);
-    $('.rimg .r_img_:first').appendTo('.rimg');
-    $('.rimg').css('margin-left','-590px');
-    $('.rimg').stop().animate({marginLeft:0}, 1000);
-  }
-
-if(mal2.matches){
-$('.prev1').click(function(){
-  prev();
 });
-$('next1').click(function(){
- next();
+
+$('.next1').click(function () {
+  $('.rimg').stop().animate({ marginLeft: '-100%' }, 800, function () {
+    $('.rimg .r_img1:first').appendTo('.rimg');
+    $('.rimg').css({ marginLeft: 0 });
+  });
 });
-}
+
+
