@@ -233,9 +233,10 @@ let value=window.scrollY
 
    if(value>50){
     $('#r-text-box').css('animation','slide1 1s').css('opacity','1');
+    
    }if(value>800){
     $('#s-text-box').css('animation','slide2 1s').css('opacity','1');
-   }if(value>2000){
+   }if(value>1800){
     $('#t-text-box').css('animation','slide1 1s').css('opacity','1');
    }if(value>3000){
    $('#t2-text-box').css('animation','slide2 1s').css('opacity','1');
