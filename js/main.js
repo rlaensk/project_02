@@ -40,7 +40,7 @@ $('.plus').click(function () {
 $(function () {
   $('.menu-trigger').click(function () {
     if ($('#menu_trigger').css('width') == '0px') {
-     $('#menu_trigger').css('display','block');
+      $('#menu_trigger').css('display', 'block');
       $('#menu_trigger').css('width', '100%');
 
       $('.menu-trigger span').css('background-color', 'rgb(128,128,128)');
@@ -87,8 +87,8 @@ $(function () {
       $('#reservation').css('transform', 'translateY(100px)').css('opacity', '0');
 
       $('.side_footer').css('opacity', '0');
-   
-      $('#menu_trigger').css({ 'width': '0px' },1500);
+
+      $('#menu_trigger').css({ 'width': '0px' }, 1500);
       // $('#menu_trigger ').css({'display':'none'})
     }
   });
@@ -123,15 +123,15 @@ $(function () {
   });
 });
 
-$(function(){
-  $('#popup').css('opacity','1');
+$(function () {
+  $('#popup').css('opacity', '1');
 });
 
-$('#close1').click(function(){
-  $('.pop1').css('opacity','0');
+$('#close1').click(function () {
+  $('.pop1').css('opacity', '0');
 });
-$('#close2').click(function(){
-  $('.pop2').css('opacity','0');
+$('#close2').click(function () {
+  $('.pop2').css('opacity', '0');
 });
 // hotel room
 $('.room_').not(':first').css('display', 'none');
@@ -238,8 +238,124 @@ if (mal.matches) {
   $('#inpnity>p').text('Infinity&Rooftop Pool');
   $('#BBQ>p').text('Breakfast&BBQ');
 }
+let mal_1 = window.matchMedia('(min-width:1501x)').matches;
+let mal_2 = window.matchMedia('(min-width:1001px) and (max-width:1500px)').matches;
+let mal_3 = window.matchMedia('(min-width:774px) and (max-width:1000px)').matches;
+let mal_4 = window.matchMedia('(min-width:1201px)').matches;
 
 
-  // $(function(){
-  //   $('#about_img img').css({'top':'25%','left':'12%'});
-  // });
+
+window.addEventListener('scroll', function () {
+
+  let value1 = window.scrollY
+  console.log('scrollY', value1)
+  $('#inpnity p').text('Inpinity Pool');
+  $('#BBQ p').text('Breakfast & BBQ');
+  if (value1 > 350 && mal_4) {
+    $('#about_line p').css('animation', 'pool 1s').css('opacity', '1');
+    $('#about_text .but').css('animation', 'pool_p 1.5s').css('opacity', '1');
+  } if (value1 > 1400 && mal_4) {
+    $('.room-text2>h1').css('animation', 'hotel 1s').css('opacity', '1');
+    $('.room-text2>p').css('animation', 'hotel_p 1.5s').css('opacity', '1');
+    $('#room_kind .see a').css('animation', 'see 1s').css('opacity', '1');
+
+  } if (value1 > 3220 && mal_4) {
+    $('.tion_box h1').css('animation', 'fac_p_1 1s').css('opacity', '1');
+    $('.tion_box p').css('animation', 'fac_p_1 1.5s').css('opacity', '1');
+  } if (value1 > 4000 && mal_4) {
+    $('#inpnity p').text('Inpinity Pool').css('animation', 'infi 1s').css('opacity', '1');
+    $('#BBQ p').text('Breakfast & BBQ').css('animation', 'infi 1s').css('opacity', '1');
+  } if (value1 > 4190 && mal_4) {
+    $('.read1').css('animation', 'infi 1s').css('opacity', '1');
+    $('.read2').css('animation', 'infi 1s').css('opacity', '1');
+
+
+  } if (value1 > 4360 && mal_4) {
+    $('#review h1').css('animation', 'rew 1s').css('opacity', '1');
+
+  } if (value1 > 5299 && mal_4) {
+    $('.review_>p').css('animation', 'rew_p 1s').css('opacity', '1');
+    $('.see_2').css('animation', 'rew_p1 1s').css('opacity', '1');
+  } if (value1 > 5593 && mal_4) {
+    $('#Event_s h1').css('animation', 'infi1 1s').css('opacity', '1');
+  } if (value1 > 5599 && mal_4) {
+    $('#neighbourhood span').css('animation', 'infi1 1s').css('opacity', '1');
+  } if (value1 > 6694 && mal_4) {
+    $('.newsletter_text p').css('animation', 'infi2 1s').css('opacity', '1');
+  } if (value1 > 6900 && mal_4) {
+    $('.newsletter_text span').css('animation', 'news 1s').css('opacity', '1');
+  } if (value1 > 7949 && mal_4) {
+    $('#neighbourhood p').css('animation', 'fac_p 1s').css('opacity', '1');
+  } if (value1 > 6694 && mal_4) {
+    $('#neighbourhood span , a').css('animation', 'rew 1s').css('opacity', '1');
+  } if (value1 > 8599 && mal_4) {
+    $('#map p').css('animation', 'map 1s').css('opacity', '1');
+  } if (value1 > 9000 && mal_4) {
+    $('#about_hotel').css('transform', 'scale(1.5)').css('transition', '.5s');
+  }
+
+  if (value1 > 200 && mal_1) {
+    $('#about_line p').css('animation', 'pool 1s').css('opacity', '1');
+    $('#about_text .but').css('animation', 'pool_p 1.5s').css('opacity', '1');
+  } if (value1 > 300 && mal_1) {
+    $('.room-text2>h1').css('animation', 'hotel 1s').css('opacity', '1');
+    $('.room-text2>p').css('animation', 'hotel_p 1.5s').css('opacity', '1');
+    $('#room_kind .see a').css('animation', 'see 1s').css('opacity', '1');
+
+  } if (value1 > 1000 && mal_1) {
+    $('.tion_box h1').css('animation', 'fac 1s').css('opacity', '1');
+    $('.tion_box p').css('animation', 'fac_p 1.5s').css('opacity', '1');
+  } if (value1 > 1400 && mal_1) {
+    $('#inpnity a p').css('animation', 'infi 1s').css('opacity', '1');
+    $('#BBQ a p').css('animation', 'infi 1s').css('opacity', '1');
+  } if (value1 > 3896 && mal_1) {
+    $('.read1').css('animation', 'infi 1s').css('opacity', '1');
+    $('.read2').css('animation', 'infi 1s').css('opacity', '1');
+  
+  } if (value1 > 3993 && mal_1) {
+    $('#review h1').css('animation', 'rew 1s').css('opacity', '1');
+}
+   if (value1 > 3000 && mal_1) {
+    $('.review_1>p').css('animation', 'rew_p 1s').css('opacity', '1');
+    $('.see_2').css('animation', 'rew_p1 1s').css('opacity', '1');
+  } if (value1 > 7663 && mal_1) {
+    $('#neighbourhood span').css('animation', 'infi1 1s').css('opacity', '1');
+  } if (value1 > 3000 && mal_1) {
+    $('.newsletter_text p').css('animation', 'infi2 1s').css('opacity', '1');
+  } if (value1 > 3000 && mal_1) {
+    $('.newsletter_text span').css('animation', 'news 1s').css('opacity', '1');
+  } if (value1 > 3000 && mal_1) {
+    $('.newsletter_text span').css('animation', 'news 1s').css('opacity', '1');
+  } if (value1 > 3000 && mal_1) {
+    $('#neighbourhood span , a').css('animation', 'rew 1s').css('opacity', '1');
+  } if (value1 > 3000 && mal_1) {
+    $('#map p').css('animation', 'map 1s').css('opacity', '1');
+  } if (value1 > 3000 && mal_1) {
+    $('#about_hotel').css('transform', 'scale(1.5)').css('transition', '.5s');
+
+  }
+
+
+
+
+    if (value1 > 200 && mal_2) {
+      $('#review h1').css('animation', 'rew 1s').css('opacity', '1');
+    } if (value1 > 700 && mal_2) {
+      $('#s-text-box').css('animation', 'slide2 1s').css('opacity', '1');
+      $('.suite .learn').css('animation', 'slide1_2 1.5s').css('opacity', '1');
+    } if (value1 > 1400 && mal_2) {
+      $('#t-text-box').css('animation', 'slide2 1s').css('opacity', '1');
+      $('.twin .learn').css('animation', 'slide1_2 1.5s').css('opacity', '1');
+    } if (value1 > 2100 && mal_2) {
+      $('#t2-text-box').css('animation', 'slide2 1s').css('opacity', '1');
+      $('.twin2 .learn').css('animation', 'slide1_2 1.5s').css('opacity', '1');
+    } if (value1 > 2800 && mal_2) {
+      $('#d-text-box').css('animation', 'slide2 1s').css('opacity', '1');
+      $('.double .learn').css('animation', 'slide1_2 1.5s').css('opacity', '1');
+    } if (value1 > 3500 && mal_2) {
+      $('#d2-text-box').css('animation', 'slide2 1s').css('opacity', '1');
+      $('.double2 .learn').css('animation', 'slide1_2 1.5s').css('opacity', '1');
+    }
+
+  });
+

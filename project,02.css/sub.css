@@ -43,7 +43,7 @@ li, ul ,ol{ list-style-type: none;}
  .btn_1{width: 100px; height: 100px; position: relative; }
  
  .btn_1 span{width: 105px; color:#7f7872; margin:0 23px; position: absolute;top:31px;left: 6px; font-size:1em;}
-.learn{position: absolute; right: 10%;}
+.learn{position: absolute; right: 10%; opacity: 0;}
 
 
 
@@ -122,7 +122,7 @@ li, ul ,ol{ list-style-type: none;}
   
   .double2 .learn{position: absolute; left: 10%; bottom: 169px;}
 
-  #about_hotel_1{width: 100%; height: 191px; }
+  #about_hotel_1{width: 100%; height: 191px;  }
   #about_hotel_1 a{font-size: 6em; font-family: 'prata'; position: absolute; left: 30%; padding: 35px 0; color: rgb(50, 50, 50);}
   
 
@@ -145,20 +145,13 @@ li, ul ,ol{ list-style-type: none;}
     right: 15%;
   }
 }
-@keyframes back1{
+
+@keyframes slide1_2{
   from{
-    right: 23%;
+    left:155%;
   }
   to{
-    right: -23%;
-  }
-}
-@keyframes back2{
-  from{
-    right: 15%;
-  }
-  to{
-    right: -15%;
+    left:75%;;
   }
 }
 
@@ -435,6 +428,7 @@ li, ul ,ol{ list-style-type: none;}
 .sm_img{height: 78vh;}
 .ss_img , .sss_img{height: 300px; top:37%;}
 
+.tion_box{right: 3%;}
 
 .tm_img{height: 78vh;}
 .tt_img , .ttt_img{height: 300px; top:47%;}

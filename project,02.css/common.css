@@ -33,6 +33,7 @@ header.on{background:rgba(202, 202, 202, 0.377);}
   z-index: 260;;
   left: 31px;
 }
+.menu-trigger:hover {transform: scale(1.5); opacity: 0.7;}
 .menu-trigger span {
   position: absolute;
   left: 0;
@@ -75,7 +76,8 @@ header.on{background:rgba(202, 202, 202, 0.377);}
 
 /* 언어선택 */
 .country_toggle{ width: 26%; height: 30px; line-height: 30px; font-size: 1em; cursor: pointer;
-                position: absolute; top: -2px; right:4%; border:0; background-color: transparent;}
+                position: absolute; top: -2px; right:4%; border:0; background-color: transparent;
+              }
 /* 언어화살표 */
 .arrow { position: relative; }
 .arrow::after { position: absolute; left: 17px;  top: 4px; content: ''; width: 4px;  height: 4px;  border-top: 1px solid whitesmoke; border-right: 1px solid whitesmoke;   transform: rotate(135deg); }
@@ -136,10 +138,11 @@ header.on{background:rgba(202, 202, 202, 0.377);}
 .menu_s span a{ font-size: 2em; font-family:"PRAta"; display: block; margin: 20% 0;} 
 .menu_s p a{margin: 5% 0 ;}
 .menu_s nav{height:400px;}
-.menu_s nav ul li{margin: 6% 0; }
+.menu_s nav ul li{margin: 6% 0; height: 29px;}
+.menu_s nav ul li:hover{transform: scale(1.5);}
 .menu_s nav ul li a{color:rgb(50,50,50); font-size:1em; font-family: 'inter';}
-.menu_s nav ul li a:hover{color: #7f7872;}
-#special nav ul li{margin: 12% 0;}
+.menu_s nav ul li a:hover{color: #7f7872;  }
+#special nav ul li{margin: 12% 0; }
 #about_us{transform: translateY(100px); transition: all 0.5s; opacity: 0;}
 #accom{transform: translateY(100px); transition: all 1s; opacity: 0;}
 #special{transform: translateY(100px); transition: all 1.5s; opacity: 0;}

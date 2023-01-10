@@ -356,6 +356,7 @@ form{width: 100%; left: 0;}
 .slider_text2{ color: white ; opacity: 1;}
 .slider_text2 a{color: whitesmoke!important;}
 .btn1 a span{color: white; font-size: 1.5em;}
+#about{height: 1135px;}
 #about_line>p {  font-size: 6rem; right: 58%;  line-height: 101px; width: 36%;}
 .about_box{height: 850px; top:183px;}
 #about_img img {  height: 437px; bottom: 18%; }
@@ -374,16 +375,16 @@ form{width: 100%; left: 0;}
 .tion_box1{ height: 845px;  top:12%;}
 #neighbourhood .line[data-v-5d883f52]{top: 275px; }
 #neighbourhood span{ width: 27%;}
-#neighbourhood p{left: 13% ;top:54%;}
+#neighbourhood p{left: 15% ;top:54%;}
 #inpnity p{top:99%; left: 96px; font-size: 2em;}
 #BBQ p{top:99%; left:99px; font-size: 2em;}
 #BBQ{width: 45%;}
-.read1 , .read2{width: 224px; left: 18%;}
-
+.read1 , .read2{width: 224px; left: 18%; bottom: 38%;}
+.read1 a, .read2 a{bottom: 30%;}
 
 #review h1{right: 9%;}
 .review_1{height: 711px;}
-.review_ p{font-size: 2em; position: absolute;}
+.review_ p{font-size: 2em; position: absolute; width: 55%;left: 12%;}
 .next_3, .next_4{bottom:60%;}
 .next_4{right:48px ;}
 .see_2{bottom:115px; left:78%}

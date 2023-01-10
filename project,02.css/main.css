@@ -45,11 +45,11 @@
 #about{ width: 100%; height: 1254px;}
 #about_line{display: flex; flex-wrap: wrap; position: relative;}
 #about_text{ width: 47%; height:605px; position: relative;}
-#about_line>p{width: 34%; font-size: 7em; font-family:'Jeju Myeongjo', serif;; letter-spacing: 2px;
+#about_line>p{width: 34%; font-size: 7em; font-family:'Jeju Myeongjo', serif;
                 font-weight: bold; position: absolute; top:19%; right: 62%; z-index: 100; 
-                color:rgb(8, 8,8); line-height: 135px;}
+                color:rgb(8, 8,8); line-height: 135px; opacity: 0;}
 #about_text .but{width: 45%; position: absolute; bottom: -8%; left: 22%;
-                line-height: 22px; font-size: 1em; color: rgb(138, 138, 138);}
+                line-height: 22px; font-size: 1em; color: rgb(138, 138, 138);opacity: 0;}
 
 #about_img{width: 50%; height:1000px; position: relative;}
 .about_box{width: 107%; height: 1000px;background-color: #f9efe9; position: absolute;
@@ -61,6 +61,7 @@
 .btn2{ width: 86%; line-height: 30px; position: absolute; bottom: 3%;
         right: 1%; letter-spacing: 4px; font-size: 0.8vw;
         display: flex;} 
+.btn2 a span:hover{transform: scale(1.5); color: #323232;}
 .btn-border1{width:54%;height:181px;right:62%;top:142px; opacity: 0.5; position:absolute;}
 .line[data-v-5d883f52]{ left: 0; right: 0; bottom: 0; overflow: hidden;
         pointer-events: none; z-index: -2; max-width: 100%;}
@@ -96,10 +97,10 @@
 .btn-border2{width:30%;height:132px;right:82%;top:-162%; opacity: 0.5; position:absolute;}
 
 .room-text2{position: relative; width: 33%;}
-.room-text2>h1{font-size: 8vw; font-family:'Jeju Myeongjo', serif;; color:rgb(8, 8,8);
-                letter-spacing: 2px; line-height: 96px; font-weight: bold;
-                position: absolute; left: 9%;top: 9%;}
-.room-text2>p{width: 54%;position: absolute; top: 32%; left: 46%; color:rgb(139, 139, 139); font-size:14px;}
+.room-text2>h1{font-size: 7em; font-family:'Jeju Myeongjo', serif;; color:rgb(8, 8,8);
+             line-height: 96px; font-weight: bold;
+                position: absolute; left: 9%;top: 9%; opacity: 0;}
+.room-text2>p{width: 54%;position: absolute; top: 32%; left: 46%; color:rgb(139, 139, 139); font-size:14px; opacity: 0;}
 #room_box>.line__border{ top:18px;}
 .next{position: relative;}
 
@@ -141,7 +142,7 @@
         letter-spacing: 3px;
 font-size: 13px;
         }
-
+.see a:hover{transform: scale(1.5); color: #323232;}
 
 
 
@@ -156,8 +157,9 @@ font-size: 13px;
 .tion_box1{width: 57%; height: 1101px; background-color: #f9efe9; position: absolute;right: 0; top:13%}
 #ACCOMMODATION h1{font-size: 8em; font-family:'Jeju Myeongjo', serif;
                 font-weight: bold; position: absolute; right: 18%;
-                color:rgb(50, 50, 50); top:-42px}
-#ACCOMMODATION p{width: 44%; font-size: 15px; position: absolute; top:17%; left: 23%; line-height: 28px;color:rgb(139, 139, 139);}
+                color:rgb(50, 50, 50); top:-42px; opacity: 0;}
+.tion_box p{opacity: 0;}
+ #ACCOMMODATION p{width: 44%; font-size: 15px; position: absolute; top:17%; left: 23%; line-height: 28px;color:rgb(139, 139, 139); }
 #ACCOMMODATION .img-box{display: flex; position: absolute; width: 88%; top:42%; right: 88px;justify-content: space-around; flex-wrap: wrap;}
 #ACCOMMODATION .line[data-v-5d883f52]{top:170px;}
 
@@ -169,6 +171,8 @@ font-size: 13px;
                 line-height: 76px; font-weight: bold;}
 
 .read1, .read2{ position: absolute; top: 0; height: 600px; width: 224px; }
+.read1 a:hover{transform: scale(1.3); color: #323232;} 
+.read2 a:hover{transform: scale(1.3); color: #323232;}
 .read1 a{position: absolute; bottom:0;left:1%; color: #7f7872; letter-spacing: 4px; font-size: 13px;}
 #BBQ{position:relative; display: flex; flex-direction: column; flex-wrap: wrap;z-index: 100;}
 #BBQ p{position: absolute; top:110%; left: 0;
@@ -187,7 +191,7 @@ font-size: 13px;
 .review_img img{width:350px; height: 400px; margin:25px; }
 .review_{width: 100%; height: 907px; margin: 0 auto; position:relative; top:6%}
 .review_ p{font-size: 2vw; font-family: 'Prata'; color: rgb(50, 50, 50);
-        transform: translate(27%, -60px);}
+        transform: translate(27%, -60px); width: 23%;position: absolute; left: 30%;}
 .see_2{    position: absolute;
         width: 185px;
         height: 30px;
@@ -316,7 +320,7 @@ form{width: 82%; height: 207px; position: absolute; font-size: 13px;
 form .form_a{border: none; color: rgb(139,139,139); position: absolute;
                 right: 23%; letter-spacing: 5px; background-color: none;
         }
-
+form .form_a:hover{transform: scale(1.3); color: #323232;}
 #neighbourhood{width: 100%; height: 1077px; position: relative;
         display: flex;flex-direction: column; flex-wrap: wrap;justify-content: space-between;}
 #neighbourhood img{width: 92%; height: 545px;}
@@ -324,10 +328,13 @@ form .form_a{border: none; color: rgb(139,139,139); position: absolute;
                 left: 27%; bottom: 34%; color: rgb(50,50,50);}
 #neighbourhood a{ width: 21%; position: absolute; bottom: 11%; right: 20%;
                 font-size: 13px; color: rgb(139,139,139); letter-spacing: 4px; }
-#neighbourhood span{width: 17%; position: absolute; bottom: 19%; right: 25%;
+#neighbourhood a:hover{transform: scale(1.3); color: #323232;}      
+ #neighbourhood span{width: 17%; position: absolute; bottom: 19%; right: 25%;
                 color: rgb(138, 138, 138); font-size: 14px; line-height: 26px;}
 
 #map{width: 100%; height: 491px; position: relative;}
+.map_a a:nth-child(1):hover{transform: scale(1.3); color: #323232;}
+.map_a a:nth-child(2):hover{transform: scale(1.3); color: #323232;}
 #video{width: 90%; height: 491px; overflow: hidden; position: absolute; right: 0;}
 video{width: 100%; height: auto;}
 .background_after{width: 100%;height: 387px;}
@@ -343,7 +350,7 @@ video{width: 100%; height: auto;}
 }
 #map .line{top:70px;}
 #map>p{ font-size: 5em; position: absolute; z-index: 10; width: 48%;
-        text-align: right; font-family: 'prata'; left: 105.3px;top:16%; line-height: 87px;}
+        text-align: right; font-family: 'prata'; left: 5%;top:16%; line-height: 87px;}
 .map_a{display: flex;flex-wrap: wrap; width: 54%; z-index: 100; color:rgb(50, 50, 50);
         position: absolute; bottom: 18%; left:23%; font-size:13px; letter-spacing: 5px;}
 .map_a>a:hover{opacity: 0.8; cursor: pointer;}
@@ -359,5 +366,140 @@ video{width: 100%; height: auto;}
 
 
 #about_hotel{width: 100%; height: 191px; }
-#about_hotel a{font-size: 6em; font-family: 'prata'; position: absolute; left: 33%; padding: 35px 0; color: rgb(8, 8,8);}
+#about_hotel a{font-size: 6em; font-family: 'prata'; position: absolute; left: 33%; padding: 57px 0; color: rgb(8, 8,8);}
 
+
+/* 애니메이션 */
+
+@keyframes pool{
+        from{
+                left:-10%;
+        }
+        to{
+                left: 4%;
+        }
+}
+@keyframes pool_p{
+        from{
+                left: -10%;
+        }
+        to{
+                left: 22%;
+        }
+}
+ @keyframes hotel{
+        from{
+                left: -50%;
+        }
+        to{
+                left: 9%;
+        }
+ }
+ @keyframes see{
+        from{
+                right: -10%;
+        }
+        to{
+                right: 3%;
+        }
+ }
+
+ @keyframes hotel_p{
+        from{
+               left:  -50%;
+        }
+        to{
+                left:  46%;
+        }
+ }
+ @keyframes fac{
+        from{
+                left:-10%;
+        }
+        to{
+                left: 33%;
+        }
+}
+@keyframes fac_p{
+        from{
+                left: -10%;
+        }
+        to{
+                left: 22%;
+        }
+}
+@keyframes fac_p_1{
+        from{
+                left: -10%;
+        }
+        to{
+                left: 22%;
+        }
+}
+
+@keyframes infi{
+        from{
+                left: -50%;
+        }
+        to{
+                left: 0.5%
+        }
+}
+@keyframes rew{
+        from{
+               right: -50%;
+        }
+        to{
+                right: 34%;        }
+}
+@keyframes rew_p{
+        from{
+                left: -30%;
+        }
+        to{
+                left:80%;
+        }
+}
+@keyframes rew_p1{
+        from{
+                left: -30%;
+        }
+        to{
+                left: 50%;
+        }
+}
+
+
+@keyframes infi1{
+        from{
+                left: -50%;
+        }
+        to{
+                left: 49%
+        }
+}
+@keyframes infi2{
+        from{
+                left: -10%;
+        }
+        to{
+                left: 8%
+        }
+}
+@keyframes news{
+        from{
+                left: -10%;
+        }
+        to{
+                left: 26%
+        }
+}
+
+@keyframes map{
+        from{
+                left: -10%;
+        }
+        to{
+                left: 5%
+        }
+}
