@@ -126,6 +126,10 @@ $(function () {
 
   let mal1=window.matchMedia('screen and (min-width:500px) and (max-width:1599px)');
   let mal2=window.matchMedia('screen and (min-width:320px) and (max-width:766px)');
+  let mal3=window.matchMedia('screen and (min-width:767px) and (max-width:1200px)')
+  let mal4=window.matchMedia('screen and (min-width:1201px)');
+
+
   if(mal1.matches){
     $('.royal h2').text('Royal Suite room');
     $('.tm_img h2').text('Delux Twin Room');
@@ -231,21 +235,39 @@ window.addEventListener('scroll',function(){
 let value=window.scrollY
   console.log('scrollY' ,value)
 
-   if(value>50){
+   if(value>30  && mal4 ){
     $('#r-text-box').css('animation','slide1 1s').css('opacity','1');
-    
-   }if(value>800){
+
+   }if(value>800  &&  mal4 ){
     $('#s-text-box').css('animation','slide2 1s').css('opacity','1');
-   }if(value>1800){
+   }if(value>1800 && mal4) {
     $('#t-text-box').css('animation','slide1 1s').css('opacity','1');
-   }if(value>3000){
+   }if(value>2500  &&  mal4) {
    $('#t2-text-box').css('animation','slide2 1s').css('opacity','1');
-   }if(value>4000){
+   }if(value>4000  &&  mal4) {
     $('#d-text-box').css('animation','slide1 1s').css('opacity','1');
-    }if(value>5000){
+    }if(value>5000  &&  mal4) {
       $('#d2-text-box').css('animation','slide2 1s').css('opacity','1');
       }
 
-
+      if(value>30  &&  mal3){
+        $('#r-text-box').css('animation','slide1 1s').css('opacity','1');
+    
+       }if(value>300  &&  mal3){
+        $('#s-text-box').css('animation','slide2 1s').css('opacity','1');
+       }if(value>1000 && mal3){
+        $('#t-text-box').css('animation','slide1 1s').css('opacity','1');
+       }if(value>1600  &&  mal3){
+       $('#t2-text-box').css('animation','slide2 1s').css('opacity','1');
+       }if(value>2300  &&  mal3){
+        $('#d-text-box').css('animation','slide1 1s').css('opacity','1');
+        }if(value>3000  && mal3){
+          $('#d2-text-box').css('animation','slide2 1s').css('opacity','1');
+          }
+    
   });
 
+
+
+
+ 

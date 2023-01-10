@@ -317,7 +317,7 @@ footer p{font-size: 0.5vw; margin-right: 15px; opacity:0.7;}
   
 }
 @media (min-width:1001px) and (max-width:1206px){
-  #CS_num{width: 25%; }
+  #CS_num{width: 27%; }
   #book_tap{font-size: 0.8em;}
   #logo{margin-left: 3%;}
   #logo a p{width: 150px;}
@@ -326,7 +326,8 @@ footer p{font-size: 0.5vw; margin-right: 15px; opacity:0.7;}
 
 }
 @media (min-width:1207px) and (max-width:1600px){
-  #CS_num{width: 21%; }
+  
+  #CS_num{width: 22%; }
   #book_tap{font-size: 0.8em;}
   #logo{margin-left: 3%;}
   #logo a p{width: 150px;}

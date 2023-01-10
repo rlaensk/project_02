@@ -13,7 +13,7 @@ li, ul ,ol{ list-style-type: none;}
 #top{height: 0;}
 
 
-#subs{display: flex; width: 13%; margin-left: 1%;}
+#subs{display: flex; width: 17%; margin-left: 1%;}
 #subs p{width: 20%;}
 #room_n{ width: 100%; height: 497px; bottom:-132px; position:relative;}
 .line[data-v-5d883f52]{top: -138px;}
@@ -419,13 +419,38 @@ li, ul ,ol{ list-style-type: none;}
 
   @media (min-width:1201px) and (max-width:1500px){
 
- 
+  
+#room_k article{height: 928px;}
 .a{display: none;}
 #room_n ul li:nth-child(2){width: 6%;}
 
 #room_n ul li:nth-child(6){width: 16%;}
 #room_n ul li{width: 13%; font-size: 1em;}
 #r-text-box, #t-text-box, #d-text-box{ right: 13%; }
+
+.rm_img{height: 78vh;}
+.rr_img , .rrr_img{height: 300px; bottom: 29%;}
+.royal .learn{bottom: 17%;}
+
+.sm_img{height: 78vh;}
+.ss_img , .sss_img{height: 300px; top:37%;}
+
+
+.tm_img{height: 78vh;}
+.tt_img , .ttt_img{height: 300px; top:47%;}
+
+
+.t2m_img{height: 78vh;}
+.t22_img , .t222_img{height: 300px; top:37%;}
+
+
+.dm_img{height: 78vh;}
+.dd_img , .ddd_img{height: 300px; top:46%;}
+
+.d2m_img{height: 78vh;}
+.d22_img , .d222_img{height: 300px;}
+
+
 #about_hotel_1 a { width:69% ;font-size: 4em;right: 33%;}
   }
 
