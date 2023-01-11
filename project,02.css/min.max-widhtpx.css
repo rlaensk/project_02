@@ -142,7 +142,7 @@ font-weight: bold; letter-spacing: 1px; top:13%; width: 93%; right: 9px;}
 .next_3{ bottom: 25%; left:15%}
 .next_4{bottom: 25%; right: 15%;}
 
-.review_ p{ font-size: 0.8em; transform: translate(20%, -450%);}
+.review_ p{ left: 30px; font-size: 0.8em;width: 100%; transform: translate(20%, -436%);}
 #review .btn-border{width: 38%; top:75%; height: 200px;  left:40%;}
 .see_2{bottom: 98px; left: 45%;}
 
@@ -193,7 +193,7 @@ form .form a{bottom:-39%;}
 #map>p a{bottom:3%;}
 #map_a a:nth-of-type(2){bottom:6%;}
 #about_hotel{height: 79px;}
-#about_hotel a {font-size: 9vw;left:23%; padding: 50px 0 0 0; width: 71%;}
+#about_hotel a {font-size: 3em;left:18%; padding: 50px 0 0 0; width: 71%;}
 
 }
 
@@ -228,6 +228,7 @@ form .form a{bottom:-39%;}
 .room_ h1{font-size:3em; margin: 44px!important;}
 .room1{margin:0;}
 #room_text_box{height: 422px;top:30%;}
+.room-text2{top:8%}
 .room-text2>h1 {font-size: 5em;letter-spacing: 0;line-height: 68px; left: 12%;top: 4%;}
 .room-text2>p { width: 100%;top: 24%; left: 14%; }
 .next_1::after {left: 94px;}
@@ -244,13 +245,13 @@ form .form a{bottom:-39%;}
 #ACCOMMODATION img{width: 100%; height:221px;}
 #ACCOMMODATION .img-box { width: 99%;top: 42%;right: -1px;}
 #inpnity{width: 45%;}
-#inpnity p{width: 100%; top:97%; left:1%; font-size: 2em;line-height: 40px;}
+#inpnity p{width: 100%; top:108%; left:1%; font-size: 2em;line-height: 40px;}
 #BBQ{width: 45%; }
-#BBQ p{ top:97%; left:1%; font-size: 2em;}
+#BBQ p{width: 100%; top:97%; left:1%; font-size: 2em;}
 
 .tion_box{height: 800px;}
-.read1 a{bottom:-54%; left: 3%;}
-.read2 a{bottom:-54%; left: 3%;}
+.read1 ,.read2{bottom: 229px; height: 376px;}
+
 #ACCOMMODATION .line{left:-28%}
 
 #review{left:16px; height: 876px;}
@@ -263,7 +264,8 @@ form .form a{bottom:-39%;}
  .next_4{bottom: 51%;right: 104px;}  
  .review_1 {height: 679px; margin-left: -26px!important; }
 #review .btn-border{ top:80%}
-.review_ p{position: absolute; left:0; font-size: 1.5em; transform:translate(15%, -60px);}
+.review_ p{position: absolute; left:-34px; font-size: 1.5em;
+        width: 100%; transform:translate(15%, -60px);}
 .see_2{bottom:7%}
 #Events{height: 911px;}
 #Events .line{left:-3%;}
@@ -295,7 +297,7 @@ form{width: 100%; left: 0;}
 #map>p{width: 88%;font-size: 2.5em;line-height: 52px; top:53px;}
 .map_a a:nth-child(2) { left: 44%;}
 .map_a{bottom: 24%;}
-#about_hotel a {left:20% ;font-size:5em;}
+#about_hotel a {left:20% ;font-size:4em;}
 
 }  
 
@@ -307,6 +309,7 @@ form{width: 100%; left: 0;}
 .slider_text2{ color:white; opacity: 1;}
 .slider_text2 a{color: whitesmoke!important;}
 .btn1 a span{color:white; font-size: 1.5em;}
+#about{height: 1134px;} 
 #about_line>p {  font-size: 8vw; right: 58%;  line-height: 101px; width: 36%;}
 .about_box{height: 850px; top:183px;}
 #about_img img {  height: 437px; bottom: 18%; }
@@ -322,18 +325,20 @@ form{width: 100%; left: 0;}
 #ACCOMMODATION h1{right: 2%;}
 #ACCOMMODATION p{width: 66%;}
 #ACCOMMODATION img{width: 100%; height: 211px;margin-left: 15%;}
+.read1, .read2{ top:-191px; left: 18%;}
 .tion_box1{ height: 845px;  top:12%;}
+
 #neighbourhood .line[data-v-5d883f52]{top: 275px; }
 #neighbourhood span{ width: 27%;}
 #neighbourhood p{left: 13% ;top:54%;}
 #inpnity p{top:99%; left: 74px; font-size: 2em;}
 #BBQ p{top:99%; left:75px; font-size: 2em;}
 #BBQ{width: 45%;}
-.read1 a,.read2 a {left:20%}
+
 
 #review h1{right: 9%;}
 .review_1{height: 711px;}
-.review_ p{font-size: 2em; position: absolute;}
+.review_ p{font-size: 2em; position: absolute; width: 80%;left: 3%;}
 .next_3, .next_4{bottom:60%;}
 .next_4{right:28px ;}
 .see_2{bottom:115px; left:78%}
@@ -391,7 +396,7 @@ form{width: 100%; left: 0;}
 #map{height: 391px;}
 #video{width:95%; height: 391px;}
 #map>p{width: 90%; font-size: 3em;left:80px; line-height: 62px;}
-#about_hotel a{left: 20%; padding:69px 0;}
+#about_hotel a{left: 29%; padding:69px 0; font-size: 5em;}
 
 
 

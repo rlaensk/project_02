@@ -124,22 +124,6 @@ $(function () {
   });
   
 
-  let mal1=window.matchMedia('(min-width:500px) and (max-width:1599px)').matches;
-  let mal2=window.matchMedia('(min-width:320px) and (max-width:766px)').matches;
-  let mal3=window.matchMedia('(min-width:767px) and (max-width:1200px)').matches;
-  let mal4=window.matchMedia('(min-width:1201px)').matches;
-
-
-  if(mal1.matches){
-    $('.royal h2').text('Royal Suite room');
-    $('.tm_img h2').text('Delux Twin Room');
-    $('.dm_img h2').text('Delux Double Room');
-    $('.t2m_img h2').text('Delux Twin SPA Room ');
-    $('.d2m_img h2').text('Delux Double SPA Room ');
-  }
-
-
-
 
 $('.prev1').click(function () {
   $('.rimg .r_img1:last').prependTo('.rimg');
@@ -229,74 +213,171 @@ $('.next6').click(function () {
     $('#d2-img-box').css({ marginLeft: 0 });
   });
 });
+let mal_=window.matchMedia('(min-width:500px) and (max-width:1500px)').matches;
+if(mal_.matches){
+  $('.royal h2').text('Royal Suite room');
+  $('.tm_img h2').text('Delux Twin Room');
+  $('.dm_img h2').text('Delux Double Room');
+  $('.t2m_img h2').text('Delux Twin SPA Room ');
+  $('.d2m_img h2').text('Delux Double SPA Room ');
+}
+
 
 window.addEventListener('scroll',function(){
+
+  let mal1=window.matchMedia('(min-width:320px) and (max-width:499px)').matches;
+  let mal2=window.matchMedia('(min-width:500px) and (max-width:766px)').matches;
+  let mal3=window.matchMedia('(min-width:767px) and (max-width:1200px)').matches;
+  let mal4=window.matchMedia('(min-width:1201px) and (max-width:1500px)').matches;
+  let mal5=window.matchMedia('(min-width:1501px)').matches;
+
+
+
 
 let value=window.scrollY
   console.log('scrollY' ,value)
 
-   if(value>10  && mal4 ){
+if(mal5){
+  if(value>0){
     $('#r-text-box').css('animation','slide1 1s').css('opacity','1');
-    $('.royal .learn').css('animation', 'slide1_2 1.5s').css('opacity','1');
-   }if(value>800  &&  mal4 ){
+  }if(value>40){
+    $('.royal .learn').css('animation', 'slide1_a 1.5s').css('opacity','1');
+   }if(value>800  ){
     $('#s-text-box').css('animation','slide2 1s').css('opacity','1');
+   }if(value>1550){  
     $('.suite .learn').css('animation', 'slide1_2 1.5s').css('opacity','1');
-  }if(value>1800 && mal4) {
+  }if(value>1800 ) {
     $('#t-text-box').css('animation','slide1 1s').css('opacity','1');
-    $('.twin .learn').css('animation', 'slide1_2 1.5s').css('opacity','1'); 
-  }if(value>2500  &&  mal4) {
+  }if(value>2670){
+    $('.twin .learn').css('animation', 'slide1_a 1.5s').css('opacity','1'); 
+  }if(value>3000 ) {
    $('#t2-text-box').css('animation','slide2 1s').css('opacity','1');
-   $('#t2-text-box').css('animation','slide2 1s').css('opacity','1');
-  }if(value>3400  &&  mal4) {
+  }if(value>3800){
+  $('.twin2 .learn').css('animation','slide1_2 1s').css('opacity','1');
+  }if(value>4090 ) {
     $('#d-text-box').css('animation','slide1 1s').css('opacity','1');
-    $('.double .learn').css('animation', 'slide1_2 1.5s').css('opacity','1');  
-  }if(value>4300  &&  mal4) {
+  }if(value>4990) {
+    $('.double .learn').css('animation', 'slide1_a 1.5s').css('opacity','1');  
+  }if(value>5200 ) {
       $('#d2-text-box').css('animation','slide2 1s').css('opacity','1');
+  }if(value>6080){
       $('.double2 .learn').css('animation', 'slide1_2 1.5s').css('opacity','1'); 
-    }if(value>5200 && mal4){
+    }if(value>6367){
       $('#about_hotel_1').css('transform','scale(1.5)').css('transition','(.5s;)s')
     }
-
-      if(value>30  &&  mal3){
-        $('#r-text-box').css('animation','slide1 1s').css('opacity','1');
-        $('.royal .learn').css('animation', 'slide1_2 1.5s').css('opacity','1');
-       }if(value>300  &&  mal3){
-        $('#s-text-box').css('animation','slide2 1s').css('opacity','1');
-        $('.suite .learn').css('animation', 'slide1_2 1.5s').css('opacity','1');
-      }if(value>1000 && mal3){
-        $('#t-text-box').css('animation','slide1 1s').css('opacity','1');
-        $('.twin .learn').css('animation', 'slide1_2 1.5s').css('opacity','1');
-      }if(value>1600  &&  mal3){
-       $('#t2-text-box').css('animation','slide2 1s').css('opacity','1');
-       $('.twin2 .learn').css('animation', 'slide1_2 1.5s').css('opacity','1');
-      }if(value>2300  &&  mal3){
-        $('#d-text-box').css('animation','slide1 1s').css('opacity','1');
-        $('.double .learn').css('animation', 'slide1_2 1.5s').css('opacity','1'); 
-      }if(value>3000  && mal3){
-          $('#d2-text-box').css('animation','slide2 1s').css('opacity','1');
-          $('.double2 .learn').css('animation', 'slide1_2 1.5s').css('opacity','1');   
-        }
-
-          if(value>200  &&  mal2){
-            $('#r-text-box').css('animation','slide2 1s').css('opacity','1');
-            $('.royal .learn').css('animation', 'slide1_2 1.5s').css('opacity','1');
-           }if(value>700  &&  mal2){
-            $('#s-text-box').css('animation','slide2 1s').css('opacity','1');
-            $('.suite .learn').css('animation', 'slide1_2 1.5s').css('opacity','1');
-           }if(value>1400 && mal2){
-            $('#t-text-box').css('animation','slide2 1s').css('opacity','1');
-            $('.twin .learn').css('animation', 'slide1_2 1.5s').css('opacity','1');
-           }if(value>2100  &&  mal2){
-           $('#t2-text-box').css('animation','slide2 1s').css('opacity','1');
-           $('.twin2 .learn').css('animation', 'slide1_2 1.5s').css('opacity','1'); 
-          }if(value>2800  &&  mal2){
-            $('#d-text-box').css('animation','slide2 1s').css('opacity','1');
-            $('.double .learn').css('animation', 'slide1_2 1.5s').css('opacity','1'); 
-          }if(value>3500  && mal2){
-              $('#d2-text-box').css('animation','slide2 1s').css('opacity','1');
-              $('.double2 .learn').css('animation', 'slide1_2 1.5s').css('opacity','1'); 
-            }
-    
+  }else if(mal4){
+    if(value>0){
+      $('#r-text-box').css('animation','slide1 1s').css('opacity','1');
+    }if(value>300){
+      $('.royal .learn').css('animation', 'slide1_a 1.5s').css('opacity','1');
+     }if(value>600  ){
+      $('#s-text-box').css('animation','slide2 1s').css('opacity','1');
+     }if(value>1300){  
+      $('.suite .learn').css('animation', 'slide1_2 1.5s').css('opacity','1');
+    }if(value>1500 ) {
+      $('#t-text-box').css('animation','slide1 1s').css('opacity','1');
+    }if(value>2170){
+      $('.twin .learn').css('animation', 'slide1_a 1.5s').css('opacity','1'); 
+    }if(value>2390 ) {
+     $('#t2-text-box').css('animation','slide2 1s').css('opacity','1');
+    }if(value>3131){
+    $('.twin2 .learn').css('animation','slide1_2 1s').css('opacity','1');
+    }if(value>3300 ) {
+      $('#d-text-box').css('animation','slide1 1s').css('opacity','1');
+    }if(value>4000) {
+      $('.double .learn').css('animation', 'slide1_a 1.5s').css('opacity','1');  
+    }if(value>4300 ) {
+        $('#d2-text-box').css('animation','slide2 1s').css('opacity','1');
+    }if(value>4990){
+        $('.double2 .learn').css('animation', 'slide1_2 1.5s').css('opacity','1'); 
+      }if(value>5270){
+        $('#about_hotel_1').css('transform','scale(1.5)').css('transition','(.5s;)s')
+      }
+  }else if(mal3){
+    if(value>0){
+      $('#r-text-box').css('animation','slide1 1s').css('opacity','1');
+    }if(value>100){
+      $('.royal .learn').css('animation', 'slide1_a1 1s').css('opacity','1');
+     }if(value>200  ){
+      $('#s-text-box').css('animation','slide2 1s').css('opacity','1');
+     }if(value>800){  
+      $('.suite .learn').css('animation', 'slide1_2a 1s').css('opacity','1');
+    }if(value>900 ) {
+      $('#t-text-box').css('animation','slide1 1s').css('opacity','1');
+    }if(value>1400){
+      $('.twin .learn').css('animation', 'slide1_a1 1s').css('opacity','1'); 
+    }if(value>1600 ) {
+     $('#t2-text-box').css('animation','slide2 1s').css('opacity','1');
+    }if(value>2100){
+    $('.twin2 .learn').css('animation','slide1_2a 1s').css('opacity','1');
+    }if(value>2300 ) {
+      $('#d-text-box').css('animation','slide1 1s').css('opacity','1');
+    }if(value>2800) {
+      $('.double .learn').css('animation', 'slide1_a1 1s').css('opacity','1');  
+    }if(value>3029 ) {
+        $('#d2-text-box').css('animation','slide2 1s').css('opacity','1');
+    }if(value>3500){
+        $('.double2 .learn').css('animation', 'slide1_2a 1s').css('opacity','1'); 
+      }if(value>3829){
+        $('#about_hotel_1').css('transform','scale(1.5)').css('transition','(.5s;)s')
+      }
+  }else if(mal2){
+    if(value>0){
+      $('#r-text-box').css('animation','slide2_1 1s').css('opacity','1');
+    }if(value>50){
+      $('.royal .learn').css('animation', 'slide1_a11 1s').css('opacity','1');
+     }if(value>700  ){
+      $('#s-text-box').css('animation','slide2_1 1s').css('opacity','1');
+     }if(value>705){  
+      $('.suite .learn').css('animation', 'slide1_a11 1s').css('opacity','1');
+    }if(value>1350 ) {
+      $('#t-text-box').css('animation','slide2_1 1s').css('opacity','1');
+    }if(value>1500){
+      $('.twin .learn').css('animation', 'slide1_a11 1s').css('opacity','1'); 
+    }if(value>2000 ) {
+     $('#t2-text-box').css('animation','slide2_1 1s').css('opacity','1');
+    }if(value>2100){
+    $('.twin2 .learn').css('animation','slide1_a11 1s').css('opacity','1');
+    }if(value>2790 ) {
+      $('#d-text-box').css('animation','slide2_1 1s').css('opacity','1');
+    }if(value>2800) {
+      $('.double .learn').css('animation', 'slide1_a11 1s').css('opacity','1');  
+    }if(value>3450 ) {
+        $('#d2-text-box').css('animation','slide2_1 1s').css('opacity','1');
+    }if(value>3594){
+        $('.double2 .learn').css('animation', 'slide1_a11 1s').css('opacity','1'); 
+      }if(value>3748){
+        $('#about_hotel_1').css('transform','scale(1.5)').css('transition','(.5s;)')
+      }
+  }else if(mal1){
+    if(value>0){
+      $('#r-text-box').css('animation','slide2_1 1s').css('opacity','1');
+    }if(value>50){
+      $('.royal .learn').css('animation', 'slide1_a11 1s').css('opacity','1');
+     }if(value>700  ){
+      $('#s-text-box').css('animation','slide2_1 1s').css('opacity','1');
+     }if(value>705){  
+      $('.suite .learn').css('animation', 'slide1_a11 1s').css('opacity','1');
+    }if(value>1350 ) {
+      $('#t-text-box').css('animation','slide2_1 1s').css('opacity','1');
+    }if(value>1500){
+      $('.twin .learn').css('animation', 'slide1_a11 1s').css('opacity','1'); 
+    }if(value>2000 ) {
+     $('#t2-text-box').css('animation','slide2_1 1s').css('opacity','1');
+    }if(value>2100){
+    $('.twin2 .learn').css('animation','slide1_a11 1s').css('opacity','1');
+    }if(value>2790 ) {
+      $('#d-text-box').css('animation','slide2_1 1s').css('opacity','1');
+    }if(value>2800) {
+      $('.double .learn').css('animation', 'slide1_a11 1s').css('opacity','1');  
+    }if(value>3450 ) {
+        $('#d2-text-box').css('animation','slide2_1 1s').css('opacity','1');
+    }if(value>3594){
+        $('.double2 .learn').css('animation', 'slide1_a11 1s').css('opacity','1'); 
+      }if(value>3748){
+        $('#about_hotel_1').css('transform','scale(1.5)').css('transition','(.5s;)s')
+      }
+  }    
   });
 
 

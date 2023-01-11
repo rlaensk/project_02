@@ -47,7 +47,7 @@
 #about_text{ width: 47%; height:605px; position: relative;}
 #about_line>p{width: 34%; font-size: 7em; font-family:'Jeju Myeongjo', serif;
                 font-weight: bold; position: absolute; top:19%; right: 62%; z-index: 100; 
-                color:rgb(8, 8,8); line-height: 135px; opacity: 0;}
+                color:rgb(8, 8,8); line-height: 135px;}
 #about_text .but{width: 45%; position: absolute; bottom: -8%; left: 22%;
                 line-height: 22px; font-size: 1em; color: rgb(138, 138, 138);opacity: 0;}
 
@@ -99,8 +99,8 @@
 .room-text2{position: relative; width: 33%;}
 .room-text2>h1{font-size: 7em; font-family:'Jeju Myeongjo', serif;; color:rgb(8, 8,8);
              line-height: 96px; font-weight: bold;
-                position: absolute; left: 9%;top: 9%; opacity: 0;}
-.room-text2>p{width: 54%;position: absolute; top: 32%; left: 46%; color:rgb(139, 139, 139); font-size:14px; opacity: 0;}
+                position: absolute; right: 13%;top: 9%; opacity: 0;}
+.room-text2>p{width: 54%;position: absolute; top: 32%;right: -9%; color:rgb(139, 139, 139); font-size:14px; opacity: 0;}
 #room_box>.line__border{ top:18px;}
 .next{position: relative;}
 
@@ -156,7 +156,7 @@ font-size: 13px;
 .tion_box{ width: 43%;height: 1000px; position: relative;}
 .tion_box1{width: 57%; height: 1101px; background-color: #f9efe9; position: absolute;right: 0; top:13%}
 #ACCOMMODATION h1{font-size: 8em; font-family:'Jeju Myeongjo', serif;
-                font-weight: bold; position: absolute; right: 18%;
+                font-weight: bold; position: absolute; left: 16%;
                 color:rgb(50, 50, 50); top:-42px; opacity: 0;}
 .tion_box p{opacity: 0;}
  #ACCOMMODATION p{width: 44%; font-size: 15px; position: absolute; top:17%; left: 23%; line-height: 28px;color:rgb(139, 139, 139); }
@@ -213,7 +213,7 @@ font-size: 13px;
 #Events{ width: 100%; height:1068.73px; position: relative;}
 #Event_s{width: 860px;height: 962px; background-color: #f9efe9;margin-top: 8%;}
 #Events h1{position: absolute; font-size: 8em; font-family:'Jeju Myeongjo', serif;
-       width: 26%; left:48%; top: -51px; letter-spacing: -4px; color: rgb(8, 8, 8);}
+       width: 26%; right: 17%; top: -51px; letter-spacing: -4px; color: rgb(8, 8, 8);}
 
 .see_{position: absolute;
         width: 185px;
@@ -225,7 +225,7 @@ font-size: 13px;
         font-size: 13px;
         top: 20%;}       
         .see_ a{  color: #7f7872;}
-#slider_box{position: absolute;top:20%; height: 530px; width: 100%;
+#slider_box{position: absolute;top:23%; height: 530px; width: 100%;
         overflow: hidden; z-index: 100;}
 #offer_box{width: 181%; height: 368px;position:absolute; display: flex;
                 justify-content: space-around;
@@ -387,12 +387,28 @@ video{width: 100%; height: auto;}
                 left: 22%;
         }
 }
- @keyframes hotel{
+@keyframes pool_p1{
         from{
-                left: -50%;
+                left: -10%;
         }
         to{
-                left: 9%;
+                left: 50%;
+        }
+}
+@keyframes pool_p_{
+        from{
+                left: -10%;
+        }
+        to{
+                left: 10%;
+        }
+}
+ @keyframes hotel{
+        from{
+               left : -40%;
+        }
+        to{
+                left: 12%;
         }
  }
  @keyframes see{
@@ -403,13 +419,22 @@ video{width: 100%; height: auto;}
                 right: 3%;
         }
  }
+ @keyframes see_{
+        from{
+                right: -10%;
+        }
+        to{
+                right: 24%;
+        }
+ }
+
 
  @keyframes hotel_p{
         from{
-               left:  -50%;
+               left:  -30%;
         }
         to{
-                left:  46%;
+                left:  10%;
         }
  }
  @keyframes fac{
@@ -417,7 +442,7 @@ video{width: 100%; height: auto;}
                 left:-10%;
         }
         to{
-                left: 33%;
+                left: 17%;
         }
 }
 @keyframes fac_p{
@@ -425,7 +450,15 @@ video{width: 100%; height: auto;}
                 left: -10%;
         }
         to{
-                left: 22%;
+                left:23%;
+        }
+}
+@keyframes fac_p_{
+        from{
+                left: -10%;
+        }
+        to{
+                left:3%;
         }
 }
 @keyframes fac_p_1{
@@ -433,7 +466,7 @@ video{width: 100%; height: auto;}
                 left: -10%;
         }
         to{
-                left: 22%;
+                left: 2%;
         }
 }
 
@@ -442,22 +475,83 @@ video{width: 100%; height: auto;}
                 left: -50%;
         }
         to{
+                left: 16%
+        }
+}
+@keyframes infi_{
+        from{
+                left: -10%;
+        }
+        to{
+                left: 10%
+        }
+}
+
+@keyframes infi1_{
+        from{
+                left: -10%;
+        }
+        to{
                 left: 0.5%
         }
 }
 @keyframes rew{
         from{
-               right: -50%;
+               right: -10%;
         }
         to{
-                right: 34%;        }
+                right: 9%;        }
+}
+@keyframes rew_{
+        from{
+               left: -60%;
+        }
+        to{
+                left: 9%;        }
+}
+
+@keyframes rew_{
+        from{
+               right: -10%;
+        }
+        to{
+                right: 25%;        }
+}
+@keyframes rew__{
+        from{
+               right: -10%;
+        }
+        to{
+                right: 0;        }
+}
+@keyframes rew1{
+        from{
+               right: -10%;
+        }
+        to{
+                right: 20%;        }
+}
+@keyframes rew11{
+        from{
+               right: -10%;
+        }
+        to{
+                right: 66%;        }
 }
 @keyframes rew_p{
         from{
                 left: -30%;
         }
         to{
-                left:80%;
+                left:12%;
+        }
+}
+@keyframes rew_p_{
+        from{
+                left: -30%;
+        }
+        to{
+                left:6%;
         }
 }
 @keyframes rew_p1{
@@ -465,7 +559,7 @@ video{width: 100%; height: auto;}
                 left: -30%;
         }
         to{
-                left: 50%;
+                left: 78%;
         }
 }
 
@@ -475,7 +569,7 @@ video{width: 100%; height: auto;}
                 left: -50%;
         }
         to{
-                left: 49%
+                left: 58%
         }
 }
 @keyframes infi2{
@@ -486,20 +580,93 @@ video{width: 100%; height: auto;}
                 left: 8%
         }
 }
+@keyframes infi2_{
+        from{
+                left: -10%;
+        }
+        to{
+                left: 22%
+        }
+}
+@keyframes event{
+        from{
+                right: -10%;
+        }
+        to{
+                right: 22%
+        }
+}
+@keyframes event1{
+        from{
+                right: -10%;
+        }
+        to{
+                right: 2%
+        }
+}
+@keyframes event2{
+        from{
+                left: -10%;
+        }
+        to{
+               left: 79%
+        }
+}
+@keyframes event2_{
+        from{
+                left: -10%;
+        }
+        to{
+               left: 50%
+        }
+}
+
+
 @keyframes news{
         from{
                 left: -10%;
         }
         to{
-                left: 26%
+                left: 10%
         }
 }
-
+@keyframes news2{
+        from{
+                right: -10%;
+        }
+        to{
+                right: 50%;
+        }
+}
+@keyframes news2_{
+        from{
+                left: -20%;
+        }
+        to{
+                left: 26%;
+        }
+}
+@keyframes news2__{
+        from{
+                left: -20%;
+        }
+        to{
+                left:6%;
+        }
+}
 @keyframes map{
         from{
                 left: -10%;
         }
         to{
                 left: 5%
+        }
+}
+@keyframes radio{
+        from{
+               right: -10%;
+        }
+        to{
+                right: 5%
         }
 }

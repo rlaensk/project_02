@@ -12,7 +12,7 @@ li, ul ,ol{ list-style-type: none;}
 #wrap{width: 100%; height: auto;}
 #top{height: 0;}
 
-
+.a{display: none;}
 #subs{display: flex; width: 17%; margin-left: 1%;}
 #subs p{width: 20%;}
 #room_n{ width: 100%; height: 497px; bottom:-132px; position:relative;}
@@ -43,7 +43,7 @@ li, ul ,ol{ list-style-type: none;}
  .btn_1{width: 100px; height: 100px; position: relative; }
  
  .btn_1 span{width: 105px; color:#7f7872; margin:0 23px; position: absolute;top:31px;left: 6px; font-size:1em;}
-.learn{position: absolute; right: 10%; opacity: 0;}
+.learn{position: absolute; right: 10%; }
 
 
 
@@ -142,22 +142,71 @@ li, ul ,ol{ list-style-type: none;}
    left: -15%;
   }
   to{
-    right: 15%;
+    left: 15%;
+  }
+}
+@keyframes slide2_1{
+  from{
+   left: -25%;
+  }
+  to{
+    left: 8%;
   }
 }
 
 @keyframes slide1_2{
   from{
-    left:155%;
+    left:-10%;
+  }
+  to{
+    left:11%;;
+  }
+}
+@keyframes slide1_2a{
+  from{
+    left:-10%;
+  }
+  to{
+    left:3%;;
+  }
+}
+@keyframes slide1_2a1{
+  from{
+    left:-10%;
   }
   to{
     left:75%;;
+  }
+}
+@keyframes slide1_a{
+  from{
+    right:-10%;
+  }
+  to{
+    right:11%;;
+  }
+}
+@keyframes slide1_a1{
+  from{
+    right:-10%;
+  }
+  to{
+    right:3%;
+  }
+}
+@keyframes slide1_a11{
+  from{
+    right:-10%;
+  }
+  to{
+    right:10%;
   }
 }
 
   /* 반응형 */
   @media (min-width:320px) and (max-width:499px){
     #room_n{height: 410px;}
+    #room_k{margin-top:14%;}
     #room_k article{height: 668px;}
     #r-img-box h2 {width: 100%; z-index: 10; padding:12%;font-size: 2em; right: 0; position: absolute; }
     #room_n h1{ padding: 12px; font-size: 14.5vw;}
@@ -248,7 +297,7 @@ li, ul ,ol{ list-style-type: none;}
     
     
     #about_hotel_1{ height:71px ;}
-    #about_hotel_1 a { font-size: 1.5em;left: 87px;}
+    #about_hotel_1 a { font-size: 1em;left: 70px;}
 
   }
 
@@ -265,7 +314,7 @@ li, ul ,ol{ list-style-type: none;}
     .rimg{width: 300%; display: block; }
      .rimg .r_img1{width: 33.33%; height: 400px; float: left; position: static;}
     #r-text-box {width: 100%; top: 62%;left:8%;line-height: 23px;font-size: 0.8em; }
-    .royal .learn{bottom: 14%; width: 129px; left: 75%;}
+    .royal .learn{bottom: 14%; width: 129px; right: 10%;}
     .btn_1 span{width: 150px; font-size: 1.3em;left: -20px;}
     /* .btn_1 a span{top:123px!important; left:26px!important;} */
     #r-img-box h2 { width: 62%; position: absolute; z-index: 100; padding:6%;font-size:3em;right: 42px;}
@@ -279,7 +328,7 @@ li, ul ,ol{ list-style-type: none;}
      .s_img1{width: 33.33%; height: 400px; position:static; float: left;}
     .s_img:nth-of-type(2){width: 33.33%; height: 400px;  position:static; float: left;}
     #s-text-box { top: 62%;left:43px;line-height: 23px;font-size: 0.8em; }
-    .suite .learn{bottom: 14%; width: 129px;left: 75%;}
+    .suite .learn{bottom: 14%; width: 129px;left: auto; right: 10%;}
     .btn_2 span{width: 150px; font-size: 1.3em; left: -18px;}
     #s-img-box h2 {width: 33%; position: absolute; padding: 2%; z-index: 100; font-size: 3em;left: 0;}
     .prev2{ color: white; position: absolute; top:47%; left: 10%; font-size: 2em;cursor: pointer; }
@@ -291,7 +340,7 @@ li, ul ,ol{ list-style-type: none;}
     .t_img1{width:33.33%; height: 400px; position: static;float: left;}
    
     #t-text-box {width: 100%; top: 62%;left: 8%;line-height: 23px;font-size: 0.8em; }
-    .twin .learn{bottom: 14%; width: 129px;left:75%;}
+    .twin .learn{bottom: 14%; width: 129px;right: 10%;}
     .btn_2 span{width: 150px; font-size: 1.3em; left: -18px;}
     
     #t-img-box h2 { width: 33%; position: absolute; padding: 2%; z-index: 100; font-size: 3em;left: 0;}
@@ -309,7 +358,7 @@ li, ul ,ol{ list-style-type: none;}
     .btn_2 a span{top:123px!important; left:37px!important;}
     #t2-img-box h2 {width: 33%;padding:2%; position: absolute; z-index: 100; font-size: 2.5em;left: 0;}
     #t-text-box {width: 100%; top: 62%;left: 8%;line-height: 23px;font-size: 0.8em; }
-    .twin2 .learn{bottom: 14%; width: 129px;left: 75%;}
+    .twin2 .learn{bottom: 14%; width: 129px;left: auto; right: 10%;}
     .prev4{ color: white; position: absolute; top:47%; left: 10%; font-size: 2em;cursor: pointer; }
     .next4{ color: white; position: absolute;top: 47%; right: 10%; font-size: 2em; cursor: pointer;}
    
@@ -319,7 +368,7 @@ li, ul ,ol{ list-style-type: none;}
     .d_img1{width: 33.33%;height: 400px; position: static;float: left;}
      #d-text-box {width: 100%; top: 62%;left:8%;line-height: 23px;font-size: 0.8em; }
     #t-text-box {width: 100%; top: 62%;left: 8%;line-height: 23px;font-size: 0.8em; }
-    .double .learn{bottom: 14%; width: 129px;left: 75%;}
+    .double .learn{bottom: 14%; width: 129px;right: 10%;}
     .btn_2 a span{top:123px!important; left:26px!important;}
     #d-img-box h2 {width: 33%; padding: 2%; position: absolute; z-index: 100; font-size: 3em;left:0;}
     .prev5{ color: white; position: absolute; top:47%; left: 10%; font-size: 2em;cursor: pointer; }
@@ -333,7 +382,7 @@ li, ul ,ol{ list-style-type: none;}
    
     #d2-text-box { top: 62%;left:32px;line-height: 23px;font-size: 0.8em; }
     #t-text-box {width: 100%; top: 62%;left: 8%;line-height: 23px;font-size: 0.8em; }
-    .double2 .learn{bottom: 14%; width: 129px;left: 75%;}
+    .double2 .learn{bottom: 14%; width: 129px;left: auto; right: 10%;}
     .btn_2 a span{top:123px!important; left:37px!important;}
     #d2-img-box h2 { width:33%; padding: 2%; left: 0; position: absolute; z-index: 100; font-size: 2.5em;}
     .prev6{ color: white; position: absolute; top:47%; left: 10%; font-size: 2em;cursor: pointer; }
@@ -342,7 +391,7 @@ li, ul ,ol{ list-style-type: none;}
 
 
     #about_hotel_1{ height:116px ;}
-    #about_hotel_1 a { width:69% ;font-size: 2em;right: 30%;}
+    #about_hotel_1 a { width:69% ;font-size: 1.5em;right: 30%;}
   }
 
 
@@ -362,38 +411,38 @@ li, ul ,ol{ list-style-type: none;}
     #r-text-box p{font-size:0.8em;}
     .btn_1 a span{top:141px; left:-13px;}
 
-    .royal .learn{ position: absolute;right: 0; bottom: 131px;}
+    .royal .learn{ position: absolute;right: 3%; bottom: 131px;}
 
     #s-text-box { left: 10%; top: 1%;line-height: 29px; font-size: 0.8em; }
    .sm_img{height: 490px;}
   .sss_img{ height: 205px; top: 26%;}
   .ss_img{ height: 205px; top:26%;}
-  .suite .learn{bottom:75px ;}
+  .suite .learn{bottom:154px ; left: 3%;}
 
 
   #t-text-box p{font-size:0.8em;}
   .btn_1 a span{top:141px; left:-13px;}
- .twin .rearn{ position: absolute;right: 0;}
+ .twin .learn{ position: absolute;bottom: 154px; right: 3%;}
 
 #t-text-box {top: 1%;line-height: 29px; font-size: 1em; right: 14%; }
  .tm_img{height: 490px;}
 .ttt_img{ height: 205px; top: 46%;}
 .tt_img{ height: 205px; top:46%;}
-.twin .learn{bottom:75px ;}
+
 
 
 #t2-text-box {top: 1%;line-height: 29px; font-size: 0.8em; left: 12%; }
 .t2m_img{height: 490px;}
 .t222_img{ height: 205px; top: 26%;}
 .t22_img{ height: 205px; top:26%;}
-.twin2 .learn{bottom:75px ;}
+.twin2 .learn{bottom:154px; left: 3%;}
 
 
 #d-text-box {top: 1%;line-height: 29px; font-size: 0.8em; right: 10%; }
 .dm_img{height: 490px;}
 .ddd_img{ height: 205px; top: 46%;}
 .dd_img{ height: 205px; top:46%;}
-.double .learn{bottom:75px ;}
+.double .learn{bottom:154px; right: 3%;}
 
 
 
@@ -402,7 +451,7 @@ li, ul ,ol{ list-style-type: none;}
 .d2m_img{height: 490px;}
 .d222_img{ height: 205px; top: 26%;}
 .d22_img{ height: 205px; top:26%;}
-.double2 .learn{bottom:75px ;}
+.double2 .learn{bottom:154px;left: 3%;}
 
 
 #about_hotel_1{ height:116px ;}
