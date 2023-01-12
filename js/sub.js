@@ -382,5 +382,16 @@ if(mal5){
 
 
 
+// 원클릭메뉴이동
 
+let nav=$('#room_n ul li');
+let room_n=$(' #room_k article');
+
+nav.click(function(){
+let target=$(this);
+let index=target.index();
+let section=room_n.eq(index);
+let offset=section.offset().top;
+$('html, body').animate({scrollTop:offset},400)
+});
  
