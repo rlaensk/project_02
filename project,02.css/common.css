@@ -33,7 +33,7 @@ header.on{background:rgba(202, 202, 202, 0.377);}
   z-index: 260;;
   left: 31px;
 }
-.menu-trigger:hover {transform: scale(1.5); opacity: 0.7;}
+.menu-trigger:hover { opacity: 0.7;}
 .menu-trigger span {
   position: absolute;
   left: 0;
@@ -136,10 +136,10 @@ header.on{background:rgba(202, 202, 202, 0.377);}
     justify-content: space-around; position:absolute;  top:25%;}  
 
 .menu_s span a{ font-size: 2em; font-family:"PRAta"; display: block; margin: 20% 0;} 
-.menu_s p a{margin: 5% 0 ;}
+.menu_s div a{margin: 5% 0 ;}
 .menu_s nav{height:400px;}
 .menu_s nav ul li{margin: 6% 0; height: 29px;}
-.menu_s nav ul li:hover{transform: scale(1.5);}
+
 .menu_s nav ul li a{color:rgb(50,50,50); font-size:1em; font-family: 'inter';}
 .menu_s nav ul li a:hover{color: #7f7872;  }
 #special nav ul li{margin: 12% 0; }
@@ -150,7 +150,7 @@ header.on{background:rgba(202, 202, 202, 0.377);}
 #community{transform: translateY(100px); transition: all 2.5s; opacity: 0;}
 #reservation{transform: translateY(100px); transition: all 3s; opacity: 0;}
 
-.side_footer{ width: 100%; height: 193px;  display: flex; align-items: center; justify-content: space-between; position:absolute; left: 1%; bottom: -66%; opacity: 0;  }
+.side_footer{ width: 100%; height: 129px;  display: flex; align-items: center; justify-content: space-between; position:absolute; left: 1%; bottom: -66%; opacity: 0;  }
 .call_{display: flex; width: 20%; justify-content: space-around; align-items: center;}
 .call_ span a{font-size:1em;}
 .call_ ul{display: flex;}
