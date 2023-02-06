@@ -139,7 +139,7 @@ header.on{background:rgba(202, 202, 202, 0.377);}
 .menu_s p a{margin: 5% 0 ;}
 .menu_s nav{height:400px;}
 .menu_s nav ul li{margin: 6% 0; height: 29px;}
-.menu_s nav ul li:hover{transform: scale(1.5);}
+/* .menu_s nav ul li:hover{transform: scale(1.5);} */
 .menu_s nav ul li a{color:rgb(50,50,50); font-size:1em; font-family: 'inter';}
 .menu_s nav ul li a:hover{color: #7f7872;  }
 #special nav ul li{margin: 12% 0; }
