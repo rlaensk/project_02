@@ -20,7 +20,7 @@ li, ul ,ol{ list-style-type: none;}
 #room_n h1{font-size: 6.5vw; font-family:'Jeju Myeongjo'; padding: 47px; color:rgb(40, 40, 40)}
 #room_n ul{display: flex; width: 100%; height:auto; align-items: center; flex-wrap:wrap; }
 #room_n ul li{ width: 11%; text-align: center; font-size: 1em; letter-spacing: 2px;}
-#room_n ul li:hover{color: #323232;}
+#room_n ul li:hover{ color: #323232;}
 #room_n ul li a{color: rgba(128,128,128,0.8);}
 
 #room_k{width: 100%; height: auto;}
@@ -44,7 +44,7 @@ li, ul ,ol{ list-style-type: none;}
  
  .btn_1 span{width: 105px; color:#7f7872; margin:0 23px; position: absolute;top:31px;left: 6px; font-size:1em;}
 .learn{position: absolute; right: 10%; }
-.learn:hover{ color: #323232;}
+.learn:hover{color: #323232;}
 
 
 
@@ -63,6 +63,7 @@ li, ul ,ol{ list-style-type: none;}
   .btn_2{width: 100px; height: 100px; position: relative; }
  
   .btn_2 span{width: 105px; color:#7f7872; margin:0 23px; position: absolute;top:31px;left: 6px; font-size:1em;}
+  .btn_2:hover:hover{color: #323232;}
   .suite .learn{position: absolute; left: 10%; bottom: 169px;}
 
 
@@ -206,14 +207,14 @@ li, ul ,ol{ list-style-type: none;}
 
   /* 반응형 */
   @media (min-width:320px) and (max-width:499px){
-    #room_n{height: 410px; bottom: -65px;}
+    #room_n{height: 410px;}
     #room_k{margin-top:14%;}
     #room_k article{height: 668px;}
     #r-img-box h2 {width: 100%; z-index: 10; padding:12%;font-size: 2em; right: 0; position: absolute; }
     #room_n h1{ padding: 12px; font-size: 14.5vw;}
     #room_n ul li{width: 100%; line-height: 30px; text-align: left; margin-left: 20px;}
     #room_n ul li a{font-size: 3vw;}
-    #subs{width: 51%;}
+    #subs{width: 80%;}
     .a{display: block;}
     #r-img-box{width: 100%;  overflow: hidden; position: relative;}
     .rimg{width: 300%;}
@@ -227,7 +228,9 @@ li, ul ,ol{ list-style-type: none;}
     #r-text-box{ width: 64%; top: 62%;right: 27%;line-height: 23px;font-size: 3vw; }
    .royal .learn{bottom: 16%; width: 129px;}
    .learn a{letter-spacing: 2px;}
+   .learn a:hover{color: #323232;}
     .btn_1 span{width: 150px; font-size: 1.3em;left: -20px;}
+ 
     #r-text-box .btn_1:hover.btn_1 a span{color:#222;}
     #r-img-box h2 { position: absolute; z-index: 100; font-size: 3em;}
 
@@ -298,14 +301,14 @@ li, ul ,ol{ list-style-type: none;}
     
     
     #about_hotel_1{ height:71px ;}
-    #about_hotel_1 a { font-size: 1em;left: 70px;}
+    #about_hotel_1 a { font-size: 1em;}
 
   }
 
 
   @media (min-width:500px) and (max-width:766px){
 
-    #room_n{height:418px;bottom: -65px;}
+    #room_n{height:480px;}
     #room_k article{height: 700px;}
     #room_n h1{ padding: 12px; font-size: 4.5em;}
     #room_n ul li{width: 100%; line-height: 30px; font-size: 0.4em; text-align: left; margin-left: 20px;}
