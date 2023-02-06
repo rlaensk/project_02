@@ -49,6 +49,7 @@ $(function(){
 $(function () {
     $('.menu-trigger').click(function () {
       if ($('#menu_trigger').css('width') == '0px') {
+        $('#menu_trigger').css('display', 'block');
         $('#menu_trigger').css('width', '100%');
   
         $('.menu-trigger span').css('background-color', 'rgb(128,128,128)');

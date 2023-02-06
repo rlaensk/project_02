@@ -20,7 +20,7 @@ li, ul ,ol{ list-style-type: none;}
 #room_n h1{font-size: 6.5vw; font-family:'Jeju Myeongjo'; padding: 47px; color:rgb(40, 40, 40)}
 #room_n ul{display: flex; width: 100%; height:auto; align-items: center; flex-wrap:wrap; }
 #room_n ul li{ width: 11%; text-align: center; font-size: 1em; letter-spacing: 2px;}
-#room_n ul li:hover:hover{transform: scale(1.5); color: #323232;}
+#room_n ul li:hover{color: #323232;}
 #room_n ul li a{color: rgba(128,128,128,0.8);}
 
 #room_k{width: 100%; height: auto;}
@@ -44,7 +44,7 @@ li, ul ,ol{ list-style-type: none;}
  
  .btn_1 span{width: 105px; color:#7f7872; margin:0 23px; position: absolute;top:31px;left: 6px; font-size:1em;}
 .learn{position: absolute; right: 10%; }
-.learn:hover{transform: scale(1.5); color: #323232;}
+.learn:hover{ color: #323232;}
 
 
 
@@ -206,7 +206,7 @@ li, ul ,ol{ list-style-type: none;}
 
   /* 반응형 */
   @media (min-width:320px) and (max-width:499px){
-    #room_n{height: 410px;}
+    #room_n{height: 410px; bottom: -65px;}
     #room_k{margin-top:14%;}
     #room_k article{height: 668px;}
     #r-img-box h2 {width: 100%; z-index: 10; padding:12%;font-size: 2em; right: 0; position: absolute; }
@@ -305,7 +305,7 @@ li, ul ,ol{ list-style-type: none;}
 
   @media (min-width:500px) and (max-width:766px){
 
-    #room_n{height:418px;}
+    #room_n{height:418px;bottom: -65px;}
     #room_k article{height: 700px;}
     #room_n h1{ padding: 12px; font-size: 4.5em;}
     #room_n ul li{width: 100%; line-height: 30px; font-size: 0.4em; text-align: left; margin-left: 20px;}
