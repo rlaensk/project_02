@@ -240,7 +240,7 @@ if (mal.matches) {
 }
 let mal__=window.matchMedia('(min-width:320px) adn (max-width:774px)');
 if(mal__.matches){
-  $('.room-text2>h1').text('Hotel Room');
+  $('.room-text2>h2').text('Hotel Room');
 }
 
 
@@ -263,14 +263,14 @@ let mal_5 = window.matchMedia('(min-width:1601px)').matches;
         $('#about_line p').css('animation', 'pool 1s').css('opacity', '1');
         $('#about_text .but').css('animation', 'pool_p 1.5s').css('opacity', '1');
       } if (value1 > 1250) {
-        $('.room-text2>h1').css('animation', 'hotel 1s').css('opacity', '1');
+        $('.room-text2>h2').css('animation', 'hotel 1s').css('opacity', '1');
         $('.room-text2>p').css('animation', 'hotel_p 1.5s').css('opacity', '1');
     
       }if(value1 > 2100) {
         $('#room_kind .see a').css('animation', 'see 1s').css('opacity', '1');
     
       } if (value1 > 2900) {
-        $('.tion_box h1').css('animation', 'fac 1.5s').css('opacity', '1');
+        $('.tion_box h2').css('animation', 'fac 1.5s').css('opacity', '1');
         $('.tion_box p').css('animation', 'fac_p 1.5s').css('opacity', '1');
       } if (value1 > 3500) {
         $('#inpnity p').text('Inpinity Pool').css('animation', 'infi 1s').css('opacity', '1');
@@ -281,13 +281,13 @@ let mal_5 = window.matchMedia('(min-width:1601px)').matches;
     
     
       } if (value1 > 4000) {
-        $('#review h1').css('animation', 'rew 1s').css('opacity', '1');
+        $('#review h2').css('animation', 'rew 1s').css('opacity', '1');
     
       } if (value1 > 4800) {
         $('.review_>p').css('animation', 'rew_p 1s').css('opacity', '1');
         $('.see_2').css('animation', 'event2 1.5s').css('opacity', '1');
       } if (value1 > 5203) {
-        $('#Event_s h1').css('animation', 'infi1 1.5s').css('opacity', '1');
+        $('#Event_s h2').css('animation', 'infi1 1.5s').css('opacity', '1');
         $('.see_').css('animation', 'event1 1s').css('opacity', '1');
         
       } if (value1 > 6200) {
@@ -313,14 +313,14 @@ let mal_5 = window.matchMedia('(min-width:1601px)').matches;
     $('#about_line p').css('animation', 'pool 1s').css('opacity', '1');
     $('#about_text .but').css('animation', 'pool_p 1.5s').css('opacity', '1');
   } if (value1 > 1250) {
-    $('.room-text2>h1').css('animation', 'hotel 1s').css('opacity', '1');
+    $('.room-text2>h2').css('animation', 'hotel 1s').css('opacity', '1');
     $('.room-text2>p').css('animation', 'hotel_p 1.5s').css('opacity', '1');
 
   }if(value1 > 2100) {
     $('#room_kind .see a').css('animation', 'see 1s').css('opacity', '1');
 
   } if (value1 > 2900) {
-    $('.tion_box h1').css('animation', 'fac 1.5s').css('opacity', '1');
+    $('.tion_box h2').css('animation', 'fac 1.5s').css('opacity', '1');
     $('.tion_box p').css('animation', 'fac_p 1.5s').css('opacity', '1');
   } if (value1 > 3500) {
     $('#inpnity p').text('Inpinity Pool').css('animation', 'infi 1s').css('opacity', '1');

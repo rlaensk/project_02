@@ -5,7 +5,7 @@
 ul,li,ol{ list-style: none;}
 
 #wrap{width: 100%; height: auto; position: relative; overflow: hidden;}
-#top{width: 100%; height: 100vh;}
+#top{width: 100%; height: 0;}
 
 header{ width: 100%; height: 100px;display: flex; 
     justify-content: space-between; align-items: center; position:fixed;
@@ -135,7 +135,7 @@ header.on{background:rgba(202, 202, 202, 0.377);}
 .menu_s{ display: flex; flex-wrap: wrap; width: 100%; height: 380px; 
     justify-content: space-around; position:absolute;  top:25%;}  
 
-.menu_s span a{ font-size: 2em; font-family:"PRAta"; display: block; margin: 20% 0;} 
+.menu_s>div a{ font-size: 2em; font-family:"PRAta"; display: block; margin: 20% 0;} 
 .menu_s div a{margin: 5% 0 ;}
 .menu_s nav{height:400px;}
 .menu_s nav ul li{margin: 6% 0; height: 29px;}

@@ -86,9 +86,9 @@
 .room-text{ width:67%; height: 540px; overflow: hidden; padding: 30px;
         background-color: #f9efe9; margin:2%; position: absolute;}
 .room_{position: absolute;}
-.room3 h1{margin: 93px 0 0 0;}
+.room3 h2{margin: 93px 0 0 0;}
 .room3 p{margin: 75px 0 0 42%;}
-.room_>h1{font-size: 3.5em;  font-family: 'PRATA'; color:rgb(8, 8,8); margin: 24px;
+.room_>h2{font-size: 3.5em;  font-family: 'PRATA'; color:rgb(8, 8,8); margin: 24px;
             margin: 85px 0;    text-align: center;}
 .room_>p{width: 47%; line-height: 24px; margin: 0 0 0 45%; font-size: 14px; color: #999;}
 .btn3{ width: 86%; line-height: 30px; position: absolute; bottom: -34%;
@@ -97,7 +97,7 @@
 .btn-border2{width:30%;height:132px;right:82%;top:-162%; opacity: 0.5; position:absolute;}
 
 .room-text2{position: relative; width: 33%;}
-.room-text2>h1{font-size: 7em; font-family:'Jeju Myeongjo', serif;; color:rgb(8, 8,8);
+.room-text2>h2{font-size: 7em; font-family:'Jeju Myeongjo', serif;; color:rgb(8, 8,8);
              line-height: 96px; font-weight: bold;
                 position: absolute; right: 13%;top: 9%; opacity: 0;}
 .room-text2>p{width: 54%;position: absolute; top: 32%;right: -9%; color:rgb(139, 139, 139); font-size:14px; opacity: 0;}
@@ -155,7 +155,7 @@ font-size: 13px;
                 padding: 8% 0; position: relative; flex-wrap: wrap;}
 .tion_box{ width: 43%;height: 1000px; position: relative;}
 .tion_box1{width: 57%; height: 1101px; background-color: #f9efe9; position: absolute;right: 0; top:13%}
-#ACCOMMODATION h1{font-size: 8em; font-family:'Jeju Myeongjo', serif;
+#ACCOMMODATION h2{font-size: 8em; font-family:'Jeju Myeongjo', serif;
                 font-weight: bold; position: absolute; left: 16%;
                 color:rgb(50, 50, 50); top:-42px; opacity: 0;}
 .tion_box p{opacity: 0;}
@@ -184,7 +184,7 @@ font-size: 13px;
 
 #review{width: 100%; height:1009px; position: relative;}
 .overflow_hidden{ width: 84%; height: 888px; margin:0 auto; overflow:hidden; font-size: 2em;}
-#review h1{font-size: 8em;font-family:'Jeju Myeongjo', serif;letter-spacing: -8px;
+#review h2{font-size: 8em;font-family:'Jeju Myeongjo', serif;letter-spacing: -8px;
         position: absolute; top: -7%; right:34%; letter-spacing: -8px;
         color: rgb(8, 8, 8);}
 #review .review_img{max-width: 100%; height: auto;}
@@ -212,7 +212,7 @@ font-size: 13px;
  
 #Events{ width: 100%; height:1068.73px; position: relative;}
 #Event_s{width: 860px;height: 962px; background-color: #f9efe9;margin-top: 8%;}
-#Events h1{position: absolute; font-size: 8em; font-family:'Jeju Myeongjo', serif;
+#Events h2{position: absolute; font-size: 8em; font-family:'Jeju Myeongjo', serif;
        width: 26%; right: 17%; top: -51px; letter-spacing: -4px; color: rgb(8, 8, 8);}
 
 .see_{position: absolute;
