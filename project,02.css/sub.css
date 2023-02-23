@@ -19,8 +19,19 @@ li, ul ,ol{ list-style-type: none;}
 .line[data-v-5d883f52]{top: -138px;}
 #room_n h1{font-size: 6.5vw; font-family:'Jeju Myeongjo'; padding: 47px; color:rgb(40, 40, 40)}
 #room_n ul{display: flex; width: 100%; height:auto; align-items: center; flex-wrap:wrap; }
-#room_n ul li{ width: 11%; text-align: center; font-size: 1em; letter-spacing: 2px;}
-#room_n ul li:hover{ color: #323232;}
+#room_n ul li{ width: 11%; text-align: center; font-size: 1.5em; letter-spacing: 2px;}
+#room_n ul li:nth-of-type(2){
+  width: 115px;
+}
+#room_n ul li:nth-of-type(3){
+  width: 245px;
+}
+#room_n ul li:nth-of-type(5){
+  width: 255px;
+}#room_n ul li:nth-of-type(6){
+  width: 250px;
+}
+#room_n ul li:hover a{ color: #323232;}
 #room_n ul li a{color: rgba(128,128,128,0.8);}
 
 #room_k{width: 100%; height: auto;}
